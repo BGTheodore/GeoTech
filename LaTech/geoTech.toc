@@ -30,12 +30,11 @@
 \contentsline {chapter}{\numberline {6}Conclusion}{16}%
 \contentsline {section}{\numberline {6.1}Metriques}{16}%
 \contentsline {chapter}{\numberline {7}}{17}%
-\contentsline {section}{\numberline {7.1}Bibliographie}{18}%
-\contentsline {section}{\numberline {7.2}A Cahier des charges complet}{20}%
-\contentsline {section}{\numberline {7.3}B Planning (Google Sheet)}{21}%
-\contentsline {section}{\numberline {7.4}C Wireframes (Pencil)}{22}%
-\contentsline {section}{\numberline {7.5}D Diagrammes d'activites}{23}%
-\contentsline {section}{\numberline {7.6}E Documents de validation}{25}%
-\contentsline {section}{\numberline {7.7}Objectifs}{25}%
-\contentsline {section}{\numberline {7.8}Protocole}{25}%
-\contentsline {section}{\numberline {7.9}Attentes}{26}%
+\contentsline {section}{\numberline {7.1}A Cahier des charges complet}{18}%
+\contentsline {section}{\numberline {7.2}B Planning (Google Sheet)}{19}%
+\contentsline {section}{\numberline {7.3}C Wireframes (Pencil)}{20}%
+\contentsline {section}{\numberline {7.4}D Diagrammes d'activites}{21}%
+\contentsline {section}{\numberline {7.5}E Documents de validation}{23}%
+\contentsline {section}{\numberline {7.6}Objectifs}{23}%
+\contentsline {section}{\numberline {7.7}Protocole}{23}%
+\contentsline {section}{\numberline {7.8}Attentes}{24}%
