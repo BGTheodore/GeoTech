@@ -10,7 +10,7 @@
 
     Abstract
     The sketch is an old form of communication that was used to visualize, share and store information. Despite its proven
-expressiveness, it has not yet become a used modality in the interaction between humans and computer systems. Geographic
+expressiveness, it has not yet become a used modality in the interactioremerciementsn between humans and computer systems. Geographic
 Information Systems (GIS) have special needs for such advanced forms of interaction, because they involve complex and
 heterogeneous data structures, which are often difficult to describe by the text or by predicates based on attributes. The objective of
 this work is to show the usefulness of the sketch in retrieval spatial information in a particular case which is the geographic data. In
