@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  22 DEC 2020 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  27 DEC 2020 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.tex
-(/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.tex
+**/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.tex
+(/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
@@ -45,7 +45,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box45
-) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.aux (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Organisation/organisation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Validation/validation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Ameliorations_futures/ameliorations_futures.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Bibliographie/bibliographie.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/CDC_complet/cdc_complet.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Planning/planning.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Wireframes/wireframes.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux))
+) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.aux (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Organisation/organisation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Validation/validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Ameliorations_futures/ameliorations_futures.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.aux))
 \openout1 = `geoTech.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -92,13 +92,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 27.
  [1
 
- </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/GIS.jpg>] [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.toc
+ </home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/GIS.jpg>] [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
+(Font)              <6> on input line 2.
  [1
 
 ])
@@ -106,169 +106,157 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `geoTech.toc'.
 
  [2]
+Chapter 1.
+[1
+
+]
 \openout2 = `Resume/resume.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.tex
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.tex
+Overfull \hbox (0.12234pt too wide) in paragraph at lines 3--3
+ [] \OT1/cmr/m/n/12 La ges-tion des donn^^Sees g^^Seothechniques en Ha^^?^^Pti ne dis-pose pas d'un syst^^Reme
+ []
 
-LaTeX Warning: Citation `Suwanwiwattana2001' on page 1 undefined on input line 2.
 
-) [1
+Overfull \hbox (51.2496pt too wide) in paragraph at lines 5--7
+[]\OT1/cmr/m/n/12 La to-talit^^Se des codes est disponible en ligne sur GitHub :https://github.com/geotech
+ []
+
+) [2
 
 ]
 \openout2 = `Remerciements/remerciements.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.tex) [2
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.tex) [3
 
 
 ]
 \openout2 = `Glossaire/glossaire.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.tex) [3
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.tex) [4
 
 
 ]
 \openout2 = `Introduction/introduction.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.tex) [4
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.tex) [5
 
 
 
 ]
 \openout2 = `Contexte/contexte.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.tex [5
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex
+Overfull \hbox (14.25278pt too wide) in paragraph at lines 3--12
+\OT1/cmr/m/n/12 G^^Seographique (SIG). L'objectif de ces ser-vices est donc de con-cevoir, d^^Sevelopper,
+ []
+
+[6
 
 
 
 ]
-Overfull \hbox (24.95175pt too wide) in paragraph at lines 10--10
+Overfull \hbox (24.95175pt too wide) in paragraph at lines 20--20
 []\OT1/cmr/bx/n/17.28 Gestion actuelle des donn^^Sees g^^Seothechniques
  []
 
-) [6]
+[7]) [8]
 \openout2 = `Organisation/organisation.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Organisation/organisation.tex
-Chapter 1.
-) [7
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Organisation/organisation.tex
+Chapter 2.
+) [9
 
 
 
-] [8]
+] [10]
 \openout2 = `Analyse_des_besoins/analyse_des_besoins.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
-Chapter 2.
-[9
-
-
-
-]) [10]
-\openout2 = `Implementation/implementation.aux'.
-
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.tex
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
 Chapter 3.
 [11
 
 
 
 ]) [12]
+\openout2 = `Documents_de_validation/documents_de_validation.aux'.
+
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.tex) [13
+
+
+] [14]
+\openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
+
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
+<diagrammeActivite.jpg, id=63, 265.99374pt x 265.99374pt>
+File: diagrammeActivite.jpg Graphic file (type jpg)
+<use diagrammeActivite.jpg>
+Package pdftex.def Info: diagrammeActivite.jpg  used on input line 7.
+(pdftex.def)             Requested size: 390.0pt x 390.032pt.
+) [15
+
+
+] [16 </home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/diagrammeActivite.jpg>]
+\openout2 = `Implementation/implementation.aux'.
+
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.tex
+Chapter 4.
+[17
+
+
+
+]) [18]
 \openout2 = `Validation/validation.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Validation/validation.tex
-Chapter 4.
-) [13
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Validation/validation.tex
+Chapter 5.
+) [19
 
 
 
 ]
 \openout2 = `Ameliorations_futures/ameliorations_futures.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Ameliorations_futures/ameliorations_futures.tex
-Chapter 5.
-[14
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Ameliorations_futures/ameliorations_futures.tex
+Chapter 6.
+[20
 
 
 
-]) [15]
+]) [21]
 \openout2 = `Conclusion/conclusion.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.tex
-Chapter 6.
-) [16
-
-
-
-]
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.tex
 Chapter 7.
-[17
+) [22
+
 
 
 ]
 \openout2 = `Bibliographie/bibliographie.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Bibliographie/bibliographie.tex (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.bbl [18
-
-]
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.tex (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)) [19
-
-]
-\openout2 = `CDC_complet/cdc_complet.aux'.
-
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/CDC_complet/cdc_complet.tex) [20
+)) [23
 
 
-]
-\openout2 = `Planning/planning.aux'.
 
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Planning/planning.tex) [21
-
-
-]
-\openout2 = `Wireframes/wireframes.aux'.
-
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Wireframes/wireframes.tex) [22
-
-
-]
-\openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
-
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
-<diagrammeActivite.jpg, id=89, 265.99374pt x 265.99374pt>
-File: diagrammeActivite.jpg Graphic file (type jpg)
-<use diagrammeActivite.jpg>
-Package pdftex.def Info: diagrammeActivite.jpg  used on input line 7.
-(pdftex.def)             Requested size: 390.0pt x 390.032pt.
-) [23
-
-
-] [24 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/diagrammeActivite.jpg>]
-\openout2 = `Documents_de_validation/documents_de_validation.aux'.
-
- (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.tex) [25
-
-
-] [26] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.aux (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Organisation/organisation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Validation/validation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Ameliorations_futures/ameliorations_futures.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Bibliographie/bibliographie.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/CDC_complet/cdc_complet.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Planning/planning.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Wireframes/wireframes.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.aux (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Organisation/organisation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Validation/validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Ameliorations_futures/ameliorations_futures.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.aux)) ) 
 Here is how much of TeX's memory you used:
- 1433 strings out of 481239
- 33217 string characters out of 5920376
- 257193 words of memory out of 5000000
- 16577 multiletter control sequences out of 15000+600000
+ 1396 strings out of 481239
+ 27871 string characters out of 5920377
+ 257443 words of memory out of 5000000
+ 16567 multiletter control sequences out of 15000+600000
  537805 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,25p,770b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,25p,743b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (30 pages, 240621 bytes).
+Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (27 pages, 239037 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
