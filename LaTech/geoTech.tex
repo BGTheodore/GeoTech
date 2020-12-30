@@ -1,6 +1,38 @@
 
 \documentclass[a4paper,12pt]{report}
+\usepackage[french]{babel}
 \usepackage{graphicx}
+\usepackage{lipsum}% just to generate text for the example
+
+
+\usepackage{lmodern}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{tikz}
+
+\definecolor{myblue}{RGB}{0,82,155}
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\color{myblue}}
+  {\filleft%
+    \begin{tikzpicture}
+    \node[
+      outer sep=0pt,
+      text width=2.5cm,
+      minimum height=3cm,
+      fill=myblue,
+      font=\color{white}\fontsize{80}{90}\selectfont,
+      align=center
+      ] (num) {\thechapter};
+    \node[
+      rotate=90,
+      anchor=south,
+      font=\color{black}\Large\normalfont
+      ] at ([xshift=-5pt]num.west) {\textls[180]{\textsc{\chaptertitlename}}};  
+    \end{tikzpicture}%
+  }
+  {10pt}
+  {\titlerule[2.5pt]\vskip3pt\titlerule\vskip4pt\LARGE\sffamily}
 
 \begin{document}
 
@@ -10,7 +42,7 @@
         \label{image-GIS}
         \end{figure}
 
-\title{GeoTech}
+\title{GéoTech}
 \author{
         DUBUCHE Kevin J. \\
         Faculté Des Science de l'Université d'Etat Haïti\\
@@ -18,7 +50,6 @@
         Port-au-Prince, B.P: 1385 \underline{Haïti}
         \and
         THEODORE Barbara G.\\
-        Faculté Des Science de l'Université d'Etat Haïti\\
         Faculté Des Science de l'Université d'Etat Haïti\\
         270, Angle Rues Mgr. Guilloux et Joseph Janvier \\
         Port-au-Prince, B.P: 1385  \underline{Haïti}
@@ -31,19 +62,19 @@
 \newpage
 \pagenumbering{arabic}
 
-\chapter{Contexte}
-
 \include{Resume/resume}
 
 \include{Remerciements/remerciements}
 
 \include{Glossaire/glossaire}
 
+
+\chapter{Contexte}
+
 \include{Introduction/introduction}
 
 \include{Contexte/contexte}
 
-\include{Organisation/organisation}
 
 \include{Analyse_des_besoins/analyse_des_besoins}
 
@@ -53,9 +84,6 @@
 
 \include{Implementation/implementation}
 
-\include{Validation/validation}
-
-\include{Ameliorations_futures/ameliorations_futures}
 
 \include{Conclusion/conclusion}
 
