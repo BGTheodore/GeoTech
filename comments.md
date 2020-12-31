@@ -13,3 +13,9 @@ Une fois satisfaite, je mettrai mon resultat sur GeoTech.
 8.  []
 9.  []
 10. []
+
+Lien de l existant en Haiti: https://lnbtp.gouv.ht/publications.html
+https://flashhaiti.com/business/detail/Geotechsol-Construction-Engineering-Firm-Port-au-Prince-Ouest-Department-Haiti
+
+Info. Jai ajoute un exemple de document de memoire dans Progress: Ca 
+s'appelle exempleMemoire.pdf
