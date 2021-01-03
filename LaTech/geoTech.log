@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  30 DEC 2020 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  2 JAN 2021 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,34 +454,34 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.aux (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.aux))
 \openout1 = `geoTech.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 40.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 39.
-LaTeX Info: Redefining \dots on input line 39.
-LaTeX Info: Redefining \up on input line 39.
+LaTeX Info: Redefining \degres on input line 40.
+LaTeX Info: Redefining \dots on input line 40.
+LaTeX Info: Redefining \up on input line 40.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 39.
+(french.ldf)                of your document; reported on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -503,7 +503,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -513,54 +513,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.out) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.out)
 \@outlinefile=\write4
 \openout4 = `geoTech.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 39.
+LaTeX Info: Redefining \microtypecontext on input line 40.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 39.
+LaTeX Info: Redefining \showhyphens on input line 40.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) ABD: EveryShipout initializing macros
-<GIS.jpg, id=139, 226.446pt x 144.7809pt>
-File: GIS.jpg Graphic file (type jpg)
-<use GIS.jpg>
-Package pdftex.def Info: GIS.jpg  used on input line 43.
-(pdftex.def)             Requested size: 390.0pt x 249.35847pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 61.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
+<image_fond.jpg, id=171, 953.5625pt x 245.91875pt>
+File: image_fond.jpg Graphic file (type jpg)
+<use image_fond.jpg>
+Package pdftex.def Info: image_fond.jpg  used on input line 44.
+(pdftex.def)             Requested size: 780.0pt x 201.16685pt.
+
+Overfull \hbox (390.0pt too wide) in paragraph at lines 44--46
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 62.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 61.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 62.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 61.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 62.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 61.
+(Font)              <14.4> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 61.
+(Font)              <10> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 61.
+(Font)              <7> on input line 62.
  [1
 
- </home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/GIS.jpg>] [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 63.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/image_fond.jpg>]
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 64.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -587,22 +592,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67 \include{Resume/resume}
+l.68 \include{Resume/resume}
                              [1
 
 ]
 \openout2 = `Remerciements/remerciements.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--69
+Underfull \hbox (badness 10000) in paragraph at lines 3--70
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.69 \include{Remerciements/remerciements}
-                                           [2
+[2
 
 
 ]
@@ -625,8 +626,12 @@ Chapitre 1.
 ]
 \openout2 = `Contexte/contexte.aux'.
 
- (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 13.
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex [6
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 18.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -635,98 +640,99 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (8.10316pt too wide) in paragraph at lines 13--15
+Overfull \hbox (8.10316pt too wide) in paragraph at lines 18--20
 [][]$\OT1/lmtt/m/n/12 https : / / lnbtp . gouv . ht / publications . html$[] \OT1/lmr/m/n/12 (-20) Lo-rem ip-sum do-lor sit amet,
  []
 
-[6
+[7] [8]
+Overfull \hbox (38.2542pt too wide) in paragraph at lines 31--31
+|[]\OT1/lmr/bx/n/17.28 Comparaison avec des ou-tils d^^Sej^^Ra impl^^Sement^^Ses| 
+ []
 
-
-
-] [7]
-Overfull \hbox (24.95505pt too wide) in paragraph at lines 21--21
+[9]
+Overfull \hbox (24.95505pt too wide) in paragraph at lines 33--33
 |[]\OT1/lmr/bx/n/17.28 Gestion ac-tuelle des donn^^Sees g^^Seothechniques
  []
 
-) [8]
+) [10]
 \openout2 = `Analyse_des_besoins/analyse_des_besoins.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
 Chapitre 2.
-[9
+[11
 
 
 
-] [10]) [11]
+] [12]) [13]
 \openout2 = `Documents_de_validation/documents_de_validation.aux'.
 
- (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.tex [12
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.tex [14
 
 
-]) [13]
+]) [15]
 \openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
-<diagrammeActivite.jpg, id=253, 265.99374pt x 265.99374pt>
+<diagrammeActivite.jpg, id=299, 265.99374pt x 265.99374pt>
 File: diagrammeActivite.jpg Graphic file (type jpg)
 <use diagrammeActivite.jpg>
 Package pdftex.def Info: diagrammeActivite.jpg  used on input line 6.
 (pdftex.def)             Requested size: 390.0pt x 390.032pt.
-) [14
+) [16
 
 
-] [15
+] [17
 
 ]
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [16
+ [18
 
 ]
 \openout2 = `Implementation/implementation.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.tex
 Chapitre 3.
-[17
+[19
 
 
-]) [18] [19]
+]) [20] [21]
 \openout2 = `Conclusion/conclusion.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.tex
 Chapitre 4.
-[20
+[22
 
 
 
-]) [21]
+]) [23]
 \openout2 = `Bibliographie/bibliographie.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.tex
 No file geoTech.bbl.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.aux (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `geoTech.out' has not changed.
-(rerunfilecheck)             Checksum: 272DFB862D0378439B13F74C7D7C25C6;2135.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+(rerunfilecheck)             Checksum: DBFF91D882D452281D584E6911F09A39;2717.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 19673 strings out of 481239
- 379614 string characters out of 5920377
- 918311 words of memory out of 5000000
- 34330 multiletter control sequences out of 15000+600000
+ 19691 strings out of 481239
+ 379946 string characters out of 5920377
+ 918373 words of memory out of 5000000
+ 34338 multiletter control sequences out of 15000+600000
  592155 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,71p,739b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (25 pages, 336000 bytes).
+Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (26 pages, 485427 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 15647 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 15711 words of extra memory for PDF output out of 17280 (max. 10000000)
 

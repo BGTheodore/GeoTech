@@ -19,3 +19,6 @@ https://flashhaiti.com/business/detail/Geotechsol-Construction-Engineering-Firm-
 
 Info. Jai ajoute un exemple de document de memoire dans Progress: Ca 
 s'appelle exempleMemoire.pdf
+***Got it
+
+https://www.brgm.fr/projet/faisabilite-base-donnees-compilant-mesures-geotechniques-sols-argileux-realisees-cadre
