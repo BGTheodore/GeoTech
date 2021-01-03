@@ -244,9 +244,9 @@ INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.out
 OUTPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.out
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/GIS.jpg
-INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/GIS.jpg
-INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/GIS.jpg
+INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/image_fond.jpg
+INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/image_fond.jpg
+INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/image_fond.jpg
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
@@ -302,6 +302,7 @@ INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.t
 OUTPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.aux
 INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex
 INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmtt12.tfm
@@ -324,7 +325,6 @@ INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementati
 OUTPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.aux
 INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.tex
 INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.tex
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 OUTPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.aux
 INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.tex
 INPUT /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.tex
