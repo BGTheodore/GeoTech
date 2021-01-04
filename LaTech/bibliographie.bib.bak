@@ -7,4 +7,13 @@
   url    = {http://www.urgeo.net/missions.aspx},
 }
 
+@Article{urgeo_nouvelliste,
+  author  = {Worlgenson Noël},
+  title   = {UEH-URGéo-FDS : l’une des plus importantes réponses universitaires aux problèmes liés au sol en Haïti},
+  journal = {Le Nouvelliste},
+  year    = {2020},
+  note    = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
+  url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
