@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: geoTech.aux
+A level-1 auxiliary file: Resume/resume.aux
+A level-1 auxiliary file: Remerciements/remerciements.aux
+A level-1 auxiliary file: Glossaire/glossaire.aux
+A level-1 auxiliary file: Introduction/introduction.aux
+A level-1 auxiliary file: Contexte/contexte.aux
+A level-1 auxiliary file: Analyse_des_besoins/analyse_des_besoins.aux
+A level-1 auxiliary file: Diagrammes_activites/diagrammes_activites.aux
+A level-1 auxiliary file: Implementation/implementation.aux
+A level-1 auxiliary file: Conclusion/conclusion.aux
+The style file: plain.bst
+Database file #1: bibliographie.bib
+Warning--empty journal in mission_urgeo
+Warning--empty year in mission_urgeo
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4662 characters,
+and the built_in function-call counts, 441 in all, are:
+= -- 41
+> -- 14
+< -- 0
++ -- 6
+- -- 4
+* -- 21
+:= -- 88
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 20
+empty$ -- 35
+format.name$ -- 4
+if$ -- 84
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 14
+num.names$ -- 4
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 10
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 2
+while$ -- 4
+width$ -- 3
+write$ -- 23
+(There were 2 warnings)
