@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  2 JAN 2021 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  3 JAN 2021 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,20 +613,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--70
 
 
 ]
-Chapitre 1.
-[4
-
-
-]
 \openout2 = `Introduction/introduction.aux'.
 
- (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.tex) [5
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.tex) [4
+
 
 
 ]
 \openout2 = `Contexte/contexte.aux'.
 
- (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex [6
+ (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.tex
+Chapitre 1.
+[5
 
 
 
@@ -644,17 +642,17 @@ Overfull \hbox (8.10316pt too wide) in paragraph at lines 18--20
 [][]$\OT1/lmtt/m/n/12 https : / / lnbtp . gouv . ht / publications . html$[] \OT1/lmr/m/n/12 (-20) Lo-rem ip-sum do-lor sit amet,
  []
 
-[7] [8]
+[6] [7]
 Overfull \hbox (38.2542pt too wide) in paragraph at lines 31--31
 |[]\OT1/lmr/bx/n/17.28 Comparaison avec des ou-tils d^^Sej^^Ra impl^^Sement^^Ses| 
  []
 
-[9]
+[8]
 Overfull \hbox (24.95505pt too wide) in paragraph at lines 33--33
 |[]\OT1/lmr/bx/n/17.28 Gestion ac-tuelle des donn^^Sees g^^Seothechniques
  []
 
-) [10]
+) [9] [10]
 \openout2 = `Analyse_des_besoins/analyse_des_besoins.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
@@ -673,7 +671,7 @@ Chapitre 2.
 \openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
 
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
-<diagrammeActivite.jpg, id=299, 265.99374pt x 265.99374pt>
+<diagrammeActivite.jpg, id=298, 265.99374pt x 265.99374pt>
 File: diagrammeActivite.jpg Graphic file (type jpg)
 <use diagrammeActivite.jpg>
 Package pdftex.def Info: diagrammeActivite.jpg  used on input line 6.
@@ -711,28 +709,28 @@ Chapitre 4.
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.tex
 No file geoTech.bbl.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.aux (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Resume/resume.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Introduction/introduction.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Contexte/contexte.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Documents_de_validation/documents_de_validation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Implementation/implementation.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Conclusion/conclusion.aux) (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Bibliographie/bibliographie.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `geoTech.out' has not changed.
 (rerunfilecheck)             Checksum: DBFF91D882D452281D584E6911F09A39;2717.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 19691 strings out of 481239
- 379946 string characters out of 5920377
- 918373 words of memory out of 5000000
+ 19690 strings out of 481239
+ 379936 string characters out of 5920377
+ 918479 words of memory out of 5000000
  34338 multiletter control sequences out of 15000+600000
  592155 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,9n,71p,739b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (26 pages, 485427 bytes).
+Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (26 pages, 485323 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 69 named destinations out of 1000 (max. 500000)
  15711 words of extra memory for PDF output out of 17280 (max. 10000000)
 
