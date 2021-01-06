@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  4 JAN 2021 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  5 JAN 2021 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -619,16 +619,16 @@ Chapitre 1.
 
 
 ] [6] [7] [8] [9]
-Overfull \hbox (13.95638pt too wide) in paragraph at lines 64--64
+Overfull \hbox (13.95638pt too wide) in paragraph at lines 71--71
 |[]\OT1/lmr/bx/n/17.28 Comparaison entre ou-tils d^^Sej^^Ra impl^^Sement^^Ses| 
  []
 
 
-Overfull \hbox (24.95505pt too wide) in paragraph at lines 66--66
+Overfull \hbox (24.95505pt too wide) in paragraph at lines 73--73
 |[]\OT1/lmr/bx/n/17.28 Gestion ac-tuelle des donn^^Sees g^^Seothechniques
  []
 
-) [10] [11]
+[10]) [11]
 \openout2 = `Analyse_des_besoins/analyse_des_besoins.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
@@ -641,7 +641,7 @@ Chapitre 2.
 \openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
-<diagrammeActivite.jpg, id=291, 265.99374pt x 265.99374pt>
+<diagrammeActivite.jpg, id=293, 265.99374pt x 265.99374pt>
 File: diagrammeActivite.jpg Graphic file (type jpg)
 <use diagrammeActivite.jpg>
 Package pdftex.def Info: diagrammeActivite.jpg  used on input line 6.
@@ -674,12 +674,17 @@ Chapitre 4.
 
 
 ]) [22] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.bbl
-Underfull \hbox (badness 2698) in paragraph at lines 4--10
+Overfull \hbox (105.29944pt too wide) in paragraph at lines 4--8
+[]\OT1/lmr/m/n/12 (-20) Geotechsol.  jjkjk.  https ://www.ungm.org/UNUser/Documents/DownloadPublicDocument ?do-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 10--16
 \OT1/lmr/m/n/12 (+20) https ://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 12--16
+Underfull \hbox (badness 5696) in paragraph at lines 18--22
 []\OT1/lmr/m/n/12 (+20) URG^^Seo.  Mis-sion.  In-for-ma-tions ^^Ra pro-pos de l'URG^^Seo |
  []
 
@@ -697,18 +702,18 @@ Package rerunfilecheck Info: File `geoTech.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 19638 strings out of 481239
- 380199 string characters out of 5920376
- 917653 words of memory out of 5000000
- 34298 multiletter control sequences out of 15000+600000
- 596404 words of font info for 92 fonts, out of 8000000 for 9000
+ 19644 strings out of 481239
+ 380295 string characters out of 5920376
+ 918050 words of memory out of 5000000
+ 34301 multiletter control sequences out of 15000+600000
+ 596491 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,71p,766b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (26 pages, 481413 bytes).
+Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (26 pages, 482318 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
  17239 words of extra memory for PDF output out of 17280 (max. 10000000)
 
