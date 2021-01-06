@@ -244,6 +244,8 @@ INPUT /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/
 INPUT /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/image_fond.jpg
 INPUT /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/image_fond.jpg
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr17.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
@@ -261,7 +263,6 @@ INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmss.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmss.fd
@@ -344,6 +345,5 @@ INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
