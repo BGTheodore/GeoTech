@@ -16,9 +16,4 @@
   url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
 }
 
-@TechReport{,
-  author = {Loren L. Turner and Toru Saito and Paul Grimes},
-  year   = {2008},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
