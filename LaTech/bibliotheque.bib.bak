@@ -11,7 +11,10 @@
   author  = {Worlgenson Noël},
   title   = {UEH-URGéo-FDS : l’une des plus importantes réponses universitaires aux problèmes liés au sol en Haïti},
   journal = {Le Nouvelliste},
-  year    = {2020},
+  yearFor increased data integrity and performance, the GLDMS stores lab data on two
+separate hard drives. A full backup of the entire database is performed daily on the
+server, and a copy of the daily backups is archived on an off-site network hard drive
+for data files for the past month.    = {2020},
   note    = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
   url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
 }
@@ -19,7 +22,10 @@
 @TechReport{turner2008end,
   author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
   institution = {California. Dept. of Transportation},
-  title       = {End-user interest in geotechnical data management systems.},
+  titlFor increased data integrity and performance, the GLDMS stores lab data on two
+separate hard drives. A full backup of the entire database is performed daily on the
+server, and a copy of the daily backups is archived on an off-site network hard drive
+for data files for the past month.e       = {End-user interest in geotechnical data management systems.},
   year        = {2008},
   comment     = {The GLDMS can produce printable test summary reports while performing
 necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc.
