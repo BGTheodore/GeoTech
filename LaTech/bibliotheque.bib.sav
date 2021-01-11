@@ -60,4 +60,11 @@ Architecture client server page 66 et suivantes
 CE DOCUMENT EST VRAIMENT IMPORTANT},
 }
 
+@TechReport{Cayenne,
+  author = {GANDOLFI J-M, MEILHAC A., RENAULT 0},
+  title  = {Elaboration d'une base de données géotechniques sur YIle de Cayenne},
+  year   = {2001},
+  note   = {Notice d'utilisation du logiciel BD-GTC version 2.1},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
