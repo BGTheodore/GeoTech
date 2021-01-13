@@ -1,3 +1,54 @@
 \chapter*{Introduction}
-Introduction sur GeoTech
-\lipsum[1]
+Depuis la naissance de l'informatique géologique (an-
+nie 1970), toutes les études qui ont été faites dans ce
+domaine ont été orientées vers la recherche des
+méthodes les plus fiables et les moins coûteuses pour
+stocker, traiter et restituer les données géologiques et
+géotechniques concernant les 3 sujets suivants :
+\paragraph{programmes de base de données (ou banque de
+données) }: dont l'objectif est le stockage des donn6es;
+
+\paragraph{programmes de calculs}
+ dont l'objectif est le traite-
+ment mathématique, statistique et éventuellement géo-
+statistique des données;
+
+\paragraph{programrnes de cartographie}
+ dont l'objectif est la
+restitution des données géologiques et géotechniques
+sous forme graphique.
+\par
+Historiquement, le stockage des données géologiques
+et géotechniques a été fait sur des fichiers séquentiels
+spécialisés dont chacun ne présente qu'une application.
+\par
+La redondance des données (répétition des mêmes
+données dans des fichiers différents) était é1evée, et il
+n'y avait pas une indépendance entre les données et les
+programmes de traitement. I1 était aussi nécessaire de
+codifier de faqon externe et interne les données géologiques pour les stocker. C'est seulement en utilisant
+des systèmes de gestion de base de données généraux
+qu'on a pu diminuer la redondance entre les données
+et assurer l'indépendance des programmes.
+\par
+ Au début,
+les auteurs ont considéré que les données de notre
+domaine pouvaient avoir une structure hiérarchique
+(base de données arborescente). A la suite de l'échec
+de ce type de base de données, on a travaillé sur des
+bases de données en réseau. Ces deux types de base de
+données n'ont pas pu éliminer d'une faqon définitive
+la redondance et surtout la codification interne des
+données géologiques.
+\cite{tunis}
+\par
+Pour atteindre cet objectif, assurer une indépendance
+totale entre les données et les programmes de traitement et obtenir une base de données géologiques et
+géotechniques très souple, nous utilisons, pour la
+conception de << GEO-TECH>>, le système
+de gestion de base de données relationnel général en
+considérant que toutes les données pouvaient être
+modé1isées sous forme de tableaux  dont
+l'une des colonnes est la clef. Chaque colonne sera un
+domaine géologique ou géotechnique et chaque ligne (tuple)
+un enregistrement.
