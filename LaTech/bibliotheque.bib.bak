@@ -16,50 +16,6 @@
   url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
 }
 
-@TechReport{turner2008end,
-  author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
-  institution = {California. Dept. of Transportation},
-  title       = {End-user interest in geotechnical data management systems.},
-  year        = {2008},
-  comment     = {The GLDMS can produce printable test summary reports while performing
-necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc.
-
-
-The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian.
-The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation.
-The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users.
-
-
-Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors.
-
-
-By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference.
-
-
-Features integrated into this prototype system included:
-• File Upload
-• Searching for Data
-• Preview Data
-
-
-The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists.
-
-
-Benefits:
-• Improves efficiencies in collecting and processing test data,
-• Reduces errors in data handling
-• Facilitates easy access to archived test data
-
-
-For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month.
-
-
-Architecture client server page 66 et suivantes
-
-
-CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
-}
-
 @Article{realisation_geotechsol,
   author = {Geotechsol},
   title  = {la construction d'un centre déprtemental d'approvisionnement de en intrants pour la direction sanitaire départementale du sud'est},
@@ -222,7 +178,7 @@ le model doit etre concue de maniere flexible pour l'ajout d'un nouveau type de 
   organization = {Citeseer},
   pages        = {27--30},
   comment      = {Titre du document :
-    Design of a Geotechnical Information Architecture Using Web Services ∗
+    Design of a Geotechnical Information Architecture Using Web Services 
 Type de document:
     This paper describes our efforts to design and implement
 such an infrastructure based on an extensible set of Web
@@ -270,6 +226,16 @@ seul erreur ki gen la se keu yo ta renmen echange yo fet en XML, but now se JSON
 3 Geotechnical Web Services Functionality
     3.1 Geotechnical File Storage Web Service},
   url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.7.3521&rep=rep1&type=pdf},
+}
+
+@Article{russell1996regional,
+  author    = {Russell, HAJ and Logan, C and Brennand, TA and Hinton, MJ and Sharpe, DR},
+  journal   = {Current Research},
+  title     = {Regional geoscience database for the Oak Ridges Moraine project (southern Ontario)},
+  year      = {1996},
+  pages     = {191--200},
+  publisher = {The Survey},
+  url       = {http://www.sfu.ca/geog/temp/brennand2/pubs_files/_Russelletal_96_ORMDatabase_GSC-CR.pdf},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
