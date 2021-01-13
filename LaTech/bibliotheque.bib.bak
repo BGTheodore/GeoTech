@@ -15,8 +15,7 @@
   note    = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
   url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
 }
-
-@TechReport{turner2008end,
+{turner2008end,
   author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
   institution = {California. Dept. of Transportation},
   title       = {End-user interest in geotechnical data management systems.},
@@ -58,7 +57,6 @@ Architecture client server page 66 et suivantes
 
 
 CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
-}
 
 @Article{realisation_geotechsol,
   author = {Geotechsol},
@@ -98,55 +96,6 @@ Thanks to this concept, the user needs only a PC with an Internet connection, fo
 
 The geotechnical database, referred to in this paper, namely the Regional Database of the subsoil of Flanders (DOV), is very popular among all professionals involved in geotechnical design. The free availability is certainly an important asset, but also the user 1762 friendly web-based IT-structure, with GIS facilities attracts potential users.
 Last but not least, the continuous effort to improve the accessibility of the database, and the available of new and additional data have to add to the success of DOV.},
-}
-
-@TechReport{turner2008end,
-  author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
-  institution = {California. Dept. of Transportation},
-  title       = {End-user interest in geotechnical data management systems.},
-  year        = {2008},
-  comment     = {three critical components of developing an effective data management system: (1) data modeling,
-(2) data collection, and (3) data exchange and dissemination.
-
-
-The GLDMS can produce printable test summary reports while performing
-necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc.
-
-
-The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian.
-The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation.
-The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users.
-
-
-Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors.
-
-
-By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference.
-
-
-Features integrated into this prototype system included:
-• File Upload
-• Searching for Data
-• Preview Data
-
-
-The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists.
-
-
-Benefits:
-• Improves efficiencies in collecting and processing test data,
-• Reduces errors in data handling
-• Facilitates easy access to archived test data
-
-
-For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month.
-
-
-Architecture client server page 66 et suivantes
-
-
-CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
-  url         = {https://rosap.ntl.bts.gov/view/dot/27542},
 }
 
 @Article{antoljak2012subsurface,
@@ -222,7 +171,7 @@ le model doit etre concue de maniere flexible pour l'ajout d'un nouveau type de 
   organization = {Citeseer},
   pages        = {27--30},
   comment      = {Titre du document :
-    Design of a Geotechnical Information Architecture Using Web Services ∗
+    Design of a Geotechnical Information Architecture Using Web Services 
 Type de document:
     This paper describes our efforts to design and implement
 such an infrastructure based on an extensible set of Web
@@ -270,6 +219,25 @@ seul erreur ki gen la se keu yo ta renmen echange yo fet en XML, but now se JSON
 3 Geotechnical Web Services Functionality
     3.1 Geotechnical File Storage Web Service},
   url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.7.3521&rep=rep1&type=pdf},
+}
+
+@TechReport{Turner2008,
+  author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
+  title       = {End-user interest in geotechnical data management systems.},
+  institution = {California. Dept. of Transportation},
+  year        = {2008},
+  comment     = {The GLDMS can produce printable test summary reports while performing necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc. The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian. The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation. The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users. Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors. By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference. Features integrated into this prototype system included: • File Upload • Searching for Data • Preview Data The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists. Benefits: • Improves efficiencies in collecting and processing test data, • Reduces errors in data handling • Facilitates easy access to archived test data For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month. Architecture client server page 66 et suivantes CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
+}
+
+@Article{cgd,
+  author = {J. W. Scott 1 , S. van Ballegooy 2 , M. Stannard 3 , V. Lacrosse 4 and J. Russell 5},
+  title  = {The Benefits and Opportunities of a Shared Geotechnical Database},
+  year   = {2015},
+}
+
+@TechReport{tunis,
+  author = {N. Mongereau, A. Kaaniche},
+  title  = {Conception et réalisation d'iune base de données géologiques et géotechniques orientée vers la cartographie géotechnique: application a la ville de Tunis (Tunisie)},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
