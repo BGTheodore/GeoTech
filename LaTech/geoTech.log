@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  13 JAN 2021 13:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  15 JAN 2021 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,34 +454,34 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.aux (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.aux))
 \openout1 = `geoTech.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 41.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 40.
-LaTeX Info: Redefining \dots on input line 40.
-LaTeX Info: Redefining \up on input line 40.
+LaTeX Info: Redefining \degres on input line 41.
+LaTeX Info: Redefining \dots on input line 41.
+LaTeX Info: Redefining \up on input line 41.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 40.
+(french.ldf)                of your document; reported on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -503,7 +503,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -513,54 +513,54 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.out) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.out)
 \@outlinefile=\write4
 \openout4 = `geoTech.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 40.
+LaTeX Info: Redefining \showhyphens on input line 41.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) ABD: EveryShipout initializing macros
-<image_fond.jpg, id=167, 953.5625pt x 245.91875pt>
+<image_fond.jpg, id=163, 953.5625pt x 245.91875pt>
 File: image_fond.jpg Graphic file (type jpg)
 <use image_fond.jpg>
-Package pdftex.def Info: image_fond.jpg  used on input line 44.
+Package pdftex.def Info: image_fond.jpg  used on input line 45.
 (pdftex.def)             Requested size: 390.0pt x 100.57967pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 74.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 74.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 74.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 73.
+(Font)              <14.4> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
+(Font)              <10> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 73.
+(Font)              <7> on input line 74.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/image_fond.jpg>]
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 75.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 76.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -587,7 +587,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \include{Resume/resume}
+l.80 \include{Resume/resume}
                              [1
 
 ]
@@ -606,12 +606,9 @@ l.79 \include{Resume/resume}
 \openout2 = `Introduction/introduction.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.tex
-Overfull \hbox (3.04102pt too wide) in paragraph at lines 17--20
-[] []\OT1/lmr/bx/n/12 pro-gramrnes de car-to-gra-phie[] \OT1/lmr/m/n/12 (-20) dont l'ob-jec-tif est la res-ti-tu-tion des donn^^Sees
+Overfull \hbox (1.27702pt too wide) in paragraph at lines 14--16
+[] []\OT1/lmr/bx/n/12 pro-grammes de car-to-gra-phie[] \OT1/lmr/m/n/12 (-20) dont l'ob-jec-tif est la res-ti-tu-tion des donn^^Sees
  []
-
-
-LaTeX Warning: Citation `tunis' on page 4 undefined on input line 43.
 
 ) [4
 
@@ -626,140 +623,129 @@ Chapitre 1.
 
 
 
-]
-
-LaTeX Warning: Citation `realisation_geotechsol' on page 7 undefined on input line 26.
-
-[7]
-
-LaTeX Warning: Citation `mission_urgeo' on page 8 undefined on input line 44.
-
-
-LaTeX Warning: Citation `urgeo_nouvelliste' on page 8 undefined on input line 50.
-
-[8]
-Overfull \hbox (7.5748pt too wide) in paragraph at lines 66--69
+] [7]
+Overfull \hbox (7.5748pt too wide) in paragraph at lines 61--64
 [] []\OT1/lmr/bx/n/12 G^^Seothechsol[] \OT1/lmr/m/n/12 (-20) G^^Seothechsol est un Bu-reau d'Etudes en Ing^^Senierie G^^Seotechnique
  []
 
+[8] [9]
 
-LaTeX Warning: Citation `Cayenne' on page 9 undefined on input line 84.
-
-
-LaTeX Warning: Citation `Cayenne' on page 9 undefined on input line 98.
-
-[9]
-
-LaTeX Warning: Citation `zimmermann2003design' on page 10 undefined on input line 106.
+LaTeX Warning: Citation `russell1996regional' on page 10 undefined on input line 108.
 
 
-LaTeX Warning: Citation `russell1996regional' on page 10 undefined on input line 113.
+LaTeX Warning: Citation `turner2008end' on page 10 undefined on input line 112.
 
 
-LaTeX Warning: Citation `turner2008end' on page 10 undefined on input line 117.
-
-
-Overfull \hbox (14.27536pt too wide) in paragraph at lines 120--123
+Overfull \hbox (14.27536pt too wide) in paragraph at lines 115--118
 []\OT1/lmr/m/n/12 (-20) 4 Sub-sur-face data base in geoen-vi-ron-men-tal en-gi-nee-ring, STAL9781607500315-
  []
 
 [10]
-
-LaTeX Warning: Citation `cgd' on page 11 undefined on input line 152.
-
-[11]
-<cgd.png, id=273, 1732.4725pt x 1514.65875pt>
+<cgd.png, id=278, 1732.4725pt x 1514.65875pt>
 File: cgd.png Graphic file (type png)
 <use cgd.png>
-Package pdftex.def Info: cgd.png  used on input line 157.
+Package pdftex.def Info: cgd.png  used on input line 146.
 (pdftex.def)             Requested size: 390.0pt x 340.96841pt.
- [12 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/cgd.png>]
-
-LaTeX Warning: Citation `tunis' on page 13 undefined on input line 189.
-
-
-Overfull \hbox (45.61475pt too wide) in paragraph at lines 190--190
+ [11]
+Overfull \hbox (45.61475pt too wide) in paragraph at lines 174--174
 |[]\OT1/lmr/bx/n/17.28 Comparaison entre des ou-tils d^^Sej^^Ra impl^^Sement^^Ses| 
  []
 
-
-Overfull \hbox (24.95505pt too wide) in paragraph at lines 193--193
+[12 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/cgd.png>]
+Overfull \hbox (24.95505pt too wide) in paragraph at lines 177--177
 |[]\OT1/lmr/bx/n/17.28 Gestion ac-tuelle des donn^^Sees g^^Seothechniques
  []
 
-[13]) [14]
+) [13]
 \openout2 = `Analyse_des_besoins/analyse_des_besoins.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
 Chapitre 2.
-[15
+[14
 
 
 
-] [16]) [17]
+] [15]) [16]
 \openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
-<diagrammeActivite.jpg, id=303, 265.99374pt x 265.99374pt>
+<diagrammeActivite.jpg, id=310, 265.99374pt x 265.99374pt>
 File: diagrammeActivite.jpg Graphic file (type jpg)
 <use diagrammeActivite.jpg>
 Package pdftex.def Info: diagrammeActivite.jpg  used on input line 6.
 (pdftex.def)             Requested size: 390.0pt x 390.032pt.
-) [18
+) [17
 
 
-] [19
+] [18
 
 ]
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [20
+ [19
 
 ]
 \openout2 = `Implementation/implementation.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.tex
 Chapitre 3.
-[21
+[20
 
 
-]) [22] [23]
+]) [21] [22]
 \openout2 = `Conclusion/conclusion.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.tex
 Chapitre 4.
-[24
+[23
 
 
 
-]) [25]
-No file geoTech.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
-(/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.aux (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+]) [24] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.bbl
+Overfull \hbox (15.8379pt too wide) in paragraph at lines 10--15
+\OT1/lmr/m/n/12 (-20) https ://www.ungm.org/UNUser/Documents/DownloadPublicDocument ?do-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 31--37
+\OT1/lmr/m/n/12 (+20) https ://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 39--43
+[]\OT1/lmr/m/n/12 (+20) URG^^Seo.  Mis-sion.  In-for-ma-tions ^^Ra pro-pos de l'URG^^Seo |
+ []
+
+) [25
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+ (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.aux (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `geoTech.out' has not changed.
-(rerunfilecheck)             Checksum: C4DCF8DE272648DA85E08543A118CF4C;2731.
+(rerunfilecheck)             Checksum: 36E60AE8D2E44D8CAAA5A5142F408762;2706.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 19665 strings out of 481239
- 380282 string characters out of 5920376
- 918026 words of memory out of 5000000
- 34311 multiletter control sequences out of 15000+600000
- 595748 words of font info for 100 fonts, out of 8000000 for 9000
+ 19689 strings out of 481239
+ 380789 string characters out of 5920376
+ 917914 words of memory out of 5000000
+ 34323 multiletter control sequences out of 15000+600000
+ 600133 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,71p,766b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (28 pages, 2023870 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (28 pages, 2043275 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 15708 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 17748 words of extra memory for PDF output out of 20736 (max. 10000000)
 
