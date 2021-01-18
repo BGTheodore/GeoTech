@@ -22,3 +22,5 @@ s'appelle exempleMemoire.pdf
 ***Got it
 
 https://www.brgm.fr/projet/faisabilite-base-donnees-compilant-mesures-geotechniques-sols-argileux-realisees-cadre
+
+new site someone told me about yesterday cuz il avait eu un cours sur les qgis a UNIKA: https://www.qgis.org/en/site/
