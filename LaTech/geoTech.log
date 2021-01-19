@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  15 JAN 2021 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  19 JAN 2021 08:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,8 +606,8 @@ l.80 \include{Resume/resume}
 \openout2 = `Introduction/introduction.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.tex
-Overfull \hbox (1.27702pt too wide) in paragraph at lines 14--16
-[] []\OT1/lmr/bx/n/12 pro-grammes de car-to-gra-phie[] \OT1/lmr/m/n/12 (-20) dont l'ob-jec-tif est la res-ti-tu-tion des donn^^Sees
+Overfull \hbox (8.93369pt too wide) in paragraph at lines 11--13
+[]\OT1/lmr/bx/n/12 Programmes de cal-culs \OT1/lmr/m/n/12 (-20) dont l'ob-jec-tif est le trai-te-ment math^^Sematique,
  []
 
 ) [4
@@ -624,30 +624,23 @@ Chapitre 1.
 
 
 ] [7]
-Overfull \hbox (7.5748pt too wide) in paragraph at lines 61--64
-[] []\OT1/lmr/bx/n/12 G^^Seothechsol[] \OT1/lmr/m/n/12 (-20) G^^Seothechsol est un Bu-reau d'Etudes en Ing^^Senierie G^^Seotechnique
+Overfull \hbox (33.70108pt too wide) in paragraph at lines 61--65
+[]\OT1/lmr/bx/n/12 G^^Seothechsol \OT1/lmr/m/n/12 (-20) G^^Seothechsol est un Bu-reau d'Etudes en Ing^^Senierie G^^Seotechnique
  []
 
-[8] [9]
-
-LaTeX Warning: Citation `russell1996regional' on page 10 undefined on input line 108.
-
-
-LaTeX Warning: Citation `turner2008end' on page 10 undefined on input line 112.
-
-[10]
-<cgd.png, id=278, 1732.4725pt x 1514.65875pt>
+[8] [9] [10]
+<cgd.png, id=286, 1732.4725pt x 1514.65875pt>
 File: cgd.png Graphic file (type png)
 <use cgd.png>
-Package pdftex.def Info: cgd.png  used on input line 146.
+Package pdftex.def Info: cgd.png  used on input line 168.
 (pdftex.def)             Requested size: 390.0pt x 340.96841pt.
  [11]
-Overfull \hbox (45.61475pt too wide) in paragraph at lines 174--174
+Overfull \hbox (45.61475pt too wide) in paragraph at lines 196--196
 |[]\OT1/lmr/bx/n/17.28 Comparaison entre des ou-tils d^^Sej^^Ra impl^^Sement^^Ses| 
  []
 
 [12 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/cgd.png>]
-Overfull \hbox (24.95505pt too wide) in paragraph at lines 177--177
+Overfull \hbox (24.95505pt too wide) in paragraph at lines 199--199
 |[]\OT1/lmr/bx/n/17.28 Gestion ac-tuelle des donn^^Sees g^^Seothechniques
  []
 
@@ -664,7 +657,7 @@ Chapitre 2.
 \openout2 = `Diagrammes_activites/diagrammes_activites.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.tex
-<diagrammeActivite.jpg, id=310, 265.99374pt x 265.99374pt>
+<diagrammeActivite.jpg, id=318, 265.99374pt x 265.99374pt>
 File: diagrammeActivite.jpg Graphic file (type jpg)
 <use diagrammeActivite.jpg>
 Package pdftex.def Info: diagrammeActivite.jpg  used on input line 6.
@@ -697,50 +690,41 @@ Chapitre 4.
 
 
 ]) [24] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.bbl
-Overfull \hbox (15.8379pt too wide) in paragraph at lines 10--15
+Overfull \hbox (21.71289pt too wide) in paragraph at lines 15--20
 \OT1/lmr/m/n/12 (-20) https ://www.ungm.org/UNUser/Documents/DownloadPublicDocument ?do-
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 31--37
-\OT1/lmr/m/n/12 (+20) https ://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-
- []
-
-
-Underfull \hbox (badness 5696) in paragraph at lines 39--43
+Underfull \hbox (badness 4569) in paragraph at lines 61--65
 []\OT1/lmr/m/n/12 (+20) URG^^Seo.  Mis-sion.  In-for-ma-tions ^^Ra pro-pos de l'URG^^Seo |
  []
 
-) [25
+[25
 
 
-]
+]) [26]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.aux (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Resume/resume.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Remerciements/remerciements.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Glossaire/glossaire.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Introduction/introduction.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Contexte/contexte.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Diagrammes_activites/diagrammes_activites.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Implementation/implementation.aux) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Conclusion/conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `geoTech.out' has not changed.
-(rerunfilecheck)             Checksum: 36E60AE8D2E44D8CAAA5A5142F408762;2706.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 5E2D1A49338DC07D8B62631D62E35B52;2712.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 19689 strings out of 481239
- 380789 string characters out of 5920376
- 917914 words of memory out of 5000000
- 34323 multiletter control sequences out of 15000+600000
- 600133 words of font info for 102 fonts, out of 8000000 for 9000
+ 19700 strings out of 481239
+ 380950 string characters out of 5920376
+ 918022 words of memory out of 5000000
+ 34327 multiletter control sequences out of 15000+600000
+ 600220 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,71p,766b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (28 pages, 2043250 bytes).
+Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (29 pages, 2045264 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
  17748 words of extra memory for PDF output out of 20736 (max. 10000000)
 

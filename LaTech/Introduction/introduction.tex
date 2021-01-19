@@ -1,19 +1,21 @@
 \chapter*{Introduction}
+\paragraph{}
 Depuis la naissance de l'informatique géologique (année 1970), toutes les études qui ont été faites dans ce
 domaine ont été orientées vers la recherche des
 méthodes les plus fiables et les moins coûteuses pour
 stocker, traiter et restituer les données géologiques et
-géotechniques concernant les 3 sujets suivants :
-\paragraph{programmes de base de données (ou banque de
+géotechniques concernant les 3 sujets suivants :\par 
+\begin{itemize}
+    \item \textbf{Programmes de base de données (ou banque de
 données) }: dont l'objectif est le stockage des donn6es;
-
-\paragraph{programmes de calculs}
- dont l'objectif est le traitement mathématique, statistique et éventuellement géostatistique des données;
-
-\paragraph{programmes de cartographie}
+    \item \textbf{Programmes de calculs} dont l'objectif est le 
+traitement mathématique, statistique et éventuellement géostatistique des données;
+    \item \textbf{Programmes de cartographie}
 dont l'objectif est la restitution des données géologiques et géotechniques
 sous forme graphique.
-\par
+\end{itemize}
+
+\paragraph{}
 Historiquement, le stockage des données géologiques
 et géotechniques a été fait sur des fichiers séquentiels
 spécialisés dont chacun ne présente qu'une application.
@@ -22,7 +24,8 @@ La redondance des données (répétition des mêmes
 données dans des fichiers différents) était é1evée, et il
 n'y avait pas une indépendance entre les données et les
 programmes de traitement. I1 était aussi nécessaire de
-codifier de faqon externe et interne les données géologiques pour les stocker. C'est seulement en utilisant
+codifier de façons externe et interne les données géologiques 
+pour les stocker. C'est seulement en utilisant
 des systèmes de gestion de base de données généraux
 qu'on a pu diminuer la redondance entre les données
 et assurer l'indépendance des programmes.
@@ -33,13 +36,14 @@ domaine pouvaient avoir une structure hiérarchique
 (base de données arborescente). A la suite de l'échec
 de ce type de base de données, on a travaillé sur des
 bases de données en réseau. Ces deux types de base de
-données n'ont pas pu éliminer d'une faqon définitive
+données n'ont pas pu éliminer d'une façon définitive
 la redondance et surtout la codification interne des
 données géologiques.
 \cite{tunis}
 \par
 Pour atteindre cet objectif, assurer une indépendance
-totale entre les données et les programmes de traitement et obtenir une base de données géologiques et
+totale entre les données et les programmes de traitement 
+et obtenir une base de données géologiques et
 géotechniques très souple, nous utilisons, pour la
 conception de << GEO-TECH>>, le système
 de gestion de base de données relationnel général en
