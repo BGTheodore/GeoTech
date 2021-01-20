@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: geoTech.aux
+A level-1 auxiliary file: Resume/resume.aux
+A level-1 auxiliary file: Remerciements/remerciements.aux
+A level-1 auxiliary file: Glossaire/glossaire.aux
+A level-1 auxiliary file: Introduction/introduction.aux
+A level-1 auxiliary file: Contexte/contexte.aux
+A level-1 auxiliary file: Analyse_des_besoins/analyse_des_besoins.aux
+A level-1 auxiliary file: Diagrammes_activites/diagrammes_activites.aux
+A level-1 auxiliary file: Implementation/implementation.aux
+A level-1 auxiliary file: Conclusion/conclusion.aux
+The style file: plain.bst
+Database file #1: bibliotheque.bib
+Warning--empty journal in cgd
+Warning--empty journal in realisation_geotechsol
+Warning--empty year in realisation_geotechsol
+Warning--empty institution in Cayenne
+Warning--empty institution in tunis
+Warning--empty year in Toll
+Warning--empty journal in mission_urgeo
+Warning--empty year in mission_urgeo
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            564 strings with 6418 characters,
+and the built_in function-call counts, 3504 in all, are:
+= -- 331
+> -- 219
+< -- 2
++ -- 88
+- -- 76
+* -- 233
+:= -- 636
+add.period$ -- 36
+call.type$ -- 11
+change.case$ -- 74
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 123
+empty$ -- 216
+format.name$ -- 76
+if$ -- 693
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 7
+newline$ -- 60
+num.names$ -- 22
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 59
+quote$ -- 0
+skip$ -- 87
+stack$ -- 0
+substring$ -- 112
+swap$ -- 21
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 8
+while$ -- 28
+width$ -- 13
+write$ -- 117
+(There were 8 warnings)
