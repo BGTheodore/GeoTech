@@ -1,0 +1,56 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {0.1}Résumé}{1}{section.0.1}%
+\contentsline {paragraph}{}{1}{section.0.1}%
+\contentsline {paragraph}{Abstract}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Remerciements}{2}{section.0.2}%
+\contentsline {paragraph}{}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Glossaire}{3}{section.0.3}%
+\contentsline {paragraph}{}{3}{section.0.3}%
+\contentsline {paragraph}{URGéo :}{3}{section.0.3}%
+\contentsline {paragraph}{GIS :}{3}{section.0.3}%
+\contentsline {paragraph}{BDD :}{3}{section.0.3}%
+\contentsline {paragraph}{BRGM :}{3}{section.0.3}%
+\contentsline {paragraph}{SIG :}{3}{section.0.3}%
+\contentsline {paragraph}{PDF :}{3}{section.0.3}%
+\contentsline {paragraph}{ISO :}{3}{section.0.3}%
+\contentsline {chapter}{\numberline {1}Contexte}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Généralités}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{Importance des données géotechiques en Haïti}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{Gestion des données géotechiques en Haïti}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Problématique}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Panorama du projet}{6}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Étude de l'existant}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Les BDD géotechniques dans le monde}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Apport de ce projet}{6}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Cheminement de la solution}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Implémentation d'une BDD géotechniques}{7}{subsection.1.3.1}%
+\contentsline {subsubsection}{Numérisation des données}{7}{subsection.1.3.1}%
+\contentsline {subsubsection}{Intégration de ces données dans une BDD}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Utilisation d'un GIS}{7}{subsection.1.3.2}%
+\contentsline {subsubsection}{Connection de la carte et des infos de la BDD}{7}{subsection.1.3.2}%
+\contentsline {subsubsection}{Utilisation de fonds de carte}{7}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Création d'un web map}{7}{subsection.1.3.3}%
+\contentsline {subsubsection}{Implémentation d'un UI}{7}{subsection.1.3.3}%
+\contentsline {subsubsection}{Publication de l'interface}{7}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Perspective de réalisation}{7}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Analyse des besoins}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Besoins fonctionnels}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Besoins non-fonctionnels}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Approche de travail}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Méthodologie}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Structure modulaire}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Structure des données}{10}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Diagrammes d'activites}{11}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Implementation}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Choix des technologies}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}La hierarchie dans l'application}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Interface utilisateur}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Déploiement}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Coûts}{16}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Conclusion}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ameliorations futures}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Suite du projet}{17}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Defis rencontres}{17}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Propositions}{18}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Conclusion}{18}{section.4.2}%
