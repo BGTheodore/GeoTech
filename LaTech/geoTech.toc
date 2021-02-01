@@ -58,7 +58,7 @@
 \contentsline {section}{\numberline {2.2}Besoins non-fonctionnels}{15}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Approche de travail}{16}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Méthodologie}{16}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Structure modulaire}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Structure modulaire}{17}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Structure des données}{17}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Diagrammes d'activité}{18}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Implementation}{20}{chapter.3}%
