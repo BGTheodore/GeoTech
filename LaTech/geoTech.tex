@@ -1,26 +1,21 @@
 \documentclass[a4paper,12pt]{report}
+\usepackage[T1]{fontenc}
 \usepackage[french]{babel}
 \usepackage{graphicx}
 \usepackage{lipsum}% just to generate text for the example
 \usepackage[hidelinks]{hyperref} % san li, ou pap ka al directement sou yon chap
 % a partir de table des matieres lan or al sou yon link internet automatiquement
-
-
 % \usepackage{natbib}
 \usepackage{lmodern}
 \usepackage{titlesec}
 \usepackage{microtype}
 \usepackage{tikz}
-
-
-
 \usepackage{fancyhdr}
-
 \usepackage{pdfpages}
 
+\setlength{\headheight}{16pt} 
 \pagestyle{fancy}
 \definecolor{myblue}{RGB}{0,82,155}
-
 \titleformat{\chapter}[display]
   {\normalfont\bfseries\color{myblue}}
   {\filleft%
@@ -47,20 +42,12 @@
   % \lhead{\begin{picture}(0,0) \put(0,0){\includegraphics[width=3cm]{logo_URGeo}} \end{picture}}
 
 \begin{document}
-
-
+\begin{sloppypar}%spacing automatic
 
 \includepdf{cove_page.pdf}
-% \begin{figure}[t]
-%   \centering
-%   \includegraphics[width=1\textwidth]{image_fond}
-%   \label{image-GIS}
-%   \end{figure}
-
 \title{\scalebox{2}{\fontsize{32pt}{0pt}\selectfont \textbf{Géotech}}}
 \author{
   DUBUCHE Kevin J.
-
   % 41, Rue Chavannes Prolongée, Pétion-Ville, Haïti\\
   % kevindubuche@gmail.com\\
   % kevin.dubuche@student.ueh.edu.ht\\
@@ -80,34 +67,20 @@
   %270, Angle Rues Mgr. Guilloux et Joseph Janvier \\
   %Port-au-Prince, B.P: 1385  \underline{Haïti}  
 \date{\today}
-
 \maketitle
-
-
 \pagenumbering{roman}
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
- 
-
 \include{Resume/resume}
-
 \include{Remerciements/remerciements}
-
-
 \include{Glossaire/glossaire}
-
 \include{Contexte/contexte}
-
 \include{Analyse_des_besoins/analyse_des_besoins}
-
 \include{Diagrammes_activites/diagrammes_activites}
-
 \include{Implementation/implementation}
-
-
 \include{Conclusion/conclusion}
-
 \bibliographystyle{plain}
 \bibliography{bibliotheque}
+\end{sloppypar}
 \end{document}
