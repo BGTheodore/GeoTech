@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  1 FEB 2021 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.1)  1 FEB 2021 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,7 +705,7 @@ Package pdftex.def Info: logo_FDS.jpg  used on input line 76.
  (/home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/Glossaire/glossaire.tex
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
-Package pdftex.def Info: logo_FDS.jpg  used on input line 49.
+Package pdftex.def Info: logo_FDS.jpg  used on input line 50.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
  [3
 
@@ -872,19 +872,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `geoTech.out' has not changed.
-(rerunfilecheck)             Checksum: 5662BE1C083CCEE45698006D8BF485A8;2571.
+(rerunfilecheck)             Checksum: AB3D9A14F0CA97D4E029717F670378F7;2572.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 20933 strings out of 481239
- 399295 string characters out of 5920377
- 935451 words of memory out of 5000000
+ 20935 strings out of 481239
+ 399317 string characters out of 5920377
+ 935452 words of memory out of 5000000
  35448 multiletter control sequences out of 15000+600000
- 625840 words of font info for 132 fonts, out of 8000000 for 9000
+ 625931 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,71p,739b,1045s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,71p,739b,1043s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (30 pages, 2341716 bytes).
+Output written on /home/bgt/Documents/EN3/Geotech/GeoTech/LaTech/geoTech.pdf (30 pages, 2341656 bytes).
 PDF statistics:
  446 PDF objects out of 1000 (max. 8388607)
  376 compressed objects within 4 object streams
