@@ -1,22 +1,45 @@
-\chapter*{Contexte}
-\paragraph{}
-L’Unité de Recherche en Géotechnique (URGéo) dans le cadre de ses activités de recherches et de service à
-la communauté dispose d’un ensemble de données géotechniques, géophysiques et géologiques. Le projet
-consiste à collecter et organiser ces données existantes dans un Système d’Information Géographique (SIG).
-L’objectif de ces services est donc de concevoir, développer, tester et installer un système de gestion
-informatisée (base des données) à utiliser dans la gestion de l’archive technique de l’URGéo. Cette unité
-dispose d'une base de données constituée d’une collection de documents au format PDF (Portable Document
-Format). Le format PDF est un standard ouvert d'échange de documents électroniques géré par l’ISO
-(International Organization for Standardization). Il souhaite cependant réaliser la migration de cette base vers
-un système de gestion plus efficace.
-    \section{Realite des etudes de sol en Haiti}
-    \url{https://lnbtp.gouv.ht/publications.html}
-    \lipsum[1]
-    \section{Les donnees geotechniques en Haiti}
-    \lipsum[1]
-    \section{Comparaison avec des pays etrangers}
-    \lipsum[1]
-    \section{Comparaison avec des outils deja implementes}
-    \lipsum[1]
-    \section{Gestion actuelle des données géothechniques en Haiti}
-    \lipsum[1]
+\chapter{Contexte}
+\section{Introduction}
+    \subsection{Généralités}
+        \subsubsection{Importance des données géotechiques en Haïti}
+          \input{Partials/Contexte/subsubsec_1}
+        \subsubsection{Gestion des données géotechiques en Haïti}
+            \input{Partials/Contexte/subsubsec_2}
+
+    \subsection{Problématique}
+    \textbf{Comment arriver à gerer de façon optimale les données géo\-techiques 
+    en Haïti et mutualiser les données sur le sous-sol accumulées par différents 
+    organismes ?}
+    \subsection{Panorama du projet}
+        \input{Partials/Contexte/panorama}
+
+\section{Étude de l'existant}
+    \subsection{Les BDD géotechniques dans le monde}
+        \input{Partials/Contexte/les_bdd_geotechniques_dans_le_monde}
+    \subsection{Avantages d'un Système De Gestion des Information Géotechniques}
+        \input{Partials/Contexte/subsec_apprt_de_ce_projet}
+
+\section{Cheminement de la solution}
+    \subsection{Implémentation d'une BDD géotechniques}
+        \subsubsection{Numérisation des données}
+            \input{Partials/Contexte/numerisation_des_donnees}
+        \subsubsection{Intégration de ces données dans une BDD}
+            \input{Partials/Contexte/integration_des_donnees}
+    \subsection{Utilisation d'un SIG}
+        \subsubsection{Connection de la carte d'Haïti et de la BDD}
+            \input{Partials/Contexte/connection_de_la_carte}
+        \subsubsection{Utilisation de fonds de carte}
+            \input{Partials/Contexte/utilisation_de_fonds_de_carte}
+    \subsection{Visualisation des données} 
+        \subsubsection{Implémentation d'un UI integrant un webmap}
+            \input{Partials/Contexte/implementation_d_un_UI}
+        \subsubsection{Publication de l'interface}
+            \input{Partials/Contexte/publication}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1\textwidth]{images/evolution_projetGIS.png}
+        \caption{Cheminement de la solution}
+    \end{figure}
+
+\section{Perspective de réalisation}
+    \input{Partials/Contexte/cheminement_de_la_solution}

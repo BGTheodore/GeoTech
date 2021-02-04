@@ -1,19 +1,21 @@
-
 \documentclass[a4paper,12pt]{report}
+\usepackage[T1]{fontenc}
 \usepackage[french]{babel}
 \usepackage{graphicx}
 \usepackage{lipsum}% just to generate text for the example
-\usepackage{hyperref} % san li, ou pap ka al directement sou yon chap
+\usepackage[hidelinks]{hyperref} % san li, ou pap ka al directement sou yon chap
 % a partir de table des matieres lan or al sou yon link internet automatiquement
-
-
+% \usepackage{natbib}
 \usepackage{lmodern}
 \usepackage{titlesec}
 \usepackage{microtype}
 \usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
 
+\setlength{\headheight}{16pt} 
+\pagestyle{fancy}
 \definecolor{myblue}{RGB}{0,82,155}
-
 \titleformat{\chapter}[display]
   {\normalfont\bfseries\color{myblue}}
   {\filleft%
@@ -36,59 +38,49 @@
   {10pt}
   {\titlerule[2.5pt]\vskip3pt\titlerule\vskip4pt\LARGE\sffamily}
 
+  \rhead{\begin{picture}(0,0) \put(-85,0){\includegraphics[width=3cm]{logo_FDS}} \end{picture}}
+  % \lhead{\begin{picture}(0,0) \put(0,0){\includegraphics[width=3cm]{logo_URGeo}} \end{picture}}
+
 \begin{document}
+\begin{sloppypar}%spacing automatic
 
-\begin{figure}[t]
-        \centering
-        \includegraphics[width=1\textwidth]{GIS}
-        \label{image-GIS}
-        \end{figure}
-
-\title{GéoTech}
+\includepdf{cove_page.pdf}
+\title{\scalebox{2}{\fontsize{32pt}{0pt}\selectfont \textbf{Géotech}}}
 \author{
-        DUBUCHE Kevin J. \\
-        Faculté Des Science de l'Université d'Etat Haïti\\
-        270, Angle Rues Mgr. Guilloux et Joseph Janvier\\
-        Port-au-Prince, B.P: 1385 \underline{Haïti}
-        \and
-        THEODORE Barbara G.\\
-        Faculté Des Science de l'Université d'Etat Haïti\\
-        270, Angle Rues Mgr. Guilloux et Joseph Janvier \\
-        Port-au-Prince, B.P: 1385  \underline{Haïti}
+  DUBUCHE Kevin J.
+  % 41, Rue Chavannes Prolongée, Pétion-Ville, Haïti\\
+  % kevindubuche@gmail.com\\
+  % kevin.dubuche@student.ueh.edu.ht\\
+  % +509 36870473
+  \and
+  \&
+  \and
+  THEODORE Barbara G.
+  % 3, Fort-Jacques 32, Pétion-Ville, Haïti\\
+  % bgtheodore18@gmail.com\\
+  % +509 37315966
+  \and
+  Faculté Des Sciences de l'Université d'État d'Haïti \\ 
+   Génie Électronique \\
+   2019-2020
 }
+  %270, Angle Rues Mgr. Guilloux et Joseph Janvier \\
+  %Port-au-Prince, B.P: 1385  \underline{Haïti}  
 \date{\today}
 \maketitle
-
 \pagenumbering{roman}
 \tableofcontents
 \newpage
 \pagenumbering{arabic}
-
 \include{Resume/resume}
-
 \include{Remerciements/remerciements}
-
 \include{Glossaire/glossaire}
-
-
-\chapter{Contexte}
-
-\include{Introduction/introduction}
-
 \include{Contexte/contexte}
-
-
 \include{Analyse_des_besoins/analyse_des_besoins}
-
-\include{Documents_de_validation/documents_de_validation}
-
 \include{Diagrammes_activites/diagrammes_activites}
-
 \include{Implementation/implementation}
-
-
 \include{Conclusion/conclusion}
-
-\include{Bibliographie/bibliographie}
-
+\bibliographystyle{plain}
+\bibliography{bibliotheque}
+\end{sloppypar}
 \end{document}
