@@ -1,0 +1,324 @@
+% Encoding: UTF-8
+
+@Article{mission_urgeo,
+  author = {URGéo},
+  title  = {Mission},
+  note   = {Informations à propos de l'URGéo | http://www.urgeo.net/missions.aspx},
+  url    = {http://www.urgeo.net/missions.aspx},
+}
+
+@Article{urgeo_nouvelliste,
+  author  = {Worlgenson Noël},
+  title   = {UEH-URGéo-FDS : l’une des plus importantes réponses universitaires aux problèmes liés au sol en Haïti},
+  journal = {Le Nouvelliste},
+  year    = {2020},
+  note    = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
+  url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
+}
+{turner2008end,
+  author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
+  institution = {California. Dept. of Transportation},
+  title       = {End-user interest in geotechnical data management systems.},
+  year        = {2008},
+  comment     = {The GLDMS can produce printable test summary reports while performing
+necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc.
+
+
+The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian.
+The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation.
+The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users.
+
+
+Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors.
+
+
+By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference.
+
+
+Features integrated into this prototype system included:
+• File Upload
+• Searching for Data
+• Preview Data
+
+
+The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists.
+
+
+Benefits:
+• Improves efficiencies in collecting and processing test data,
+• Reduces errors in data handling
+• Facilitates easy access to archived test data
+
+
+For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month.
+
+
+Architecture client server page 66 et suivantes
+
+
+CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
+
+@Article{realisationGeotechsol,
+  author = {Geotechsol},
+  title  = {la construction d'un centre déprtemental d'approvisionnement de en intrants pour la direction sanitaire départementale du sud'est},
+  note   = {https://www.ungm.org/UNUser/Documents/DownloadPublicDocument?docId=658274},
+  url    = {https://www.ungm.org/UNUser/Documents/DownloadPublicDocument?docId=658274},
+}
+
+@Article{realisation_urgeo,
+  author = {Urgéo},
+  title  = {Un nouveau Projet de Recherche et Développement piloté par l’URGéo-FDS-UEH avec les universités belges de Liège et de Namur et financé par l’ARES},
+  note   = {http://www.urgeo.net/PDF/projet_risque_sismique_2019.pdf},
+  url    = {http://www.urgeo.net/PDF/projet_risque_sismique_2019.pdf},
+}
+
+@TechReport{Cayenne,
+  author = {Gandolfi J-M, Meilhac A., Renault O},
+  title  = {Elaboration d'une base de données géotechniques sur l'Ile de Cayenne},
+  year   = {2001},
+  note   = {Notice d'utilisation du logiciel BD-GTC \_ version 2.1},
+}
+
+@InProceedings{van1762regional,
+  author    = {Van Alboom and G and De Schrijver and P and Vergauwen},
+  title     = {The regional geotechnical database “Databank Ondergrond Vlaanderen-DOV” as a powerful tool for consultation of subsoil information},
+  booktitle = {Proc. 14th Europ. Conf. on Soil Mechanics and Geotechnical Engineering},
+  year      = {1762},
+  comment   = {Cependant toute conception de projet doit rester basée sur une investigation du sol sur le site même et ne peut se reporter uniquement aux informations issues de bases de données. The new application based on map services will allow users to view, edit, manage and integrate available data. Thanks to this concept, the user needs only a PC with an Internet connection, for accessing the application. The geotechnical database, referred to in this paper, namely the Regional Database of the subsoil of Flanders (DOV), is very popular among all professionals involved in geotechnical design. The free availability is certainly an important asset, but also the user 1762 friendly web-based IT-structure, with GIS facilities attracts potential users. Last but not least, the continuous effort to improve the accessibility of the database, and the available of new and additional data have to add to the success of DOV.},
+}
+
+@Article{antoljak2012subsurface,
+  author  = {Antoljak and Strahimir and Carrona},
+  title   = {Subsurface databases in geoenvironmental engineering},
+  journal = {Chemical Engineering Transactions},
+  year    = {2012},
+  comment = {Ce document n'apporte pas une grande variete d'informations par rapport aux precedentes. Neanmoins, quelques notes a considerer: 1. Les donnees doivent etre accessibles et faciles a interpreter. 2. Sur papier, il est quasiment impossible de modifier des donnees a la longue. Or les donnees ne sont pas statiques. L'utilisation des outils Microsoft ne semblent pas assez adequats. Ils sont trop generiques, ce qui empeche un stockage intelligent des donnees geotechniques. 3. Les donnees doivent pouvoir etre reutilisees...},
+  url     = {https://pdfs.semanticscholar.org/6e68/f4b88a06c4cd278590b6e71ef6c2bac33ea0.pdf},
+}
+
+@InProceedings{suwanwiwattana2001development,
+  author    = {Suwanwiwattana and Panoot and Chantawarangul and Korchoke and Mairaing, Warakorn and Apaphant, Pakorn},
+  title     = {The development of geotechnical database of Bangkok subsoil using GRASS-GIS},
+  booktitle = {Proceeding of 22nd Asian Conference on Remote Sensing},
+  year      = {2001},
+  comment   = {Titre du document : the development of geotechnical database of Bangkok Subsoil using GRASS-GIS L'etude du sol est l'information la plus importante dans les phases de conception et de contruction dans le travail d'un ingenieur civil. Importance des bases de donnees geotech: -prediction -interpretation avec plus de donnees dans les secteurs complexes Ce system pourra etre utilise comme un support de decision pour les ing geotechniques. Il y a eu une augmentation du nombre de construction a Bangkok => auguementation de la demande des donnees geotecniques. Similaire en haiti, apres le seisme, ces donnees sont devenues tres demandees pour la reconstruction. Le system de Bangkok est divise en 2 grandes parties: -la BD pour le stockage et la gestion des donnees. - La modelisation et visualisation des donnees. !!LES LOGICIELS OPEN SOURCES SONT PREFERABLES !! Background pour le developpement : -L'architecture client/server a ete selectionnee caar: -grande capacite pour le chargement des donnees -securitaire -hight reliability -high scalability -La conception du odele: -les tests peuvent etre classifies en : - in-situ test - laboratory test le model doit etre concue de maniere flexible pour l'ajout d'un nouveau type de test -database et web application - il faut definir des niveaux d'acces en fontion de l'utilisateur - Le format des echanges de donnees geotechniques ils ont modifie le Geotechnical DAta Interchange Format - GRASS GIS - un outil de manipulation des GIS assez interessant ils ont une vue 2D et 3D},
+  url       = {https://www.researchgate.net/profile/Warakorn_Mairaing/publication/2545526_The_Development_of_Geotechnical_Database_of_Bangkok_Subsoil_Using_GRASS-GIS/links/56fbbb8008aef6d10d91a21d.pdf},
+}
+
+@InProceedings{zimmermann2003design,
+  author       = {Zimmermann and Roger and Bardet and Jean-Pierre and Ku and Wei-Shinn and Hu and Jianping and Swift and Jennifer},
+  title        = {Design of a geotechnical information architecture using Web Services},
+  booktitle    = {Proceedings of the Seventh World Multi-Conference on Systemics, Cybernetics and Informatics (SCI 2003)},
+  year         = {2003},
+  pages        = {27--30},
+  organization = {Citeseer},
+  comment      = {Titre du document : Design of a Geotechnical Information Architecture Using Web Services Type de document: This paper describes our efforts to design and implement such an infrastructure based on an extensible set of Web services Le pourquoi du document: Define the scope of the project : l'échange et l'exploitation des informations géotechniques, présentent un intérêt critique pour un grand nombre de municipalités, les agences étatiques et fédérales ainsi que les entreprises privées impliques infrastructures civiles, les compagnies d'assurance, les universites. déterminer la stratigraphie, le sol les conditions de l'eau et / ou les propriétés techniques du sol Intro: image d'un rapport de test de penetration. Peut on avoir un TD su la lecture d'une de ces fiches ? Probleme: partager des données via les rapports papier traditionnels est lent et entraîne erreurs lorsque les données sont reconverties sous forme numérique pour traitement ultérieur Actuellement, il n'y a pas format commun accepté pour l'échange de ces données entre chercheurs et praticiens. AH BON !!!! On a donne les formats les plus utilises et les instances (2) qui ont debute avec un processus de format unique. The services that are initially required are (1) file storage and (2) query & exchange. we have also designed a (3) visualization capability seul erreur ki gen la se keu yo ta renmen echange yo fet en XML, but now se JSON ki #1 2 Geotechnical Data Management and Ex-change (GDME) 2.1 GDME Overview Comment acceder aux donnees et quel protocol utilise pour echanger a ces ddonnees 2.1.1 GDME Web Services Functionality Les donnees peuvent etre ajoutees de deux facons : remplissage des champs de la DB et file upload. Photo de l'architecture 3 Geotechnical Web Services Functionality 3.1 Geotechnical File Storage Web Service},
+  url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.7.3521&rep=rep1&type=pdf},
+}
+
+@TechReport{Turner2008,
+  author      = {Turnerand Loren L and Saito and Toru and Grimes and Paul and others},
+  title       = {End-user interest in geotechnical data management systems.},
+  institution = {California. Dept. of Transportation},
+  year        = {2008},
+  comment     = {The GLDMS can produce printable test summary reports while performing necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc. The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian. The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation. The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users. Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors. By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference. Features integrated into this prototype system included: • File Upload • Searching for Data • Preview Data The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists. Benefits: • Improves efficiencies in collecting and processing test data, • Reduces errors in data handling • Facilitates easy access to archived test data For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month. Architecture client server page 66 et suivantes CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
+}
+
+@InProceedings{scott2015benefits,
+  author    = {Scott, J and van Ballegooy, S and Stannard, M and Lacrosse, V and Russell, J},
+  title     = {The benefits and opportunities of a shared geotechnical database},
+  booktitle = {6th International Conference on Earthquake Geotechnical Engineering, Christchurch, New Zealand. Retrieved from https://secure. tcc. co. nz/ei/images/ICEGE15\% 20Papers/Scott\_700. 00. pdf},
+  year      = {2015},
+}
+
+@TechReport{tunis,
+  author = {N. Mongereau and A. Kaaniche},
+  title  = {Conception et réalisation d'iune base de données géologiques et géotechniques orientée vers la cartographie géotechnique: application a la ville de Tunis (Tunisie)},
+  year   = {1988},
+}
+
+@Article{russell1996regional,
+  author    = {Russell, HAJ and Logan, C and Brennand, TA and Hinton, MJ and Sharpe, DR},
+  journal   = {Current Research},
+  title     = {Regional geoscience database for the Oak Ridges Moraine project (southern Ontario)},
+  year      = {1996},
+  pages     = {191--200},
+  publisher = {The Survey},
+  url       = {http://www.sfu.ca/geog/temp/brennand2/pubs_files/_Russelletal_96_ORMDatabase_GSC-CR.pdf},
+}
+
+@TechReport{Toll,
+  author      = {D.G. Toll},
+  institution = {School of Engineering, Durham University, Durham, UK},
+  title       = {Management of geotechnical data and processes},
+}
+
+@Article{keen2015development,
+  author = {Keen, Sean and Hossack, Alex and Kizil, Mehmet S},
+  title  = {Development and Implementation of a Geotechnical Database Management System},
+  year   = {2015},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+% Encoding: UTF-8
+
+@Article{mission_urgeo,
+  author = {URGéo},
+  title  = {Mission},
+  note   = {Informations à propos de l'URGéo | http://www.urgeo.net/missions.aspx},
+  url    = {http://www.urgeo.net/missions.aspx},
+}
+
+@Article{urgeo_nouvelliste,
+  author  = {Worlgenson Noël},
+  title   = {UEH-URGéo-FDS : l’une des plus importantes réponses universitaires aux problèmes liés au sol en Haïti},
+  journal = {Le Nouvelliste},
+  year    = {2020},
+  note    = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
+  url     = {https://lenouvelliste.com/article/211094/ueh-urgeo-fds-lune-des-plus-importantes-reponses-universitaires-aux-problemes-lies-au-sol-en-haiti},
+}
+{turner2008end,
+  author      = {Turner, Loren L and Saito, Toru and Grimes, Paul and others},
+  institution = {California. Dept. of Transportation},
+  title       = {End-user interest in geotechnical data management systems.},
+  year        = {2008},
+  comment     = {The GLDMS can produce printable test summary reports while performing
+necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc.
+
+
+The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian.
+The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation.
+The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users.
+
+
+Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors.
+
+
+By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference.
+
+
+Features integrated into this prototype system included:
+• File Upload
+• Searching for Data
+• Preview Data
+
+
+The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists.
+
+
+Benefits:
+• Improves efficiencies in collecting and processing test data,
+• Reduces errors in data handling
+• Facilitates easy access to archived test data
+
+
+For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month.
+
+
+Architecture client server page 66 et suivantes
+
+
+CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
+
+@Article{realisationGeotechsol,
+  author = {Geotechsol},
+  title  = {la construction d'un centre déprtemental d'approvisionnement de en intrants pour la direction sanitaire départementale du sud'est},
+  note   = {https://www.ungm.org/UNUser/Documents/DownloadPublicDocument?docId=658274},
+  url    = {https://www.ungm.org/UNUser/Documents/DownloadPublicDocument?docId=658274},
+}
+
+@Article{realisation_urgeo,
+  author = {Urgéo},
+  title  = {Un nouveau Projet de Recherche et Développement piloté par l’URGéo-FDS-UEH avec les universités belges de Liège et de Namur et financé par l’ARES},
+  note   = {http://www.urgeo.net/PDF/projet_risque_sismique_2019.pdf},
+  url    = {http://www.urgeo.net/PDF/projet_risque_sismique_2019.pdf},
+}
+
+@TechReport{Cayenne,
+  author = {Gandolfi J-M, Meilhac A., Renault O},
+  title  = {Elaboration d'une base de données géotechniques sur l'Ile de Cayenne},
+  year   = {2001},
+  note   = {Notice d'utilisation du logiciel BD-GTC \_ version 2.1},
+}
+
+@InProceedings{van1762regional,
+  author    = {Van Alboom and G and De Schrijver and P and Vergauwen},
+  title     = {The regional geotechnical database “Databank Ondergrond Vlaanderen-DOV” as a powerful tool for consultation of subsoil information},
+  booktitle = {Proc. 14th Europ. Conf. on Soil Mechanics and Geotechnical Engineering},
+  year      = {1762},
+  comment   = {Cependant toute conception de projet doit rester basée sur une investigation du sol sur le site même et ne peut se reporter uniquement aux informations issues de bases de données. The new application based on map services will allow users to view, edit, manage and integrate available data. Thanks to this concept, the user needs only a PC with an Internet connection, for accessing the application. The geotechnical database, referred to in this paper, namely the Regional Database of the subsoil of Flanders (DOV), is very popular among all professionals involved in geotechnical design. The free availability is certainly an important asset, but also the user 1762 friendly web-based IT-structure, with GIS facilities attracts potential users. Last but not least, the continuous effort to improve the accessibility of the database, and the available of new and additional data have to add to the success of DOV.},
+}
+
+@Article{antoljak2012subsurface,
+  author  = {Antoljak and Strahimir and Carrona},
+  title   = {Subsurface databases in geoenvironmental engineering},
+  journal = {Chemical Engineering Transactions},
+  year    = {2012},
+  comment = {Ce document n'apporte pas une grande variete d'informations par rapport aux precedentes. Neanmoins, quelques notes a considerer: 1. Les donnees doivent etre accessibles et faciles a interpreter. 2. Sur papier, il est quasiment impossible de modifier des donnees a la longue. Or les donnees ne sont pas statiques. L'utilisation des outils Microsoft ne semblent pas assez adequats. Ils sont trop generiques, ce qui empeche un stockage intelligent des donnees geotechniques. 3. Les donnees doivent pouvoir etre reutilisees...},
+  url     = {https://pdfs.semanticscholar.org/6e68/f4b88a06c4cd278590b6e71ef6c2bac33ea0.pdf},
+}
+
+@InProceedings{suwanwiwattana2001development,
+  author    = {Suwanwiwattana and Panoot and Chantawarangul and Korchoke and Mairaing, Warakorn and Apaphant, Pakorn},
+  title     = {The development of geotechnical database of Bangkok subsoil using GRASS-GIS},
+  booktitle = {Proceeding of 22nd Asian Conference on Remote Sensing},
+  year      = {2001},
+  comment   = {Titre du document : the development of geotechnical database of Bangkok Subsoil using GRASS-GIS L'etude du sol est l'information la plus importante dans les phases de conception et de contruction dans le travail d'un ingenieur civil. Importance des bases de donnees geotech: -prediction -interpretation avec plus de donnees dans les secteurs complexes Ce system pourra etre utilise comme un support de decision pour les ing geotechniques. Il y a eu une augmentation du nombre de construction a Bangkok => auguementation de la demande des donnees geotecniques. Similaire en haiti, apres le seisme, ces donnees sont devenues tres demandees pour la reconstruction. Le system de Bangkok est divise en 2 grandes parties: -la BD pour le stockage et la gestion des donnees. - La modelisation et visualisation des donnees. !!LES LOGICIELS OPEN SOURCES SONT PREFERABLES !! Background pour le developpement : -L'architecture client/server a ete selectionnee caar: -grande capacite pour le chargement des donnees -securitaire -hight reliability -high scalability -La conception du odele: -les tests peuvent etre classifies en : - in-situ test - laboratory test le model doit etre concue de maniere flexible pour l'ajout d'un nouveau type de test -database et web application - il faut definir des niveaux d'acces en fontion de l'utilisateur - Le format des echanges de donnees geotechniques ils ont modifie le Geotechnical DAta Interchange Format - GRASS GIS - un outil de manipulation des GIS assez interessant ils ont une vue 2D et 3D},
+  url       = {https://www.researchgate.net/profile/Warakorn_Mairaing/publication/2545526_The_Development_of_Geotechnical_Database_of_Bangkok_Subsoil_Using_GRASS-GIS/links/56fbbb8008aef6d10d91a21d.pdf},
+}
+
+@InProceedings{zimmermann2003design,
+  author       = {Zimmermann and Roger and Bardet and Jean-Pierre and Ku and Wei-Shinn and Hu and Jianping and Swift and Jennifer},
+  title        = {Design of a geotechnical information architecture using Web Services},
+  booktitle    = {Proceedings of the Seventh World Multi-Conference on Systemics, Cybernetics and Informatics (SCI 2003)},
+  year         = {2003},
+  pages        = {27--30},
+  organization = {Citeseer},
+  comment      = {Titre du document : Design of a Geotechnical Information Architecture Using Web Services Type de document: This paper describes our efforts to design and implement such an infrastructure based on an extensible set of Web services Le pourquoi du document: Define the scope of the project : l'échange et l'exploitation des informations géotechniques, présentent un intérêt critique pour un grand nombre de municipalités, les agences étatiques et fédérales ainsi que les entreprises privées impliques infrastructures civiles, les compagnies d'assurance, les universites. déterminer la stratigraphie, le sol les conditions de l'eau et / ou les propriétés techniques du sol Intro: image d'un rapport de test de penetration. Peut on avoir un TD su la lecture d'une de ces fiches ? Probleme: partager des données via les rapports papier traditionnels est lent et entraîne erreurs lorsque les données sont reconverties sous forme numérique pour traitement ultérieur Actuellement, il n'y a pas format commun accepté pour l'échange de ces données entre chercheurs et praticiens. AH BON !!!! On a donne les formats les plus utilises et les instances (2) qui ont debute avec un processus de format unique. The services that are initially required are (1) file storage and (2) query & exchange. we have also designed a (3) visualization capability seul erreur ki gen la se keu yo ta renmen echange yo fet en XML, but now se JSON ki #1 2 Geotechnical Data Management and Ex-change (GDME) 2.1 GDME Overview Comment acceder aux donnees et quel protocol utilise pour echanger a ces ddonnees 2.1.1 GDME Web Services Functionality Les donnees peuvent etre ajoutees de deux facons : remplissage des champs de la DB et file upload. Photo de l'architecture 3 Geotechnical Web Services Functionality 3.1 Geotechnical File Storage Web Service},
+  url          = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.7.3521&rep=rep1&type=pdf},
+}
+
+@TechReport{Turner2008,
+  author      = {Turnerand Loren L and Saito and Toru and Grimes and Paul and others},
+  title       = {End-user interest in geotechnical data management systems.},
+  institution = {California. Dept. of Transportation},
+  year        = {2008},
+  comment     = {The GLDMS can produce printable test summary reports while performing necessary calculations automatically. Figure 1-7 shows samples of printed reportsThese reports include summaries of index properties, mechanical analysis, atterberg limits, etc. The Geotechnical Laboratory Data Management System (GLDMS) is one of the most significant deployable, developed as a result of this research task, modernizing soil test data collection and management practices at the Geotechnical Laboratory. The development of the system was conducted over a 12 month period. A computer science graduate student assistant, Toru Saito, carried out the programming and hardware integration tasks under the guidance of the task’s Principal Investigator, Loren Turner, and the Geotechnical Laboratory Manager, Craig Hannenian. The system is comprised of a network of touch screen stations (Figure 13) installed throughout the lab facility that enables technicians to enter and retrieve test data while conducting their work. A single web server is at the hub of the system and provides data storage, processing, and validation. The GLDMS architecture was designed to store test data in a central database. Having a central repository eliminates many of the redundancies in data collection and analysis, and makes the data much more accessible to end users. Prior to the development of the GLDMS, technicians recorded data manually on paper-based forms during testing. The data was then entered into Excel spreadsheets and used to prepare printed reports and charts for review by lab managers. Reports were then printed for clients and the paper archived for storage in the fileroom. This cycle of data collection and reporting involved redundant data entry, difficult retrieval of archived data, and possibly introduced transcription errors. By maintaining individual user logins, the GLDMS can control users’ access and keep logs of their activity for future reference. Features integrated into this prototype system included: • File Upload • Searching for Data • Preview Data The primary interface for the user is the map-based search tool (Figure 27). Within this interface, the user can browse the map and view placemarks where data exists. Benefits: • Improves efficiencies in collecting and processing test data, • Reduces errors in data handling • Facilitates easy access to archived test data For increased data integrity and performance, the GLDMS stores lab data on two separate hard drives. A full backup of the entire database is performed daily on the server, and a copy of the daily backups is archived on an off-site network hard drive for data files for the past month. Architecture client server page 66 et suivantes CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
+}
+
+@InProceedings{scott2015benefits,
+  author    = {Scott, J and van Ballegooy, S and Stannard, M and Lacrosse, V and Russell, J},
+  title     = {The benefits and opportunities of a shared geotechnical database},
+  booktitle = {6th International Conference on Earthquake Geotechnical Engineering, Christchurch, New Zealand. Retrieved from https://secure. tcc. co. nz/ei/images/ICEGE15\% 20Papers/Scott\_700. 00. pdf},
+  year      = {2015},
+}
+
+@TechReport{tunis,
+  author = {N. Mongereau and A. Kaaniche},
+  title  = {Conception et réalisation d'iune base de données géologiques et géotechniques orientée vers la cartographie géotechnique: application a la ville de Tunis (Tunisie)},
+  year   = {1988},
+}
+
+@Article{russell1996regional,
+  author    = {Russell, HAJ and Logan, C and Brennand, TA and Hinton, MJ and Sharpe, DR},
+  journal   = {Current Research},
+  title     = {Regional geoscience database for the Oak Ridges Moraine project (southern Ontario)},
+  year      = {1996},
+  pages     = {191--200},
+  publisher = {The Survey},
+  url       = {http://www.sfu.ca/geog/temp/brennand2/pubs_files/_Russelletal_96_ORMDatabase_GSC-CR.pdf},
+}
+
+@TechReport{Toll,
+  author      = {D.G. Toll},
+  institution = {School of Engineering, Durham University, Durham, UK},
+  title       = {Management of geotechnical data and processes},
+}
+
+@Article{keen2015development,
+  author = {Keen, Sean and Hossack, Alex and Kizil, Mehmet S},
+  title  = {Development and Implementation of a Geotechnical Database Management System},
+  year   = {2015},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
