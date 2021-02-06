@@ -15,35 +15,44 @@
 
 \setlength{\headheight}{16pt} 
 \pagestyle{fancy}
-\definecolor{myblue}{RGB}{0,82,155}
-\titleformat{\chapter}[display]
-  {\normalfont\bfseries\color{myblue}}
-  {\filleft%
-    \begin{tikzpicture}
-    \node[
-      outer sep=0pt,
-      text width=2.5cm,
-      minimum height=3cm,
-      fill=myblue,
-      font=\color{white}\fontsize{80}{90}\selectfont,
-      align=center
-      ] (num) {\thechapter};
-    \node[
-      rotate=90,
-      anchor=south,
-      font=\color{black}\Large\normalfont
-      ] at ([xshift=-5pt]num.west) {\textls[180]{\textsc{\chaptertitlename}}};  
-    \end{tikzpicture}%
-  }
-  {10pt}
-  {\titlerule[2.5pt]\vskip3pt\titlerule\vskip4pt\LARGE\sffamily}
+% \definecolor{myblue}{RGB}{0,82,155}
+% \titleformat{\chapter}[display]
+%   {\normalfont\bfseries\color{myblue}}
+%   {\filleft%
+%     \begin{tikzpicture}
+%     \node[
+%       outer sep=0pt,
+%       text width=2.5cm,
+%       minimum height=3cm,
+%       fill=myblue,
+%       font=\color{white}\fontsize{80}{90}\selectfont,
+%       align=center
+%       ] (num) {\thechapter};
+%     \node[
+%       rotate=90,
+%       anchor=south,
+%       font=\color{black}\Large\normalfont
+%       ] at ([xshift=-5pt]num.west) {\textls[180]{\textsc{\chaptertitlename}}};  
+%     \end{tikzpicture}%
+%   }
+%   {10pt}
+%   {\titlerule[2.5pt]\vskip3pt\titlerule\vskip4pt\LARGE\sffamily}
 
   \rhead{\begin{picture}(0,0) \put(-85,0){\includegraphics[width=3cm]{logo_FDS}} \end{picture}}
   % \lhead{\begin{picture}(0,0) \put(0,0){\includegraphics[width=3cm]{logo_URGeo}} \end{picture}}
 
+
+
+  \renewcommand{\listfigurename}{}
+  \renewcommand{\listtablename}{}
+
+  \usepackage{tocloft}
+  \newcommand{\listappendicesname}{Annexes}
+  \newlistof{appendices}{apc}{\listappendicesname}
+  \newcommand{\appendices}[1]{\addcontentsline{apc}{appendices}{#1}}
+
 \begin{document}
 \begin{sloppypar}%spacing automatic
-
 \includepdf{cove_page.pdf}
 \title{\scalebox{2}{\fontsize{32pt}{0pt}\selectfont \textbf{Géotech}}}
 \author{
@@ -69,12 +78,20 @@
 \date{\today}
 \maketitle
 \pagenumbering{roman}
+\listoffigures
+\thispagestyle{empty}
+\listoftables
+\thispagestyle{empty}
 \tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}} 
+\thispagestyle{empty}
 \newpage
-\pagenumbering{arabic}
+\clearpage
+\pagenumbering{roman} 
 \include{Resume/resume}
 \include{Remerciements/remerciements}
 \include{Glossaire/glossaire}
+\pagenumbering{arabic}
 \include{Contexte/contexte}
 \include{Analyse_des_besoins/analyse_des_besoins}
 \include{Diagrammes_activites/diagrammes_activites}
@@ -82,5 +99,10 @@
 \include{Conclusion/conclusion}
 \bibliographystyle{plain}
 \bibliography{bibliotheque}
+
+\appendices{appendix one} appendix  appendix appendix appendix appendix appendix
+\appendices{appendix two} appendix  appendix appendix appendix appendix appendix
+
+\listofappendices
 \end{sloppypar}
 \end{document}
