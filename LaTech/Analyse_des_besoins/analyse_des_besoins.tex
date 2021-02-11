@@ -1,153 +1,5 @@
 \chapter{Analyse des besoins}
-        Nous débutons la conception de notre système en analysant la
-        situation pour prendre note des différentes contraintes, des risques
-        et tout autre élément pertinent dans le but de satisfaire l'intégralité
-        des besoin de l'URGéo.  Nous sommes déjà inbus du contexte de développement
-        du systeme, par consequent, nous allons, dans cette partie, nous concentrer
-        sur les besoins et les contraintes de l'application.
-        \section{Besoins et contraintes}
-                Il s'agit de la conception d'une base de données géotechnique et d'une
-                application web permettant de visualiser ces dites données. Définissons
-                d'abord tous les besoins des différents utisateurs du système.
-                \subsubsection{Identification des acteurs du système}
-                Pour connaître les différents besoins des utilisateurs, nous devons
-                avant tout relever la liste des différents utilisateurs eux-mêmes.
-                nombreux sont ceux qui auront à utiliser le système. Nous appelerons ces différents
-                utilisateurs  les \textbf{acteurs} du système.
-                \par
-                L'application sera disponible pour tout le monde notemment les
-                professionnelles en géosciences, les ingénieurs,les étudiants, les banques et assurances etc.
-                Ces acteurs sont divisés en trois (3) catégories:
-                \begin{itemize} 
-                        \item \textbf{les visiteurs: }
-                        Un visiteur est un utilisateur lambda qui se rend sur l'application pour rechercher et visualiser
-                        les données mises disponibles par l'URGéo. 
-                      
-                        \item \textbf{les administrateurs: }
-                        Un administrateur est un utilisateur avec plus de privilèges. Il a non seulement les droits d'un visiteur,
-                        mais aussi d'autres attributions. Il est obligatoire pour lui de s'authentifier pour pouvoir 
-                        effectuer certaines actions sur les systeme. Seront utilisateurs, toute personne désignée par l'URGéo
-                        ou les partenaires de l'URGéo. Le plus souvent, ce seront les stagiares responsables de l'entrée des données.
-
-                        \item \textbf{les superadmins: }
-                        Un super-administrateur est un super utilisateur. Il a non seulement les droits d'un visiteur,
-                        ceux de l'administrateur mais aussi d'autres attributions. Il est obligatoire pour lui de s'authentifier pour pouvoir 
-                        effectuer certaines actions sur les systeme. Seront utilisateurs, toute personne désignée par l'URGéo.
-                    \end{itemize}   
-                \subsubsection{Besoins des différents utilisateurs}
-                Étant donné que l'on aura deux types d'utilisateurs avec des privilèges différents,
-                le systeme doit impérativement comporter un mode de gestion des utilisateurs et des droit d'accès.
-                \paragraph{Le visiteur}
-                Le visiteur a à sa disposition une carte d'Haïti marquée aux différents endroits où des tests 
-                géotechniques ont été réalisés.
-                À n'importe quel moment, il peut décider d'effectuer une recherche par mot clé et s'attend
-                à ce que le résultat de sa recherche s'affiche sur la carte. Il a aussi l'option de l'afflicher sous la forme
-                d'une liste'il a la possibilité de filtrer selon son choix. Cette dernière peut être téléchargée sous format CSV.
-                En support aux informations spécifique a un test se trouvant à un endroit vien précis sur la carte,
-                le visiteur a aussi l'accès au résultat du test se trouvant dans un fichier PDF qu'il peut téléchargé.
-                \par
-                Aussi, plusieurs fonds de carte seront disponoble permettant au visiteur d'adapter le résultat de ses recherches
-                au contexte idéal (topographie, )
-                \par
-                Le visiteur peut aussi décider de lire, de commenter ou de laisser un message (de manière anonyme ou pas) sur le forum dédié à l'application.
-                \paragraph{L'administrateur}
-                Avant tout, il peut réaliser toutes les actions d'un visiteur. De plus, après s'être authentifié au moyen de 
-                son adresse électronique et de son mot de passe, il peut interagir directement avec la base de données. En cas 
-                d'oubli de son mot de passe, le système lui envoie un lien de réinitialisation de mot de passe à son email.
-                Pour jouer son rôle d'administrateur, il est redirigé vers \textit{l'interface de l'administrateur}. 
-                Dans ce module, l'administrateur peut:
-                \begin{itemize}
-                        \item \textbf{Ajouter un test: }
-                        Il s'agit de rentrer les informations relatives à un test pour l'ajouter dans la base de données.
-                        Ces informations sont de types différents (nom:texte, identifiant:entier, date du test:date, types
-                        de test:entier, date d'enregistrement:date, etc\footnote{Les différents champs et leur type seront 
-                        détaillés dans l'étude des diagrammes à la fin du chapitre} )
-                        \item \textbf{Modifier un test: }
-                        Si pour une raison ou pour une autre un test doit être modifié, l'administrateur est en
-                        mesure de le faire après s'être authentifié. Un message lui sera affiché à l'écran dépendemment 
-                        de la réussite ou de l'échec de son action.
-                        \item \textbf{Supprimer un test: }
-                        La suppression d'un test estSi pour une raison ou pour une autre un test doit être modifié, l'administrateur est en
-                        mesure de le faire après s'être authentifié. Un message lui sera affiché à l'écran dépendemment 
-                        de la réussite ou de l'échec de son action. aussi possible. Un message de confirmation précèderation la validation
-                        de l'execution de cette action car elle est irreversible.
-                \end{itemize}
-                \par
-                De plus, si l'URGéo juge que le commentaire d'un visiteur doit être supprimé,
-                l'administrateur est apte à réaliser cela.
-                \par
-                Chaque action effectuée par un administrateur sera enregistrée automatiquement pour permettre la traċabilité
-                et la non-répudiation\footnote{On abordera cette partie dans le chapitre la section sécutité du chapitre 3.}.
-                Ainsi, un module permettant de visualiser uniquement les logs\footnote{Historique des actions effectuées sur un ssysteme informatique.} du système. Par conséquent, on peut savoir
-                la date et l'heure précise où un administrateur ouvre une session, affiche, ajoute, modifie ou supprime une donnée.
-                Nul utilisateur ne pourra altérer ces donnéees.
-                \par
-
-                \paragraph{Le superadmin}
-                Avant tout, il peut réaliser toutes les actions d'un visiteur. De plus, après s'être authentifié au moyen de 
-                son adresse électronique et de son mot de passe, il peut interagir directement avec la base de données et 
-                effectuer aussi les mêmes actions que l'administrateur.
-                Dans ce module, le superadmin peut:
-                \begin{itemize}
-                        \item \textbf{Ajouter un utilisateur: }
-                        Il s'agit de rentrer les informations relatives à un utilisateur pour l'ajouter dans la base de données.
-                        Ces informations sont de types différents (nom:texte, prénom identifiant:entier, type d'utilisateur, 
-                        etc\footnote{Les différents champs et leur type seront 
-                        détaillés dans l'étude des diagrammes à la fin du chapitre} )
-                        \item \textbf{Modifier un utilisateur: }
-                        Si pour une raison ou pour une autre les informations d'un utilisateur doivent être modifiées, le superadmin est en
-                        mesure de le faire après s'être authentifié. Un message lui sera affiché à l'écran dépendemment 
-                        de la réussite ou de l'échec de son action.
-                        \item \textbf{Activer ou désactiver un utilisateur: }
-                        Il s'agit d'autotoriser ou non un administrateur à utiliser l'application.
-                \end{itemize}
-                  
- 
-        \par    
-        \begin{table}
-                \centering
-                \begin{tabular}{|p{0.21\linewidth}|p{0.54\linewidth}|p{0.21\linewidth}|}
-                \hline
-                        \textbf{\underline{Utilisateurs}} & \textbf{\underline{Besoins}} & 
-                        \textbf{\underline{Contraintes}}  \\
-                        \hline
-                                Visiteur & 
-                                \begin{itemize}
-                                         \item[$\cdot$]  la cartographie d'Haïti
-                                         \item[$\cdot$]  les fonds de carte
-                                         \item[$\cdot$]  faire des recherches
-                                         \item[$\cdot$]  de filtrer les donnéees
-                                         \item[$\cdot$]  télécharger les résultats des tests
-                                         \item[$\cdot$]  une navigation simple et attrayante
-                                \end{itemize} & 
-                                 \\
-                        \hline
-                                Administrateur & 
-                                \begin{itemize}
-                                        \item[$\cdot$]  tous les besoins du visiteur
-                                        \item[$\cdot$]  ajouter un test
-                                        \item[$\cdot$]  modifier un test
-                                        \item[$\cdot$]  supprimer un test
-                                        \item[$\cdot$]  supprimer un commentaire
-                                \end{itemize} & 
-                                Authentification \\
-                        \hline
-                                Superadmin & 
-                                \begin{itemize}
-                                        \item[$\cdot$]  tous les besoins du visiteur
-                                        \item[$\cdot$]  tous les besoins d'un admin
-                                        \item[$\cdot$]  voir les logs
-                                        \item[$\cdot$]  ajouter un administrateur
-                                        \item[$\cdot$]  modifier un administrateur
-                                        \item[$\cdot$]  activer un administrateur
-                                        \item[$\cdot$]  désactiver un administrateur
-                                \end{itemize} & 
-                                Authentification \\
-                        \hline 
-                \end{tabular}
-                \caption{Tableau des utilisateurs et de leurs besoins} \label{tab:sometab}
-        \end{table}
-        \par
+        \input{Partials/Analyse_des_besoins/besoins_et_contraintes}
                 \lipsum[1]
         \section{Approche de travail}
                 \lipsum[1]
@@ -155,5 +7,45 @@
                 \lipsum[1]
         \section{Structure modulaire}
                 \lipsum[1]
-        \section{Structure des données}
+        \section{Préparation des documents}
+                \par
+                Étant donnée que la majorité des rapports et résultats des tests sont 
+                disponibles sous forme papier, la première étape a consisté à scanner les documents.
+                Pour ce faire nous adoptons une protrocole: on assure la traćabilité de chaque 
+                document les munissant d'une cartouche reprennant une série d'informations.
+                Voici la liste des informations qui forme une cartouche:
+                \begin{itemize}
+                        \item \textbf{Lieu: }
+                        Il s'agit de l'endroit où l'étude a été effectuée.
+                        \item \textbf{Date: }
+                        Il s'agit de la date à laquelle l'étude a été effectuée.
+                        \item \textbf{Maître d'ouvrage: }
+                        Il s'agit du client pour lequel l'étude est effectuée.
+                        \item \textbf{Maître d'œuvre : }
+                        Il s'agit de a personne ou l'entreprise chargée de l'étude.
+                        \item \textbf{Réf Numéro Étude: }
+                        Il s'agit d'un identifiant unique permettant de tracer une étude.
+                \end{itemize}
+                
+\par    
+\begin{table}
+        \centering
+        \begin{tabular}{|p{0.30\linewidth}|p{0.40\linewidth}|}
+                \hline
+                \textbf{Lieu} & Delmas \\
+                \hline
+                \textbf{Date} & Janier 2020 \\
+                \hline
+                \textbf{Maître d'ouvrage} & Faculté Des Sciences \\
+                \hline
+                \textbf{Maître d'œuvre} & URGéo \\
+                \hline
+                \textbf{Réf Numéro Étude} & 1234 \\
+                \hline
+        \end{tabular}
+        \caption{Exemple de cartouche sur un document d'étude géotechnique} \label{tab:example_cartouche}
+\end{table}
+\par
+
+        \section{Modélisation avec UML}
                 \lipsum[1]

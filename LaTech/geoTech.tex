@@ -12,6 +12,7 @@
 \usepackage{tikz}
 \usepackage{fancyhdr}
 \usepackage{pdfpages}
+\usepackage{siunitx}
 
 \setlength{\headheight}{16pt} 
 \pagestyle{fancy}
@@ -54,7 +55,7 @@
 \begin{document}
 \begin{sloppypar}%spacing automatic
 \includepdf{cove_page.pdf}
-\title{\scalebox{2}{\fontsize{32pt}{0pt}\selectfont \textbf{GéoTech}}}
+\title{\scalebox{2}{\fontsize{32pt}{0pt}\selectfont \textbf{GeoTech}}}
 \author{
   DUBUCHE Kevin J.
   % 41, Rue Chavannes Prolongée, Pétion-Ville, Haïti\\
@@ -94,7 +95,6 @@
 \pagenumbering{arabic}
 \include{Contexte/contexte}
 \include{Analyse_des_besoins/analyse_des_besoins}
-\include{Diagrammes_activites/diagrammes_activites}
 \include{Implementation/implementation}
 \include{Conclusion/conclusion}
 \bibliographystyle{plain}
