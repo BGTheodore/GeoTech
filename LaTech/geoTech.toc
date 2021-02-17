@@ -67,12 +67,12 @@
 \contentsline {paragraph}{Le superadmin}{15}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Approche de travail}{17}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Méthodologie}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Structure modulaire}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Structure modulaire}{18}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Préparation des documents}{18}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Modélisation avec UML}{18}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Diagramme des cas d'utilisation}{18}{subsection.2.6.1}%
-\contentsline {subsubsection}{Cas général}{18}{subsection.2.6.1}%
-\contentsline {paragraph}{}{18}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.6}Modélisation avec UML}{19}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Diagramme des cas d'utilisation}{19}{subsection.2.6.1}%
+\contentsline {subsubsection}{Cas général}{19}{subsection.2.6.1}%
+\contentsline {paragraph}{}{19}{subsection.2.6.1}%
 \contentsline {chapter}{\numberline {3}Implémentation}{22}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Choix des technologies}{22}{section.3.1}%
 \contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{22}{section.3.2}%
