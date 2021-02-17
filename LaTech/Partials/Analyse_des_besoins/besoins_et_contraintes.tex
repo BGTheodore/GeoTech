@@ -1,37 +1,38 @@
 Nous débutons la conception de notre système en analysant la
 situation pour prendre note des différentes contraintes, des risques
 et tout autre élément pertinent dans le but de satisfaire l'intégralité
-des besoin de l'URGéo.  Nous sommes déjà inbus du contexte de développement
-du systeme, par consequent, nous allons, dans cette partie, nous concentrer
+des besoins de l'URGéo.  Nous sommes déjà imbus du contexte de développement
+du système, par conséquent, nous allons, dans cette partie, nous concentrer
 sur les besoins et les contraintes de l'application.
 \section{Besoins et contraintes}
-        Il s'agit de la conception d'une base de données géotechnique et d'une
-        application web permettant de visualiser ces dites données. Définissons
-        d'abord tous les besoins des différents utisateurs du système.
+        Il s'agit de la conception d'une base de données géotechniques et d'une
+        application web permettant de visualiser cesdites données. Définissons
+        d'abord tous les besoins des différents utilisateurs du système.
         \subsubsection{Identification des acteurs du système}
         Pour connaître les différents besoins des utilisateurs, nous devons
         avant tout relever la liste des différents utilisateurs eux-mêmes.
-        nombreux sont ceux qui auront à utiliser le système. Nous appelerons ces différents
+        Nombreux sont ceux qui auront à utiliser le système. Nous appellerons ces différents
         utilisateurs  les \textbf{acteurs} du système.
         \par
         L'application sera disponible pour tout le monde notemment les
-        professionnelles en géosciences, les ingénieurs,les étudiants, les banques et assurances etc.
+        professionnels en géosciences, les ingénieurs, les étudiants, les banques, les 
+        compagnies d'assurance, etc.
         Ces acteurs sont divisés en trois (3) catégories:
         \begin{itemize} 
                 \item \textbf{les visiteurs: }
                 Un visiteur est un utilisateur lambda qui se rend sur l'application pour rechercher et visualiser
-                les données mises disponibles par l'URGéo. 
+                les données mises disponibles par l'URGéo et les instances associées. 
               
                 \item \textbf{les administrateurs: }
                 Un administrateur est un utilisateur avec plus de privilèges. Il a non seulement les droits d'un visiteur,
                 mais aussi d'autres attributions. Il est obligatoire pour lui de s'authentifier pour pouvoir 
-                effectuer certaines actions sur les systeme. Seront utilisateurs, toute personne désignée par l'URGéo
+                effectuer certaines actions sur les systèmes. Seront administrateurs, toute personne désignée par l'URGéo
                 ou les partenaires de l'URGéo. Le plus souvent, ce seront les stagiares responsables de l'entrée des données.
 
                 \item \textbf{les superadmins: }
                 Un super-administrateur est un super utilisateur. Il a non seulement les droits d'un visiteur,
                 ceux de l'administrateur mais aussi d'autres attributions. Il est obligatoire pour lui de s'authentifier pour pouvoir 
-                effectuer certaines actions sur les systeme. Seront utilisateurs, toute personne désignée par l'URGéo.
+                effectuer certaines actions sur les systèmes. Seront superadmins, toute personne désignée par l'URGéo.
             \end{itemize}   
         \subsubsection{Besoins des différents utilisateurs}
         Étant donné que l'on aura deux types d'utilisateurs avec des privilèges différents,
