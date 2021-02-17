@@ -16,3 +16,9 @@ De son côté, l'administrateur s'occupe de la gestion des informations au sein 
 -   Modifier un fond de carte
 -   Supprimer un fond de carte
 Évidemment, aucune de ces actions ne saura avoir lieu tant que l'administrateur ne se sera pas authentifié.
+
+En dernier lieu, le super administrateur jouera surtout un rôle de gestionnaire en ressources humaines. Une fois authentifié, en plus des droits d'accès d'un simple administrateur, cet utiliateur pourra:
+-   Ajouter des utilisateurs
+-   Modifier les utilisateurs
+-   Afficher les informations relatives aux différents utilisateurs, pouvant ainsi retracer toutes les actions posées par un utilisateur du système.
+-   Supprimer ou désactiver un utilisateur: La différence se fait remarquer par le fait que le super admin peut supprimer complètement un utilisateur ainsi que toutes les informations y relatives ou simplement désactiver le compte d'un utilisateur sans, pour autant, éliminer ses données.
