@@ -8,3 +8,11 @@ Pour commencer, le visiteur aura des droits d'accès très restreints:
 -   Effectuer des recherches: Deux options s'offrent aux utilisateurs. Ces derniers pourront afficher tous les résultats au cours de la rechercherche, ou encore ils pourront se fixer des filtres capables de mieux limiter les plages des résultats.
 -   Accéder aux résultats d'un test: Une fois les résultats obtenus, le visiteur pourra soit simplement les afficher, soit les imprimer.
 
+De son côté, l'administrateur s'occupe de la gestion des informations au sein de la base de données. En plus des droits de visiteur, ce type d'utilisateur peut:
+-   Ajouter des informations géotechniques: L'admin pourra ajouter des informations dans la bdd, qui seront reflétées sur la carte. 
+-   Modifier les informations qu'il avait préalablement enregistrées: Il ne pourra modifier que les informations qu'il avait lui-même ajoutées.
+-   Supprimer les informations qu'il avait préalablement enregistrées: Tout comme il en est pour la modification, il ne pourra supprimer que les informations qu'il avait lui-même ajoutées.
+-   Ajouter un fond de carte
+-   Modifier un fond de carte
+-   Supprimer un fond de carte
+Évidemment, aucune de ces actions ne saura avoir lieu tant que l'administrateur ne se sera pas authentifié.
