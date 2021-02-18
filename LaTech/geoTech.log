@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  16 FEB 2021 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.30)  17 FEB 2021 13:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -899,32 +899,32 @@ File: logo_FDS.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo_FDS.jpg  used on input line 50.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
  [6]
-<cgd.png, id=345, 1732.4725pt x 1514.65875pt>
+<cgd.png, id=346, 1732.4725pt x 1514.65875pt>
 File: cgd.png Graphic file (type png)
 <use cgd.png>
 Package pdftex.def Info: cgd.png  used on input line 63.
 (pdftex.def)             Requested size: 390.0pt x 340.96841pt.
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
-Package pdftex.def Info: logo_FDS.jpg  used on input line 73.
+Package pdftex.def Info: logo_FDS.jpg  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
  [7 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/cgd.png>]) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/subsec_apprt_de_ce_projet.tex
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
-Package pdftex.def Info: logo_FDS.jpg  used on input line 21.
+Package pdftex.def Info: logo_FDS.jpg  used on input line 19.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
- [8]) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/numerisation_des_donnees.tex) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/integration_des_donnees.tex) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/connection_de_la_carte.tex)
+ [8]) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/numerisation_des_donnees.tex) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/integration_des_donnees.tex
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
-Package pdftex.def Info: logo_FDS.jpg  used on input line 51.
+Package pdftex.def Info: logo_FDS.jpg  used on input line 12.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
- [9] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/utilisation_de_fonds_de_carte.tex) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/implementation_d_un_UI.tex
+ [9]) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/connection_de_la_carte.tex) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/utilisation_de_fonds_de_carte.tex)
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
-Package pdftex.def Info: logo_FDS.jpg  used on input line 10.
+Package pdftex.def Info: logo_FDS.jpg  used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
- [10]) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/publication.tex)
-<images/evolution_projetGIS.png, id=370, 744.7825pt x 507.8975pt>
+ [10] (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/implementation_d_un_UI.tex) (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/publication.tex)
+<images/evolution_projetGIS.png, id=371, 744.7825pt x 507.8975pt>
 File: images/evolution_projetGIS.png Graphic file (type png)
 <use images/evolution_projetGIS.png>
 Package pdftex.def Info: images/evolution_projetGIS.png  used on input line 60.
@@ -932,14 +932,14 @@ Package pdftex.def Info: images/evolution_projetGIS.png  used on input line 60.
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Partials/Contexte/cheminement_de_la_solution.tex
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
-Package pdftex.def Info: logo_FDS.jpg  used on input line 5.
+Package pdftex.def Info: logo_FDS.jpg  used on input line 21.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
- [11 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/images/evolution_projetGIS.png>]))
+ [11]))
 File: logo_FDS.jpg Graphic file (type jpg)
 <use logo_FDS.jpg>
 Package pdftex.def Info: logo_FDS.jpg  used on input line 96.
 (pdftex.def)             Requested size: 85.35826pt x 32.12425pt.
- [12]
+ [12 </home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/images/evolution_projetGIS.png>]
 \openout2 = `Analyse_des_besoins/analyse_des_besoins.aux'.
 
  (/home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/Analyse_des_besoins/analyse_des_besoins.tex
@@ -1038,18 +1038,18 @@ Package rerunfilecheck Info: File `geoTech.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 23684 strings out of 481239
- 475186 string characters out of 5920376
- 992023 words of memory out of 5000000
- 38123 multiletter control sequences out of 15000+600000
- 639368 words of font info for 149 fonts, out of 8000000 for 9000
+ 23679 strings out of 481239
+ 475132 string characters out of 5920376
+ 992118 words of memory out of 5000000
+ 38124 multiletter control sequences out of 15000+600000
+ 638981 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,60p,483b,1217s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,60p,483b,1221s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (35 pages, 2878911 bytes).
+Output written on /home/kevin/Documents/kevin/EN3/PROJET_FINAL_URGEO/GeoTech/GeoTech/LaTech/geoTech.pdf (35 pages, 2879273 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 434 compressed objects within 5 object streams
+ 513 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
  91 named destinations out of 1000 (max. 500000)
  39274 words of extra memory for PDF output out of 42996 (max. 10000000)
 
