@@ -1,51 +1,52 @@
 Nous débutons la conception de notre système en analysant la
 situation pour prendre note des différentes contraintes, des risques
 et tout autre élément pertinent dans le but de satisfaire l'intégralité
-des besoin de l'URGéo.  Nous sommes déjà inbus du contexte de développement
-du systeme, par consequent, nous allons, dans cette partie, nous concentrer
+des besoins de l'URGéo.  Nous sommes déjà imbus du contexte de développement
+du système, par conséquent, nous allons, dans cette partie, nous concentrer
 sur les besoins et les contraintes de l'application.
 \section{Besoins et contraintes}
-        Il s'agit de la conception d'une base de données géotechnique et d'une
-        application web permettant de visualiser ces dites données. Définissons
-        d'abord tous les besoins des différents utisateurs du système.
+        Il s'agit de la conception d'une base de données géotechniques et d'une
+        application web permettant de visualiser cesdites données. Définissons
+        d'abord tous les besoins des différents utilisateurs du système.
         \subsubsection{Identification des acteurs du système}
         Pour connaître les différents besoins des utilisateurs, nous devons
         avant tout relever la liste des différents utilisateurs eux-mêmes.
-        nombreux sont ceux qui auront à utiliser le système. Nous appelerons ces différents
+        Nombreux sont ceux qui auront à utiliser le système. Nous appellerons ces différents
         utilisateurs  les \textbf{acteurs} du système.
         \par
         L'application sera disponible pour tout le monde notemment les
-        professionnelles en géosciences, les ingénieurs,les étudiants, les banques et assurances etc.
+        professionnels en géosciences, les ingénieurs, les étudiants, les banques, les 
+        compagnies d'assurance, etc.
         Ces acteurs sont divisés en trois (3) catégories:
         \begin{itemize} 
                 \item \textbf{les visiteurs: }
                 Un visiteur est un utilisateur lambda qui se rend sur l'application pour rechercher et visualiser
-                les données mises disponibles par l'URGéo. 
+                les données mises disponibles par l'URGéo et les instances associées. 
               
                 \item \textbf{les administrateurs: }
                 Un administrateur est un utilisateur avec plus de privilèges. Il a non seulement les droits d'un visiteur,
                 mais aussi d'autres attributions. Il est obligatoire pour lui de s'authentifier pour pouvoir 
-                effectuer certaines actions sur les systeme. Seront utilisateurs, toute personne désignée par l'URGéo
+                effectuer certaines actions sur les systèmes. Seront administrateurs, toute personne désignée par l'URGéo
                 ou les partenaires de l'URGéo. Le plus souvent, ce seront les stagiares responsables de l'entrée des données.
 
                 \item \textbf{les superadmins: }
                 Un super-administrateur est un super utilisateur. Il a non seulement les droits d'un visiteur,
                 ceux de l'administrateur mais aussi d'autres attributions. Il est obligatoire pour lui de s'authentifier pour pouvoir 
-                effectuer certaines actions sur les systeme. Seront utilisateurs, toute personne désignée par l'URGéo.
+                effectuer certaines actions sur les systèmes. Seront superadmins, toute personne désignée par l'URGéo.
             \end{itemize}   
         \subsubsection{Besoins des différents utilisateurs}
         Étant donné que l'on aura deux types d'utilisateurs avec des privilèges différents,
-        le systeme doit impérativement comporter un mode de gestion des utilisateurs et des droit d'accès.
+        le système doit impérativement comporter un mode de gestion des utilisateurs et des droits d'accès.
         \paragraph{Le visiteur}
         Le visiteur a à sa disposition une carte d'Haïti marquée aux différents endroits où des tests 
         géotechniques ont été réalisés.
         À n'importe quel moment, il peut décider d'effectuer une recherche par mot clé et s'attend
-        à ce que le résultat de sa recherche s'affiche sur la carte. Il a aussi l'option de l'afflicher sous la forme
-        d'une liste'il a la possibilité de filtrer selon son choix. Cette dernière peut être téléchargée sous format CSV.
-        En support aux informations spécifique a un test se trouvant à un endroit vien précis sur la carte,
-        le visiteur a aussi l'accès au résultat du test se trouvant dans un fichier PDF qu'il peut téléchargé.
+        à ce que le résultat de sa recherche s'affiche sur la carte. Il a aussi l'option de l'afficher sous la forme
+        d'une liste, il a la possibilité de filtrer selon son choix. Cette dernière peut être téléchargée sous format CSV.
+        En support aux informations spécifiques à un test se trouvant à un endroit bien précis sur la carte,
+        le visiteur a aussi l'accès au résultat du test se trouvant dans un fichier PDF qu'il peut télécharger.
         \par
-        Aussi, plusieurs fonds de carte seront disponoble permettant au visiteur d'adapter le résultat de ses recherches
+        Aussi, plusieurs fonds de carte seront disponibles permettant au visiteur d'adapter le résultat de ses recherches
         au contexte idéal (topographie, hydraulique,... )
         \par
         Le visiteur peut aussi décider de lire, de commenter ou de laisser un message (de manière anonyme ou pas) sur le forum dédié à l'application.
@@ -66,18 +67,16 @@ sur les besoins et les contraintes de l'application.
                 mesure de le faire après s'être authentifié. Un message lui sera affiché à l'écran dépendemment 
                 de la réussite ou de l'échec de son action.
                 \item \textbf{Supprimer un test: }
-                La suppression d'un test estSi pour une raison ou pour une autre un test doit être modifié, l'administrateur est en
-                mesure de le faire après s'être authentifié. Un message lui sera affiché à l'écran dépendemment 
-                de la réussite ou de l'échec de son action. aussi possible. Un message de confirmation précèderation la validation
-                de l'execution de cette action car elle est irreversible.
+                La suppression d'un test est aussi possible. Un message de confirmation précède la validation
+                de l'exécution de cette action car elle est irréversible.
         \end{itemize}
         \par
         De plus, si l'URGéo juge que le commentaire d'un visiteur doit être supprimé,
         l'administrateur est apte à réaliser cela.
         \par
         Chaque action effectuée par un administrateur sera enregistrée automatiquement pour permettre la traċabilité
-        et la non-répudiation\footnote{On abordera cette partie dans le chapitre la section sécutité du chapitre 3.}.
-        Ainsi, un module permettant de visualiser uniquement les logs\footnote{Historique des actions effectuées sur un ssysteme informatique.} du système. Par conséquent, on peut savoir
+        et la non-répudiation\footnote{On abordera cette partie dans la section sécurité du chapitre 3.}.
+        Ainsi, un module permettant de visualiser uniquement les logs\footnote{Historique des actions effectuées sur un système informatique.} du système. Par conséquent, on peut savoir
         la date et l'heure précise où un administrateur ouvre une session, affiche, ajoute, modifie ou supprime une donnée.
         Nul utilisateur ne pourra altérer ces donnéees.
         \par
@@ -98,7 +97,7 @@ sur les besoins et les contraintes de l'application.
                 mesure de le faire après s'être authentifié. Un message lui sera affiché à l'écran dépendemment 
                 de la réussite ou de l'échec de son action.
                 \item \textbf{Activer ou désactiver un utilisateur: }
-                Il s'agit d'autotoriser ou non un administrateur à utiliser l'application.
+                Il s'agit d'autoriser ou non un administrateur à utiliser l'application.
         \end{itemize}
           
 
