@@ -1,65 +1,46 @@
 \chapter{Contexte}
-\section{Introduction}
-    \paragraph{}
-    Ce mémoire s'inscrit dans le cadre d'une collaboration entre
-    l'URGéo et Kay Nou Tek. Ce projet est financé par l’Ambassade
-    de Suisse en Haïti et a pour objectif d’explorer le potentiel 
-    du numérique pour améliorer les pratiques de construction.
-    Le but principal de ce travail est
-    d'apporter une solution technologique  qui facilitera la 
-    gestion des données géotechniques en Haïti.
-    \paragraph{}
-    Ce document comporte deux grandes parties: une première axée
-    sur la théorie, se focalisant sur le contexte et les avantages
-    de la réalisation d'un tel projet. La seconde partie sera plus pratique
-    et combinera le travail de l'ingénieur logiciel et des programmeurs responsables
-    du projet.
-    \begin{figure}
-        \centering
-        \includegraphics[width=1\textwidth]{map-haiti.png}
-        \caption{Cartographie d'Haïti}
-    \end{figure}
-    \subsection{Généralités}
-        \subsubsection{La géotechique, pourquoi est-ce important ?}
-          \input{Partials/Contexte/subsubsec_1}
-        \subsubsection{Gestion des données géotechiques en Haïti}
-            \input{Partials/Contexte/subsubsec_2}
+    \section{Introduction}
+        \input{Partials/Contexte/__1-introduction}
+        \subsection{Généralités}
+            \subsubsection{La géotechique, pourquoi est-ce important ?}
+            \input{Partials/Contexte/__2-la_geotechnique}
+            \subsubsection{Gestion des données géotechiques en Haïti}
+                \input{Partials/Contexte/__3-gestion_des_donnees}
+        \subsection{Problématique}
+        \textbf{Comment arriver à créer une base de données permettant de 
+        présenter et référencer l'ensemble des données géotechniques dans un Systéme
+        d’Information Géographique (SIG) ?}
 
-    \subsection{Problématique}
-    \textbf{Comment arriver à créer une base de données permettant de 
-    présenter et référencer l'ensemble des données géotechniques dans un Systéme
-    d’Information Géographique (SIG) ?}
+        \subsection{Panorama du projet}
+            \input{Partials/Contexte/__4-panorama}
 
-    \subsection{Panorama du projet}
-        \input{Partials/Contexte/panorama}
+    \section{Étude de l'existant}
+        \subsection{Les BDD géotechniques dans le monde}
+            \input{Partials/Contexte/__5-les_bdd_geotechniques_dans_le_monde}
+        \subsection{Avantages d'un Système de gestion des Informations Géotechniques}
+            \input{Partials/Contexte/__6-avantages}
 
-\section{Étude de l'existant}
-    \subsection{Les BDD géotechniques dans le monde}
-        \input{Partials/Contexte/les_bdd_geotechniques_dans_le_monde}
-    \subsection{Avantages d'un Système de gestion des Informations Géotechniques}
-        \input{Partials/Contexte/subsec_apprt_de_ce_projet}
+    \section{Cheminement de la solution}
+        \subsection{Implémentation d'une BDD géotechniques}
+            \subsubsection{Numérisation des données}
+                \input{Partials/Contexte/__7-numerisation_des_donnees}
+            \subsubsection{Intégration de ces données dans une BDD}
+                \input{Partials/Contexte/__8-integration_des_donnees}
+        \subsection{Utilisation d'un SIG}
+            \subsubsection{Connection de la carte d'Haïti et de la BDD}
+                \input{Partials/Contexte/__9-connection_de_la_carte}
+            \subsubsection{Utilisation de fonds de carte}
+                \input{Partials/Contexte/__10-utilisation_de_fonds_de_carte}
+        \subsection{Visualisation des données} 
+            \subsubsection{Implémentation d'un UI intégrant un webmap}
+                \input{Partials/Contexte/__11-implementation_d_un_UI}
+            \subsubsection{Publication de l'interface}
+                \input{Partials/Contexte/__12-publication}
+        \begin{figure}[t]
+            \centering
+            \includegraphics[width=1\textwidth]{images/Contexte/evolution_projetGIS.png}
+            \caption{Cheminement de la solution}
+        \end{figure}
 
-\section{Cheminement de la solution}
-    \subsection{Implémentation d'une BDD géotechniques}
-        \subsubsection{Numérisation des données}
-            \input{Partials/Contexte/numerisation_des_donnees}
-        \subsubsection{Intégration de ces données dans une BDD}
-            \input{Partials/Contexte/integration_des_donnees}
-    \subsection{Utilisation d'un SIG}
-        \subsubsection{Connection de la carte d'Haïti et de la BDD}
-            \input{Partials/Contexte/connection_de_la_carte}
-        \subsubsection{Utilisation de fonds de carte}
-            \input{Partials/Contexte/utilisation_de_fonds_de_carte}
-    \subsection{Visualisation des données} 
-        \subsubsection{Implémentation d'un UI intégrant un webmap}
-            \input{Partials/Contexte/implementation_d_un_UI}
-        \subsubsection{Publication de l'interface}
-            \input{Partials/Contexte/publication}
-    \begin{figure}[t]
-        \centering
-        \includegraphics[width=1\textwidth]{images/evolution_projetGIS.png}
-        \caption{Cheminement de la solution}
-    \end{figure}
-
-\section{Perspective de réalisation}
-    \input{Partials/Contexte/cheminement_de_la_solution}
+    \section{Perspective de réalisation}
+        \input{Partials/Contexte/__13-perspective_de_realisation} 
