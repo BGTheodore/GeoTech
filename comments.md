@@ -24,3 +24,22 @@ s'appelle exempleMemoire.pdf
 https://www.brgm.fr/projet/faisabilite-base-donnees-compilant-mesures-geotechniques-sols-argileux-realisees-cadre
 
 new site someone told me about yesterday cuz il avait eu un cours sur les qgis a UNIKA: https://www.qgis.org/en/site/
+
+------------------------------------
+<<<<Commentaires sur l image parcourirLeWebmap>>>>
+1.  []  Remplaser "se diriger vers une position geogra..." par "Accerder `une position geogra..."
+2.  [] chak symbole ou use, metel nan liste des symboles la
+3.  [] "effectuer des recherches": c'est trop vague.
+4.  [] Visiteur la ka visualiser pdf yo tou
+5.  [] Visiteur la ka download pdf yo tou
+6.  [] Visiteur la ka utiliser different widgets yo : grab, zoom in, zoom out, search, ruler, (nap konn plus leu nap fe webmap la)
+
+<<<<Commentaires sur l image manipulationDesDonnees delabase>>>>
+1.  [] admin manke "VOIR les resultats de ses tests"
+2.  [] pou dosye fond de carte yo mpanse yap static. fok nou ta mande. and si yap modifier se pap a yon rytm=hme ki ap mande nesesite yon BD.
+3.  [] au moins fom ta we keu admin nan ka fe sa visiteur la fe tou.
+4.  [] admin nan ap ka visuliser rapport yo sou forme diagrammes (stat)
+
+---
+kote pa super admin yo ?
+si ou pa tou ekri texte yo wap pedu feeling nan leu wap tounen sou yo e gen bagay wap bliye. ekri texte ki asocier a images yo.
