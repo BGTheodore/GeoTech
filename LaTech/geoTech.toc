@@ -1,0 +1,110 @@
+\babel@toc {french}{}
+\thispagestyle {empty}
+\contentsline {section}{\numberline {0.1}Résumé}{i}{section.0.1}%
+\contentsline {paragraph}{}{i}{section.0.1}%
+\contentsline {paragraph}{}{i}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Abstract}{ii}{section.0.2}%
+\contentsline {paragraph}{}{ii}{section.0.2}%
+\contentsline {paragraph}{}{ii}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Remerciements}{iii}{section.0.3}%
+\contentsline {paragraph}{}{iii}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Glossaire}{iv}{section.0.4}%
+\contentsline {paragraph}{URGéo :}{iv}{section.0.4}%
+\contentsline {paragraph}{BME}{iv}{section.0.4}%
+\contentsline {paragraph}{SICOD}{iv}{section.0.4}%
+\contentsline {paragraph}{LNBTP}{iv}{section.0.4}%
+\contentsline {paragraph}{Géothechsol}{iv}{section.0.4}%
+\contentsline {paragraph}{SIG ou GIS :}{iv}{section.0.4}%
+\contentsline {paragraph}{PDF :}{iv}{section.0.4}%
+\contentsline {paragraph}{ISO :}{v}{section.0.4}%
+\contentsline {paragraph}{CSV :}{v}{section.0.4}%
+\contentsline {paragraph}{UI :}{v}{section.0.4}%
+\contentsline {paragraph}{UX :}{v}{section.0.4}%
+\contentsline {paragraph}{WGS84 :}{v}{section.0.4}%
+\contentsline {chapter}{\numberline {1}Contexte}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {paragraph}{}{1}{section.1.1}%
+\contentsline {paragraph}{}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Généralités}{1}{subsection.1.1.1}%
+\contentsline {subsubsection}{La géotechique, pourquoi est-ce important ?}{1}{subsection.1.1.1}%
+\contentsline {paragraph}{}{3}{subsection.1.1.1}%
+\contentsline {subsubsection}{Gestion des données géotechiques en Haïti}{3}{figure.1.2}%
+\contentsline {paragraph}{}{5}{figure.1.2}%
+\contentsline {paragraph}{Les problèmes actuelles}{5}{figure.1.2}%
+\contentsline {paragraph}{}{5}{figure.1.2}%
+\contentsline {paragraph}{Confidentialité : }{5}{figure.1.2}%
+\contentsline {paragraph}{Intégrité : }{5}{figure.1.2}%
+\contentsline {paragraph}{Disponibilité :}{6}{figure.1.2}%
+\contentsline {paragraph}{}{6}{figure.1.2}%
+\contentsline {subsection}{\numberline {1.1.2}Problématique}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Panorama du projet}{6}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Étude de l'existant}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Les BDD géotechniques dans le monde}{7}{subsection.1.2.1}%
+\contentsline {paragraph}{}{7}{subsection.1.2.1}%
+\contentsline {paragraph}{}{7}{subsection.1.2.1}%
+\contentsline {paragraph}{}{7}{subsection.1.2.1}%
+\contentsline {paragraph}{}{7}{subsection.1.2.1}%
+\contentsline {paragraph}{}{8}{subsection.1.2.1}%
+\contentsline {paragraph}{}{8}{figure.1.3}%
+\contentsline {paragraph}{}{8}{figure.1.3}%
+\contentsline {paragraph}{}{9}{figure.1.6}%
+\contentsline {subsection}{\numberline {1.2.2}Avantages d'un Système de gestion des Informations Géotechniques}{11}{subsection.1.2.2}%
+\contentsline {paragraph}{}{11}{subsection.1.2.2}%
+\contentsline {paragraph}{}{11}{subsection.1.2.2}%
+\contentsline {paragraph}{}{11}{subsection.1.2.2}%
+\contentsline {paragraph}{}{12}{subsection.1.2.2}%
+\contentsline {paragraph}{}{13}{subsection.1.2.2}%
+\contentsline {paragraph}{}{13}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}La solution proposée}{14}{section.1.3}%
+\contentsline {paragraph}{}{14}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Les apports de cette solution}{14}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Analyse des risques}{14}{subsection.1.3.2}%
+\contentsline {paragraph}{Risques sur le plan social :}{14}{subsection.1.3.2}%
+\contentsline {paragraph}{Solution :}{15}{subsection.1.3.2}%
+\contentsline {paragraph}{Risques sur le plan technique :}{15}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Cheminement de la solution}{16}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Implémentation d'une BDD géotechniques}{16}{subsection.1.4.1}%
+\contentsline {subsubsection}{Numérisation des données}{16}{subsection.1.4.1}%
+\contentsline {subsubsection}{Intégration de ces données dans une BDD}{16}{subsection.1.4.1}%
+\contentsline {paragraph}{}{16}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Utilisation d'un SIG}{16}{subsection.1.4.2}%
+\contentsline {subsubsection}{Connection de la carte d'Haïti et de la BDD}{16}{subsection.1.4.2}%
+\contentsline {subsubsection}{Utilisation de fonds de carte}{17}{subsection.1.4.2}%
+\contentsline {paragraph}{}{17}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Visualisation des données}{17}{subsection.1.4.3}%
+\contentsline {subsubsection}{Implémentation d'un UI intégrant un webmap}{17}{subsection.1.4.3}%
+\contentsline {subsubsection}{Publication de l'interface}{18}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Perspective de réalisation}{18}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Analyse des besoins}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Besoins et contraintes}{21}{section.2.1}%
+\contentsline {subsubsection}{Identification des acteurs du système}{21}{section.2.1}%
+\contentsline {subsubsection}{Besoins des différents utilisateurs}{22}{section.2.1}%
+\contentsline {paragraph}{Le visiteur}{22}{section.2.1}%
+\contentsline {paragraph}{L'administrateur}{22}{section.2.1}%
+\contentsline {paragraph}{Le superadmin}{23}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Approche de travail}{25}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Méthodologie}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Structure modulaire}{26}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Préparation des documents}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Modélisation avec UML}{27}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Diagramme des cas d'utilisation}{27}{subsection.2.6.1}%
+\contentsline {subsubsection}{Cas général}{27}{subsection.2.6.1}%
+\contentsline {paragraph}{}{27}{subsection.2.6.1}%
+\contentsline {paragraph}{}{27}{figure.2.1}%
+\contentsline {subsubsection}{Parcourir le Webmap}{29}{figure.2.1}%
+\contentsline {paragraph}{}{29}{figure.2.1}%
+\contentsline {chapter}{\numberline {3}Implémentation}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Choix des technologies}{31}{section.3.1}%
+\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Ergonomie}{32}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Déploiement}{32}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Sécurité du système}{32}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Limitations du système}{33}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Coûts}{33}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Conclusion}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ameliorations futures}{34}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Suite du projet}{34}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Défis rencontrés}{34}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Propositions}{35}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Bilan}{35}{section.4.2}%
+\contentsline {paragraph}{}{35}{section.4.2}%
