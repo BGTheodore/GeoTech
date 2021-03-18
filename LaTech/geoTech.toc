@@ -93,18 +93,20 @@
 \contentsline {paragraph}{}{27}{figure.2.1}%
 \contentsline {subsubsection}{Parcourir le Webmap}{29}{figure.2.1}%
 \contentsline {paragraph}{}{29}{figure.2.1}%
-\contentsline {chapter}{\numberline {3}Implémentation}{31}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Choix des technologies}{31}{section.3.1}%
-\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{31}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Ergonomie}{32}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Déploiement}{32}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Sécurité du système}{32}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Limitations du système}{33}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Coûts}{33}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Conclusion}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ameliorations futures}{34}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Suite du projet}{34}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Défis rencontrés}{34}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Propositions}{35}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Bilan}{35}{section.4.2}%
-\contentsline {paragraph}{}{35}{section.4.2}%
+\contentsline {subsubsection}{Manipulation des données de la base}{30}{figure.2.2}%
+\contentsline {paragraph}{}{30}{figure.2.2}%
+\contentsline {chapter}{\numberline {3}Implémentation}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Choix des technologies}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.2}La hiérarchie dans l'application}{32}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Ergonomie}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Déploiement}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Sécurité du système}{33}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Limitations du système}{34}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Coûts}{34}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Conclusion}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ameliorations futures}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Suite du projet}{35}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Défis rencontrés}{35}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Propositions}{36}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Bilan}{36}{section.4.2}%
+\contentsline {paragraph}{}{36}{section.4.2}%
