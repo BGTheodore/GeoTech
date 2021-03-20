@@ -1,4 +1,4 @@
-\subsection{Diagramme des cas d'utilisation}
+\subsection{Diagrammes des cas d'utilisation}
     \subsubsection{Cas général}
     \paragraph{}
     \begin{figure}
@@ -6,6 +6,7 @@
         \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/casGeneral.png}
         \caption{Diagramme des cas d'utilisation général}
     \end{figure}
+    \par 
     Trois niveaux d'acteurs sont à considérer au sein du système: un visiteur, 
     un administrateur et un super administrateur. La hiérarchisation permet que 
     chaque niveau ait accès aux droits du niveau immédiatement inférieur. 
@@ -57,3 +58,84 @@ cet utiliateur peut:
     que toutes les informations y relatives ou simplement désactiver le compte d'un 
     utilisateur sans, pour autant, éliminer ses données.
 \end{itemize}
+
+\subsubsection{Parcourir le Webmap}
+    \paragraph{}
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/parcourirLeWeb.png}
+        \caption{Diagramme du parcours du webmap}
+    \end{figure}
+\par 
+Tout individu, concernés ou pas, par les informations fournies par 
+le webmap peut parcourir l'application. Pour ce faire, aucune authentification 
+n'est nécessaire au préalable. Lorsqu'un visiteur accède au site, il peut donc:
+\begin{itemize}
+    \item \textbf{Visualiser les informations générales:}
+    Les informations sont disponibles sur une carte pouvant être interprétés
+    par un particulier. Elles sont étiquetées sur les points géographiques respectives.
+    De ce fait, il peut sélectionner une étiquette particulière afin d'avoir 
+    accès à ces données, lui permettant de 
+    \begin{itemize}
+        \item Visualiser le fichier pdf
+        \item Télécharger ce fichier
+    \end{itemize}
+    \par 
+    À première vue, le visiteur ne voit que la carte remplie de 
+    "pin[MPOKO JWENN TERME FRANCAIS A]" colorés relatifs à une légende 
+    explicite pour la compréhension du visiteur. En plus des légendes, une liste 
+    de wigdets facilitant la navigation de l'utilisateur.
+    \item \textbf{Accéder à une position géographique précise}
+    Toutes les informations étant disponibles, le visiteur peut choisir 
+    de visualiser les données relatives à une position bien définies. Pour y accéder, il 
+    peut:
+    \begin{itemize}
+        \item Cliquer directement sur la position géographique
+        \item Entrer une adresse dans le champs y frelatif
+    \end{itemize}
+    \item \textbf{Changer de fond de carte}
+    Chaque individu visite ce webmap dans un contexte personnel. Par 
+    ailleurs, il peut changer le fond de la carte en fonction de 
+    ses besoins. Ces images peuvent varier d'un point de vue hydraulique
+    à un point de vue magmatique en passant par tous les fonds mis 
+    à la disposition de l'utilisateur par les institutions.
+    \item \textbf{Effectuer des recherches relatives aux essais}
+    Grand nombre d'essais sont enregistrés sur la carte. Pour faciliter 
+    la navigation, une possibilité de recherche est offerte. Dans ce cas,
+    il peut donc:
+    \begin{itemize}
+        \item Afficher tous les résultats
+        \item Filtrer les recherches 
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Manipulation des données de la base}
+    \paragraph{}
+    \begin{figure}
+        \centering
+        \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/manipulationDesDonneesDeLaBase.png}
+        \caption{Diagramme de la manipulation des données de la base}
+    \end{figure}
+    \par 
+    Avant même que les données puissent être disponibles et interprétables 
+    par un utilisateur, il faut qu'elles soient intégrées et manipulées continuellement. Le 
+    seul utilisateur ayant habilité à faire de telles 
+    actions est l'administrateur. Néanmoins, il ne peut manipuler que les informations 
+    qu'il a lui-même insérées dans la base de données. Ces dernières étant sensibles, L'admin 
+    doit s'authentifier avant d'avoir des droits d'accès à toute sorte de manipulation.
+
+    \subsection{Diagramme de classes}
+    \paragraph{}
+    Il s'agit du diagramme le plus important dans le cadre 
+    d'une modélisation orientée objet. Grâce à lui, le concepteur peut 
+    représenter la structure interne du travail à réaliser, lui 
+    permettant de trouver un meilleur terrain d'entente avec le client.
+    \par 
+    Trois grandes classes sont donc implémentées:
+    \begin{itemize}
+        \item Utilisateur
+        \item Institution
+        \item Essai 
+    \end{itemize}
+    \par 
+    [TO BE CONTINUED - Take a look ds le fichier mdj]

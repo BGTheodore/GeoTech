@@ -27,9 +27,9 @@ new site someone told me about yesterday cuz il avait eu un cours sur les qgis a
 
 ------------------------------------
 <<<<Commentaires sur l image parcourirLeWebmap>>>>
-1.  []  Remplaser "se diriger vers une position geogra..." par "Accerder `une position geogra..."
+1.  [x]  Remplaser "se diriger vers une position geogra..." par "Accerder `une position geogra..."
 2.  [] chak symbole ou use, metel nan liste des symboles la
-3.  [] "effectuer des recherches": c'est trop vague.
+3.  [x] "effectuer des recherches": c'est trop vague.
 4.  [] Visiteur la ka visualiser pdf yo tou
 5.  [] Visiteur la ka download pdf yo tou
 6.  [] Visiteur la ka utiliser different widgets yo : grab, zoom in, zoom out, search, ruler, (nap konn plus leu nap fe webmap la)
