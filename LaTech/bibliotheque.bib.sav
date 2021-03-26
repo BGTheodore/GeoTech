@@ -73,7 +73,7 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
 }
 
 @TechReport{Cayenne,
-  author = {J-M, Gandolfi and Meilhac, A. and Renault, O.},
+  author = {Gandolfi, J.-M. and Meilhac, A. and Renault, O.},
   title  = {Elaboration d'une base de données géotechniques sur l'ile de cayenne},
   year   = {2001},
   note   = {Notice d'utilisation du logiciel BD-GTC \_ version 2.1},
