@@ -51,7 +51,8 @@
   \newcommand{\listappendicesname}{Annexes}
   \newlistof{appendices}{apc}{\listappendicesname}
   \newcommand{\appendices}[1]{\addcontentsline{apc}{appendices}{#1}}
-
+  
+  \DeclareUnicodeCharacter{0301}{\'{e}}
 \begin{document}
 \begin{sloppypar}%spacing automatic
 \includepdf{cover_page.pdf}
@@ -79,12 +80,15 @@
 \date{\today}
 \maketitle
 \pagenumbering{roman}
-\listoffigures
-\thispagestyle{empty}
-\listoftables
-\thispagestyle{empty}
+
 \tableofcontents
 \addtocontents{toc}{\protect\thispagestyle{empty}} 
+\newpage
+\thispagestyle{empty}
+\listoffigures
+\newpage
+\thispagestyle{empty}
+\listoftables
 \thispagestyle{empty}
 \newpage
 \clearpage
