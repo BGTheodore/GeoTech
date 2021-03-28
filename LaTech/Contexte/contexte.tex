@@ -1,0 +1,127 @@
+\chapter{Contexte}
+    \section{Introduction}
+        \input{Partials/Contexte/__1-introduction}
+        \subsection{Généralités}
+            \subsubsection{La géotechique, pourquoi est-ce important ?}
+            \input{Partials/Contexte/__2-la_geotechnique}
+            \subsubsection{Production et gestion des données géotechiques en Haïti}
+                \input{Partials/Contexte/__3-gestion_des_donnees}
+        \subsection{Problématique}
+        \textbf{Comment arriver à créer une base de données permettant de 
+        présenter et référencer l'ensemble des données géotechniques dans un Systéme
+        d’Information Géographique (SIG) ?}
+       
+        \subsection{Panorama du projet}
+            \input{Partials/Contexte/__4-panorama}
+
+    \section{Étude de l'existant}
+        \subsection{Les BDD géotechniques dans le monde}
+            \input{Partials/Contexte/__5-les_bdd_geotechniques_dans_le_monde}
+        \subsection{Avantages d'un Système de gestion des Informations Géotechniques}
+            \input{Partials/Contexte/__6-avantages}
+    \section{La solution proposée}
+        \paragraph{}
+        Face aux différents problèmes que l'on constate, la solution que l'on propose est la suivante:
+        Il s'agit de créer une base de données permettant de présenter et référencer l’ensemble des 
+        données géotechniques dans un Système d’Information Géographique.
+    
+        \subsection{Les apports de cette solution}
+            Ce sera une base de données relationnelle liée a une application web
+            \footnote{Le choix des technologies est justifié dans le chapitre 3} 
+            qui va assurer:
+            \begin{itemize}
+                \item la disponibilité des données
+                \item l'intégrité des données
+                \item la confidentialité
+                \item la non répudiation
+                \item un filtrage optimal des données
+                \item la visualisation des données via un webmap
+                \item l'accès aux données par les professionnels et universitaires
+                \item la diminution des coûts liés a la gestion des données
+                \item la sécurité des données face aux catastrophes humaines (sabotage)
+                \item la sécurité des données face aux catastrophes naturelles (incendie, tremblement de terre, etc)
+                \item l'exploitation des données par des entreprises et l'État pour les prises de décisions
+                \item l'amélioration des modèles liés aux domaines géotechniques
+                \item facilitation des recherches académiques et scientifique dans le domaine géotechique
+                \item ...
+            \end{itemize}
+        \subsection{Analyse des risques}
+        Les risques liés à la réalisation de ce projet sont multiples.
+        \paragraph{Risques sur le plan social :}
+        \begin{itemize}
+            \item \textbf{Les entreprises :}
+            L'enjeu pricipal est de convaincre les entreprises à accepter de rendre publiques des 
+            données qui non seulement ont toujours été privées mais aussi qui coûtent chers. 
+            Qu'auront-il à gagner en faisant ce geste ? 
+            Comment arriver à les motiver à faire un tel sacrifice ?
+            \item \textbf{Les visiteurs :}
+            De plus il faut arriver à inciter les professionels et les etudiants à
+            visiter la plateforme. Un flux d'activités important montrera l'intéret accordé à l'outil.
+        \end{itemize}
+        
+        \paragraph{Solution :}
+        La motivation des entreprises sera issue des avantages que l'on leur offrira et de l'ambiance
+        scientique dans laquelle ils se trouveront en utilisant l'outil. 
+        Tout un concepte sera mis en oeuvre : celui  \textbf{de science participative}.
+        Il s'agit de créer une communauté dans laquelle chacun est libre d'aporter sa contribution 
+        à la réussite du projet. Les entreprises seront en symbiose au gré des ingénieurs, étudiants 
+        et autres entreprises(banques, assurances, l'État, ...) en quête de données géotechniques.
+        Ce sera un environnment de partage entre scientifiques. Une campagne de sensibilisation à l'utilisation 
+        de l'outil est prévue. Son importance est capitale dans le processus de motivation dans laquelle 
+        tout entrepriseet tout utilisateur doit se retrouver.
+        \par
+        Pour l'ingénieur, ce sera un outil d'aide à la décision. Il peut optimiser son travail en exploitant
+        les données de la plateforme. Ainsi, cela évitra aux particuliers désirant réaliser une construction
+        d'être soumis aux lourdes contraintes budgétaires qu'implique une étude de sol.
+        \par
+        Pour l'étudiant, ce sera un outil de travail lui permettant de s'exercer avec des données réelles 
+        et le préparant pour la vie profosionnelle qui l'attend.
+        \par
+        Pour l'entreprise, ce sera un outil lui permettant d'evaluer les risques d'un investissement. Par 
+        exemple une banque peut s'appuyer sur ces données pour savoir si un prêt pour une construction dans une zone
+        est risqué ou pas.
+
+        \paragraph{Risques sur le plan technique :}
+        \begin{itemize}
+            \item \textbf{Réalisation d'un système trop encombrant :}
+            Un utilisateur peut se perdre facilement dans un système encombrant. Il convient de le mettre dans un environnment
+            pour il pourra facilement naviguer. L'expérience utilisateur (UX) est un point essentiel sur lequel on doit s'attarder.
+            \item \textbf{Ne pas utiliser les technologies appropriées :}
+            L'analyse des besoins et l'étude de la faisabilité conduisent au choix des téchnologies adéquates pour la réalisation
+            du système. Ces choix seront justifiées et adaptés à l'outil. 
+            Il s'agit aussi de ne pas réinventer la roue mais de tirer avantage de l'existant tout en réalisant 
+            un système adapté à Haïti.
+        \end{itemize}
+        \paragraph{Solution}
+        Le processus UX est global, il ne s’agit pas d’une compétence isolée mais d’une nouvelle 
+        démarche qui intègre un nouveau membre de l’équipe projet : l’utilisateur. \cite{Schaudel2020}
+        Il s'agira de co-construire l'interface avec l'utilisateur. On lui offre d'abord un espace simple et attrant
+        tout en étant à l'écoute de ses feedbacks. Dans ce sens, une version Beta de l'application sera lancé et sera prête
+        à être améliorée en fonction des demandes des utilisateurs.
+        \par
+
+
+    \section{Cheminement de la solution}
+        \subsection{Implémentation d'une BDD géotechniques}
+            \subsubsection{Numérisation des données}
+                \input{Partials/Contexte/__7-numerisation_des_donnees}
+            \subsubsection{Intégration de ces données dans une BDD}
+                \input{Partials/Contexte/__8-integration_des_donnees}
+        \subsection{Utilisation d'un SIG}
+            \subsubsection{Connection de la carte d'Haïti et de la BDD}
+                \input{Partials/Contexte/__9-connection_de_la_carte}
+            \subsubsection{Utilisation de fonds de carte}
+                \input{Partials/Contexte/__10-utilisation_de_fonds_de_carte}
+        \subsection{Visualisation des données} 
+            \subsubsection{Implémentation d'un UI intégrant un webmap}
+                \input{Partials/Contexte/__11-implementation_d_un_UI}
+            \subsubsection{Publication de l'interface}
+                \input{Partials/Contexte/__12-publication}
+        \begin{figure}[t]
+            \centering
+            \includegraphics[width=1\textwidth]{images/Contexte/evolution_projetGIS.png}
+            \caption{Cheminement de la solution}
+        \end{figure}
+
+    \section{Perspective de réalisation}
+        \input{Partials/Contexte/__13-perspective_de_realisation} 
