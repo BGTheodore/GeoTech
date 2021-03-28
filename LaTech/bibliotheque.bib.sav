@@ -73,8 +73,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
 }
 
 @TechReport{Cayenne,
-  author = {Gandolfi J-M, Meilhac A., Renault O},
-  title  = {Elaboration d'une base de données géotechniques sur l'Ile de Cayenne},
+
+  author = {Gandolfi, J.-M. and Meilhac, A. and Renault, O.},
+  title  = {Elaboration d'une base de données géotechniques sur l'ile de cayenne}
   year   = {2001},
   note   = {Notice d'utilisation du logiciel BD-GTC \_ version 2.1},
 }
@@ -126,7 +127,7 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
 
 @InProceedings{scott2015benefits,
   author    = {Scott, J and van Ballegooy, S and Stannard, M and Lacrosse, V and Russell, J},
-  title     = {The benefits and opportunities of a shared geotechnical database},
+  title     = {The be>>>>>>> master>>>>>>> masternefits and opportunities of a shared geotechnical database},
   booktitle = {6th International Conference on Earthquake Geotechnical Engineering, Christchurch, New Zealand. Retrieved from https://secure. tcc. co. nz/ei/images/ICEGE15\% 20Papers/Scott\_700. 00. pdf},
   year      = {2015},
 }
@@ -157,6 +158,14 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   author = {Keen, Sean and Hossack, Alex and Kizil, Mehmet S},
   title  = {Development and Implementation of a Geotechnical Database Management System},
   year   = {2015},
+}
+
+
+@Article{Schaudel2020,
+  author = {Christophe Schaudel},
+  title  = {Mettre en place un processus UX en 5 étapes},
+  year   = {2020},
+  url    = {https://blog.limpide.fr/analyse/processus-ux/},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
