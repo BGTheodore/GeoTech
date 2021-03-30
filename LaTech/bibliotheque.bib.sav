@@ -71,8 +71,7 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   note   = {http://www.urgeo.net/PDF/projet_risque_sismique_2019.pdf},
   url    = {http://www.urgeo.net/PDF/projet_risque_sismique_2019.pdf},
 }
-
-@TechReport{Cayenne,
+{Cayenne,
 
   author = {Gandolfi, J.-M. and Meilhac, A. and Renault, O.},
   title  = {Elaboration d'une base de données géotechniques sur l'ile de cayenne}
@@ -166,6 +165,20 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   title  = {Mettre en place un processus UX en 5 étapes},
   year   = {2020},
   url    = {https://blog.limpide.fr/analyse/processus-ux/},
+}
+
+@Book{audibert2009uml,
+  author    = {Audibert, Laurent},
+  publisher = {Ellipses},
+  title     = {Uml 2: de l'apprentissage {\`a} la pratique},
+  year      = {2009},
+  volume    = {298},
+}
+
+@Misc{conan2015introduction,
+  author = {Conan, Denis and Taconet, Chantal and Christian Bac, Octobre},
+  title  = {Introduction au langage de mod{\'e}lisation uml},
+  year   = {2015},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

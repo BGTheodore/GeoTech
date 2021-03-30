@@ -2,7 +2,141 @@
         \input{Partials/Analyse_des_besoins/besoins_et_contraintes}
                 \lipsum[1]
         \section{Approche de travail}
-                \lipsum[1]
+        \subsection{Le génie logiciel}
+        \textit{
+                En 1995, une étude du Standish Group dressait un tableau accablant de la 
+                conduite des projets informatiques. Reposant sur un échantillon 
+                représentatif de 365 entreprises, totalisant 8 380 applications, 
+                cette étude établissait que \cite{audibert2009uml} :
+                \begin{itemize}
+                        \item 16,2\% seulement des projets étaient conformes 
+                        aux prévisions initiales,
+                        \item 52,7\% avaient subi des dépassements en coût et délai d'un facteur 2 à 3 
+                        avec diminution du nombre des fonctions offertes,
+                        \item 31,1\% ont été purement abandonnés durant leur développement.
+                \end{itemize}
+        }
+        \paragraph{}
+        GéoTechMap doit faire partie de ces 16,2 \%. Pour ce faire, il ne faut surtout pas
+        négliger l'importance du génie logiciel.
+        \par
+        Le génie logiciel est un domaine de de recherche qui a pour objectif
+        d'optimiser le coût de développement d'un logiciel. De ce fait, notre
+        travail en tant qu'ingénieurs est de nous occuper de l'architecture
+        du logiciel, en l'occurence ses composants ainsi que ses mécanismes.
+        La conception passe par plusieurs phases. Ainsi, on établie une approche
+        de travail qui permettera de répondre aux besoins grandissants du système 
+        que l'on va concevoir.
+        \par
+        À la suite de l'évaluation et de la documentation des besoins spécifiques
+        de l'URGéo, des utilisateurs et des spécifications logiques et matérielles
+        relatif au système, un plan a été dréssé:
+        \begin{itemize}
+                \item l'analyse des besoins,
+                \item l'élaboration des spécifications,
+                \item la conceptualisation,
+                \item le développement,
+                \item la phase de test,
+                \item déploiement,
+                \item vulgarisation,
+                \item la maitenance
+        \end{itemize}
+        \paragraph{Un système de qualité}
+        \paragraph{}
+        Il s'agira d'offir un logiciel de qualité qui s'appuera sur différents facteurs.
+        GéoTechMap rempli exactement les fonction escomptés spécifieés dans le 
+        cahier des charges. La validité du système ne pourra être mis en doute.
+        De plus, ce sera un une application fiable et robuste, pouvant facilement
+        être combiné avec d'autres logiciels (choix de développement API). Dans le 
+        Tableau \ref*{tab:facteurs}, figurent les differents facteurs sur lesquels reposent la qualité
+        de GéoTechMap.
+
+\par    
+\begin{table}
+        \centering
+        \begin{tabular}{|p{0.20\linewidth}|p{0.80\linewidth}|}
+        \hline
+                \textbf{Facteurs} & \textbf{Détails} \\
+                \hline
+                Facilité d'emploi &
+                facilité d'apprentissage, d'utilisation, de préparation des données, 
+                d'interprétation des erreurs et de rattrapage en cas d'erreur d'utilisation.
+                         \\
+                \hline
+                Validité&
+                aptitude d'un produit logiciel à remplir exactement ses fonctions, 
+                définies par le cahier des charges et les spécifications
+                    \\
+                \hline
+                Fiabilité &
+                aptitude d'un produit logiciel à fonctionner dans des conditions anormales.
+                    \\
+                \hline
+                Réutilisabilité&
+                aptitude d'un logiciel à être réutilisé, en tout ou en partie, dans de nouvelles applications.
+                    \\
+                \hline
+                Compatibilité&
+                facilité avec laquelle un logiciel peut être combiné avec d'autres logiciels.
+                        \\
+                \hline
+                Efficacité&
+                Utilisation optimale des ressources matérielles.
+                        \\
+                \hline
+                Portabilité&
+                facilité avec laquelle un logiciel peut être transféré sous différents environnements matériels et logiciels.
+                        \\
+                \hline
+                Vérifiabilité&
+                facilité de préparation des procédures de test.
+                        \\
+                \hline 
+                Intégrité&
+                aptitude d'un logiciel à protéger son code et ses données contre des accès non autorisés.
+                        \\
+
+                \hline 
+        \end{tabular}
+        \caption{Quelques facteurs sur lesquels reposent la qualité
+        de GéoTechMap \cite{audibert2009uml}} \label{tab:facteurs}
+\end{table}
+\par
+
+        \subsection{Le cycle de vie du logiciel}
+        Ce cycle désigne les principales étapes de développement du logiciel.
+        Le but de cette sécantation est de permettre la vérification du processus de déveeloppement.
+        Il comprend le plus souvent les étapes suivantes :
+        \begin{itemize}
+                \item L'analyse des besoins et la faisabilité du projet
+                \item La conception
+                \item Le codage
+                \item Les tests
+                \item La documentation
+                \item La mise en production
+                \item La maintenance
+        \end{itemize}
+        Le cycle de vie peut être modélisé de plusieurs manières (Figure \ref{fig:methv} ).
+        Nous utiliserons ici le modèle du cycle en V car demeure actuellement le cycle de vie le 
+        plus connu et certainement le plus utilisé. 
+        Il s'agit d'un modèle en cascade dans lequel le 
+        développement des tests et du logiciel sont effectués 
+        de manière synchrone \cite{audibert2009uml}.
+        \begin{figure}[ht!]
+                \centering
+                \begin{subfigure}{.45\linewidth}
+                    \includegraphics[scale=0.35]{images/Analyse_des_besoins/methcasc.png}
+                    \caption{Modèle du cycle de vie en cascade}
+                \end{subfigure}
+                \hskip2em
+                \begin{subfigure}{.45\linewidth}
+                    \includegraphics[scale=0.35]{images/Analyse_des_besoins/methv.png}
+                    \caption{Modèle du cycle de vie en V}
+                \end{subfigure}
+                \label{fig:methv}
+            \end{figure}
+           
+       
         \section{Méthodologie}
                 \lipsum[1]
         \section{Structure modulaire}
