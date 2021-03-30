@@ -175,4 +175,10 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   volume    = {298},
 }
 
+@Misc{conan2015introduction,
+  author = {Conan, Denis and Taconet, Chantal and Christian Bac, Octobre},
+  title  = {Introduction au langage de mod{\'e}lisation UML},
+  year   = {2015},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
