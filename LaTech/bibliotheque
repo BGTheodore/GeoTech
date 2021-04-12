@@ -181,4 +181,18 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   year   = {2015},
 }
 
+@Article{Littlefield2017,
+  author = {Par Andrew Littlefield},
+  title  = {Gestion de projets: méthode agile et scrum pour les nuls},
+  year   = {2017},
+  url    = {https://blog.trello.com/fr/methode-agile-scrum-gestion-projet#:~:text=Dans la méthode agile de,est une durée communément utilisée.},
+}
+
+@Article{2017,
+  author = {David galiana},
+  title  = {Qu'est-ce que la méthodologie waterfall ?},
+  year   = {2017},
+  url    = {https://www.planzone.fr/blog/quest-ce-que-la-methodologie-waterfall},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
