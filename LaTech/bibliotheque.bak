@@ -160,9 +160,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   pages        = {3360--3365},
 }
 
-@Article{keen2015,
-  author = {Keen, Sean and Hossack, Alex and Kizil, Mehmet S.},
-  title  = {Development and implementation of a geotechnical database management system},
+@Article{keen2015development,
+  author = {Keen, Sean and Hossack, Alex and Kizil, Mehmet S},
+  title  = {Development and Implementation of a Geotechnical Database Management System},
   year   = {2015},
 }
 
