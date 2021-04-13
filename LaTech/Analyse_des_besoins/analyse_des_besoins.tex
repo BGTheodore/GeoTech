@@ -141,8 +141,8 @@
         \section{Méthodologie}
         Pour la réalisation d'un système complexe, le traitement des problèmes doit se faire 
         de manière efficace. Les tâches lourdes sont divisées en de petites et assignées 
-        à chaque membre de l'équipe  en fonction de ses aptitudes à les résoudre. En peu de mots,
-        la méthodologie Agile est la plus adaptée dans le cadre de ce projet.
+        à chaque membre de l'équipe  en fonction de ses aptitudes à les résoudre. Dans le cadre de ce projet,
+        la méthodologie Agile est la plus adaptée.
 
         \paragraph{Agile, c'est quoi ?}
         \paragraph{}
@@ -174,7 +174,7 @@
         \paragraph{Kanban}
         \paragraph{}
         \textit{Kanban est une méthodologie de gestion de projet agile pour le développement de logiciels où l'accent
-        consiste à indiquer avec précision le travail à effectuer et le moment où il doit être fait}\cite{skauge2019humble}.
+        consiste à indiquer avec précision le travail à effectuer et le moment où il doit être fait}\cite{skauge}.
         \par
         Kanban consiste à visualiser votre travail, à limiter le travail en cours et à maximiser l'efficacité (ou le flux). 
         Les équipes Kanban se concentrent sur la réduction du temps nécessaire pour prendre un projet (ou une user story) 
@@ -198,7 +198,7 @@
                 prochain sprint.
         \end{itemize}
 
-        \paragraph{Pourquoi Agile, Kaban et Scrum ?}
+        \paragraph{Pourquoi Agile, Kanban et Scrum ?}
         \paragraph{}
         Nous sommes fixés sur le choix de la méthode Agile. Mais concernant le framework qui va
         l'implémenter, on se fait le plaisir de jongler par moments avec Kanban et Scrum. 
@@ -213,7 +213,10 @@
         sont pris en compte et l'équipe projet peut réagir rapidement.
                 \item Le client dispose d'une meilleure visibilité sur l'avancement du projet et peut ainsi l'ajuster 
                 en fonction de ses besoins. Le contrôle qualité est permanent. Quant à l'équipe projet, elle peut 
-                réagir rapidement aux demandes du client.\footnote{Qu'est-ce que la méthodologie Agile ? \url{https://www.planzone.fr/blog/quest-ce-que-la-methodologie-agile}}
+                réagir rapidement aux demandes du client.
+                \footnote{
+                \url{https://www.planzone.fr/blog/quest-ce-que-la-methodologie-agile}
+                }
         \end{itemize}
 
         \par    
@@ -258,7 +261,81 @@
         
 
         \section{Structure modulaire}
-                \lipsum[1]
+                Le dictionnaire Larousse définit une stucture modulaire comme suit : 
+                \textit{Se dit d'un système, matériel ou logiciel, conçu en séparant les 
+                fonctions élémentaires pour qu'elles puissent être étudiées et réalisées séparément}\cite{Larousse}. 
+                Cette décision est prise pour faciliter la conception et l'évolution du système GéotechMap.
+                On réalisant des modules indépendant, il devient plus facile de les tester, les modifier 
+                ainsi que les intégrer dans d'autres applications. Par conséquent, la communication entre les modules 
+                est plus fluide et n'importe quel ingénieur que travailler sur le sytème.
+                \paragraph{Les pricipaux modules sont :}
+                \begin{itemize}
+                        \item La base de données
+                        \item Les API
+                        \item La gestion des utilisateurs
+                        \item L'administration
+                        \item Le côté client
+                \end{itemize}
+                \paragraph{La base de données}
+                \paragraph{}
+                Une base de données est un ensemble d'informations organisées de manière 
+                à être facilement accessibles, gérées et mises à jour. Il existe les types de bases de données:
+                \begin{itemize}
+                        \item Base de données centralisée.
+                        \item Base de données distribuée.
+                        \item Base de données personnelle.
+                        \item Base de données relationnelle.
+                        \item ...\footnote{https://www.tutorialspoint.com/Types-of-databases}
+                \end{itemize}
+                Notre choix est axé sur la base de données relationnelle (plus de détails dans le chapitre suivant).
+                Ces bases de données sont catégorisées par un ensemble de tables où les données 
+                sont intégrées dans une catégorie prédéfinie. La table se compose de lignes (tuples)
+                et de colonnes où la colonne a une entrée pour les données d'une catégorie spécifique 
+                et les lignes contiennent une instance pour ces données définies en fonction de la catégorie. 
+                Le langage SQL (Structured Query Language) est le langage standard pour interagir avec
+                 une base de données relationnelle.
+                 \paragraph{}
+                 \textit{Le modèle relationnel simple mais puissant est utilisé par des organisations 
+                 de tous types et de toutes tailles pour une grande variété de besoins d'information}\cite{Oracle}.
+                  Les bases de données relationnelles sont utilisées pour suivre les inventaires, 
+                  traiter les transactions de commerce électronique, gérer d'énormes quantités d'informations
+                   client critiques, et bien plus encore. Une base de données relationnelle peut être envisagée 
+                   pour tout besoin d'information dans lequel les points de données sont liés les uns 
+                   aux autres et doivent être gérés de manière sécurisée, basée sur des règles et cohérente.
+
+                \paragraph{Les API}
+                \paragraph{}
+                \textit{Une API est un ensemble de définitions et de protocoles qui facilite la création et 
+                l'intégration de logiciels d'applications}\cite{RedHat}. API est un acronyme anglais qui signifie 
+                « Application Programming Interface », que l'on traduit par interface de programmation d'application.
+                \paragraph{Utilité :}
+                Les API permettent à votre produit ou service de communiquer avec d'autres produits et services 
+                sans connaître les détails de leur mise en œuvre. Elles simplifient le développement d'applications 
+                et vous font ainsi gagner du temps et de l'argent. Lorsque vous concevez de nouveaux outils et produits, 
+                ou que vous assurez la gestion de ceux qui existent déjà, les API vous offrent plus de flexibilité, 
+                simplifient la conception, l'administration et l'utilisation, et vous donnent les moyens d'innover.
+                \textit{Les API sont parfois considérées comme des contrats, avec une documentation qui constitue 
+                un accord entre les parties : si la partie 1 envoie une requête à distance selon une structure 
+                particulière, le logiciel de la partie 2 devra répondre selon les conditions définies. 
+                Chaque partie s’engage à respecter le contrat, donnant ainsi de la stabilité aux échanges}\cite{Alteva}
+                \paragraph{}
+                Les API Web utilisent en général le protocole HTTP pour leurs messages de requête et fournissent une 
+                définition de la structure des messages de réponse. Les messages de réponse se présentent 
+                la plupart du temps sous la forme d'un fichier XML ou JSON. Ces deux formats sont les plus courants, 
+                car les données qu'ils contiennent sont faciles à manipuler pour les autres applications.
+                \paragraph{La gestion des utilisateurs}
+                \paragraph{}
+                On fait en sorte que la gestion des utiliateurs soit indépendant de l'application.
+                Cela allège l'application. De plus, à n'importe quel moment, de nouvelles règles peuvent être définies
+                pour les utilisateurs. Ce module est hébergé sur une instance à part et délivre ses services.
+                \paragraph{L'administration (Dashboard admin)}
+                \paragraph{}
+                La partie administration est une application à part entière qui communique avec la base de données.
+                Différents modules sont implémentés: Essais, Institutions, etc. Cette partie est constitué du controlleur
+                en backend et d'un interface utiliateur.
+                \paragraph{Le côté client}
+                
+
         \section{Préparation des documents}
                 \input{Partials/Analyse_des_besoins/preparation_des_doc}
         \section{Modélisation avec UML}
