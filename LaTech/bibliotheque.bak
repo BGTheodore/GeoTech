@@ -215,10 +215,4 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   year   = {2019},
 }
 
-@Article{Rehkopf,
-  author = {Max Rehkopf},
-  title  = {Kanban vs. scrum: which agile are you?},
-  url    = {https://www.atlassian.com/agile/kanban/kanban-vs-scrum#:~:text=Kanban teams focus on reducing,through set intervals called sprints.&text=Scrum is best defined in The Scrum Guide.},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
