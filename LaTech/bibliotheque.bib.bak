@@ -239,4 +239,87 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url    = {https://www.redhat.com/fr/topics/api/what-are-application-programming-interfaces},
 }
 
+@Article{Alteva,
+  author = {Alteva},
+  title  = {Mission api : la bibliothèque d’api de mission},
+  url    = {https://alteva.fr/mission-api/},
+}
+
+@Article{Chamel,
+  author = {Guillaume Chamel},
+  title  = {Lors d’un projet d’aménagement},
+  url    = {https://www.geosoc.fr/quid-sgf/134-quid/amenagement-geotechnique/723-pourquoi-realiser-une-etude-geotechnique-avant-un-projet-d-amenagement.html},
+}
+
+@PhdThesis{benachenhou2019approche,
+  author = {BENACHENHOU EP HAKIKI, K. A. M. I. L. A. A. M. E. L.},
+  title  = {Approche syst{\'e}mique du management des risques dans l’ing{\'e}nierie g{\'e}otechnique. Pour une interop{\'e}rabilit{\'e} des acteurs dans l’environnement alg{\'e}rien},
+  year   = {2019},
+}
+
+@InCollection{penetrometrie,
+  title = {http://legeotechnicien.blogspot.com/2010/08/moyens-dinvestigation-in-situ-2.html},
+}
+
+@Article{ciat,
+  title = {http://ciat.gouv.ht/sites/default/files/articles/files/ATLAS%20HAITI%20FRENCH%2005032017_LR.pdf},
+  doi   = {http://ciat.gouv.ht/sites/default/files/articles/files/ATLAS HAITI FRENCH 05032017_LR.pdf},
+  url   = {http://ciat.gouv.ht/sites/default/files/articles/files/ATLAS HAITI FRENCH 05032017_LR.pdf},
+}
+
+@Electronic{,
+}
+
+@InCollection{mondiale2010haiti,
+  author    = {Mondiale, Banque and des Nations Unies, Syst{\`e}me and others},
+  booktitle = {Ha{\"\i}ti: PDNA du Tremblement de Terre {\^u} Evaluation des dommages, des pertes et des besoins g{\'e}n{\'e}raux et sectoriels},
+  title     = {Ha{\"\i}ti: PDNA du Tremblement de Terre {\^u} Evaluation des dommages, des pertes et des besoins g{\'e}n{\'e}raux et sectoriels},
+  year      = {2010},
+  pages     = {121--121},
+}
+
+@Article{desroches2011overview,
+  author    = {DesRoches, Reginald and Comerio, Mary and Eberhard, Marc and Mooney, Walter and Rix, Glenn J},
+  journal   = {Earthquake Spectra},
+  title     = {Overview of the 2010 Haiti earthquake},
+  year      = {2011},
+  number    = {1\_suppl1},
+  pages     = {1--21},
+  volume    = {27},
+  publisher = {SAGE Publications Sage UK: London, England},
+}
+
+@Article{daniell2013uncovering,
+  author    = {Daniell, JE and Khazai, B and Wenzel, F},
+  journal   = {Natural Hazards and Earth System Sciences Discussions},
+  title     = {Uncovering the 2010 Haiti earthquake death toll},
+  year      = {2013},
+  number    = {3},
+  pages     = {1913--1942},
+  volume    = {1},
+  publisher = {Copernicus GmbH},
+}
+
+@Article{holly1999problemes,
+  author  = {Holly, G{\'e}rald},
+  journal = {Port-au-Prince, ouvrage collectif, Commission pour la comm{\'e}moration du 250{\`e} anniversaire de la fondation de la ville de Port-au-Prince},
+  title   = {Les probl{\`e}mes environnementaux de la r{\'e}gion m{\'e}tropolitaine de Port-au-Prince},
+  year    = {1999},
+}
+
+@Article{linkurgeo,
+  title = {http://www.urgeo.net/},
+  url   = {http://www.urgeo.net/},
+}
+
+@Article{linkbme,
+  title = {http://www.bme.gouv.ht/},
+  url   = {http://www.bme.gouv.ht/},
+}
+
+@Article{linklnbtp,
+  title = {https://lnbtp.gouv.ht/},
+  url   = {https://lnbtp.gouv.ht/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
