@@ -300,4 +300,26 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   publisher = {Copernicus GmbH},
 }
 
+@Article{holly1999problemes,
+  author  = {Holly, G{\'e}rald},
+  journal = {Port-au-Prince, ouvrage collectif, Commission pour la comm{\'e}moration du 250{\`e} anniversaire de la fondation de la ville de Port-au-Prince},
+  title   = {Les probl{\`e}mes environnementaux de la r{\'e}gion m{\'e}tropolitaine de Port-au-Prince},
+  year    = {1999},
+}
+
+@Article{linkurgeo,
+  title = {http://www.urgeo.net/},
+  url   = {http://www.urgeo.net/},
+}
+
+@Article{linkbme,
+  title = {http://www.bme.gouv.ht/},
+  url   = {http://www.bme.gouv.ht/},
+}
+
+@Article{linklnbtp,
+  title = {https://lnbtp.gouv.ht/},
+  url   = {https://lnbtp.gouv.ht/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
