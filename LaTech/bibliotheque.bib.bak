@@ -322,4 +322,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://lnbtp.gouv.ht/},
 }
 
+@Article{linkgeotechsol,
+  title = {https://geotechsol.com/},
+  url   = {https://geotechsol.com/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
