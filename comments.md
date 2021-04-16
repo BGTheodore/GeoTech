@@ -45,7 +45,7 @@ kote pa super admin yo ?
 si ou pa tou ekri texte yo wap pedu feeling nan leu wap tounen sou yo e gen bagay wap bliye. ekri texte ki asocier a images yo.
 
 ToDo - Kevin - PDF
-1. [] Ajouter reference pour superficie du territoire haitien
+1. [x] Ajouter reference pour superficie du territoire haitien
 2. [] FIgure 1.4 n apparait pas en caption sous l'image. En PDF, ca ne pose pas de prob, mais une fois imprime, on ne saura pas a quoi font reference 1.4a et 1.4b
 3. [] 
 
