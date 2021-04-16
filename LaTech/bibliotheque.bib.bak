@@ -327,4 +327,10 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://geotechsol.com/},
 }
 
+@Article{bertil63100equipe,
+  author  = {Bertil, D and Pr{\'e}petit, C and Belvaux, M and Noury, G},
+  journal = {Rapport Final. BRGM/RC-63100-FR},
+  title   = {l’{\'e}quipe microzonage, 2013: Microzonage sismique de Port-au-Prince(Ha{\"\i}ti): rapport de synth{\`e}se},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
