@@ -338,4 +338,18 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.larousse.fr/encyclopedie/pays/Haïti/122971},
 }
 
+@Article{citeseqdiag,
+  url = {https://developer.ibm.com/technologies/web-development/articles/the-sequence-diagram/},
+}
+
+@Article{,
+  author = {Donald Bell},
+  title  = {The sequence diagram},
+  year   = {2004},
+}
+
+@Article{,
+  title = {UML 2 De l'apprentissage à la pratique},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

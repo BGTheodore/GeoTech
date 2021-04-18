@@ -1,6 +1,4 @@
 \chapter{Analyse des besoins}
-        \input{Partials/Analyse_des_besoins/besoins_et_contraintes}
-                \lipsum[1]
         \section{Approche de travail}
         \subsection{Le génie logiciel}
         \textit{
@@ -258,8 +256,13 @@
 \par
         
         
-        
-
+        \section{Préparation des documents}
+                \input{Partials/Analyse_des_besoins/preparation_des_doc}
+        \section{Besoins et contraintes}
+                \input{Partials/Analyse_des_besoins/besoins_et_contraintes}
+                \lipsum[1]
+        \section{Modélisation avec UML}
+                \input{Partials/Analyse_des_besoins/modelisation_avec_uml}
         \section{Structure modulaire}
                 Le dictionnaire Larousse définit une stucture modulaire comme suit : 
                 \textit{Se dit d'un système, matériel ou logiciel, conçu en séparant les 
@@ -281,10 +284,10 @@
                 Une base de données est un ensemble d'informations organisées de manière 
                 à être facilement accessibles, gérées et mises à jour. Il existe les types de bases de données:
                 \begin{itemize}
-                        \item Base de données centralisée.
-                        \item Base de données distribuée.
-                        \item Base de données personnelle.
-                        \item Base de données relationnelle.
+                        \item Base de données centralisée
+                        \item Base de données distribuée
+                        \item Base de données personnelle
+                        \item Base de données relationnelle
                         \item ...\footnote{https://www.tutorialspoint.com/Types-of-databases}
                 \end{itemize}
                 Notre choix est axé sur la base de données relationnelle (plus de détails dans le chapitre suivant).
@@ -325,7 +328,7 @@
                 car les données qu'ils contiennent sont faciles à manipuler pour les autres applications.
                 \paragraph{La gestion des utilisateurs}
                 \paragraph{}
-                On fait en sorte que la gestion des utiliateurs soit indépendant de l'application.
+                On fait en sorte que la gestion des utilisateurs soit indépendants de l'application.
                 Cela allège l'application. De plus, à n'importe quel moment, de nouvelles règles peuvent être définies
                 pour les utilisateurs. Ce module est hébergé sur une instance à part et délivre ses services.
                 \paragraph{L'administration (Dashboard admin)}
@@ -336,9 +339,5 @@
                 \paragraph{Le côté client}
                 
 
-        \section{Préparation des documents}
-                \input{Partials/Analyse_des_besoins/preparation_des_doc}
-        \section{Modélisation avec UML}
-        \input{Partials/Analyse_des_besoins/modelisation_avec_uml}
         
  
