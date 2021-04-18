@@ -27,6 +27,10 @@ par les professionnels et ceux qui veulent interpréter un système.
 Le Unified Modeling Language spécifie 14 types de 
 diagrammes qui représentent la structure, le comportement et les interactions d’un système.
 \subsection{Diagrammes des cas d'utilisation}
+Commençons avec les diagrammes des cas d'utilisation. Ils représentent 
+la structure des grandes fonctionnalités nécessaires 
+aux utilisateurs du système. C'est le premier diagramme du modèle UML, celui où s'assure la 
+relation entre l'utilisateur et les objets que le système met en œuvre\cite{audibert2009uml}.
     \subsubsection{Cas général}
     \paragraph{}
     \begin{figure}
@@ -37,9 +41,7 @@ diagrammes qui représentent la structure, le comportement et les interactions d
     \par 
     Trois niveaux d'acteurs sont à considérer au sein du système: un visiteur, 
     un administrateur et un super administrateur. La hiérarchisation permet que 
-    chaque niveau ait accès aux droits du niveau immédiatement inférieur. 
-    De ce fait, un super administrateur est également un administrateur et 
-    un visiteur en plus de son niveau direct. \par 
+    chaque niveau ait accès à des droits spécifiques. \par 
 Pour commencer, le visiteur a des droits d'accès très restreints: \par 
 \begin{itemize}
     \item Parcourir le webmap: Le visiteur peut voir l'ensemble des informations 
