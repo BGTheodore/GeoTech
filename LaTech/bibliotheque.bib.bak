@@ -333,4 +333,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   title   = {l’{\'e}quipe microzonage, 2013: Microzonage sismique de Port-au-Prince(Ha{\"\i}ti): rapport de synth{\`e}se},
 }
 
+@Article{superficie,
+  title = {https://www.larousse.fr/encyclopedie/pays/Ha%C3%AFti/122971},
+  url   = {https://www.larousse.fr/encyclopedie/pays/Haïti/122971},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

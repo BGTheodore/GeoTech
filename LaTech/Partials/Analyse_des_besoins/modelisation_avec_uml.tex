@@ -170,7 +170,7 @@ n'est nécessaire au préalable. Lorsqu'un visiteur accède au site, il peut don
 
     \subsection{Diagramme d'objets}
     \paragraph{}
-    Ce diagramme montre les relations entre des objets à travers 
+    Ce diagramme \ref{fig:ObjectDiagram} montre les relations entre des objets à travers 
     des exemples tirés du monde réel et permet de voir 
     l'apparence d'un système à n'importe quel instant donné. 
     Les données sont disponibles à l'intérieur des objets, 
@@ -189,3 +189,49 @@ n'est nécessaire au préalable. Lorsqu'un visiteur accède au site, il peut don
     \end{itemize}
     Le diagramme de classes modélise les règles et le diagramme d'objets 
     modélise des faits \cite{audibert2009uml}.
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/ObjectDiagram.jpg}
+        \caption{Cheminement de la solution}
+        \label{fig:ObjectDiagram}
+    \end{figure}
+
+    \subsection{Diagramme d'activités}
+    Les diagrammes de séquence sont une solution de modélisation 
+    dynamique populaire dans UML car ils se concentrent spécifiquement 
+    sur les lignes de vie, ou les processus et les objets qui vivent 
+    simultanément, et les messages échangés entre eux pour exécuter 
+    une fonction avant la fin de la ligne de vie. 
+    \par
+    Un diagramme de séquence est un type de diagramme d'interaction car 
+    il décrit comment et dans quel ordre un groupe d'objets fonctionne 
+    ensemble. Ces diagrammes sont utilisés par les développeurs de 
+    logiciels et les professionnels pour comprendre les exigences 
+    d'un nouveau système ou pour documenter un processus existant. 
+    Les diagrammes de séquence sont parfois appelés diagrammes d'événements 
+    ou scénarios d'événements.
+    \par 
+    Le but principal d'un diagramme de séquence est de définir des séquences 
+    d'événements qui aboutissent à un résultat souhaité. L'accent est moins mis 
+    sur les messages eux-mêmes que sur l'ordre dans lequel les messages se produisent; 
+    néanmoins, la plupart des diagrammes de séquence communiqueront quels messages sont 
+    envoyés entre les objets d’un système ainsi que l’ordre dans lequel ils se 
+    produisent \cite{citeseqdiag}.
+    \paragraph{}
+    \textit{Les principales informations contenues dans un sont les messages échangés 
+    entre les lignes de vie, présentés dans un ordre chronologique. Ainsi, 
+    contrairement au diagramme de communication, le temps y est représenté 
+    explicitement par une dimension (la dimension verticale) et s'écoule de 
+    haut en bas\cite{}.}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/CRUDRessourceSequenceDiagram1.png}
+        \caption{Diagramme des séquences : CRUD ressources}
+        \label{fig:CRUDRessourceSequenceDiagram1}
+    \end{figure}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/ressourceManagementSequenceDiagram1.png}
+        \caption{Diagramme des séquences : gestion des ressources}
+        \label{fig:ressourceManagementSequenceDiagram1}
+    \end{figure}
