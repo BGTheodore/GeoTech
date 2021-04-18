@@ -352,4 +352,10 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   title = {UML 2 De l'apprentissage à la pratique},
 }
 
+@Misc{conan2015introduction,
+  author = {Conan, Denis and Taconet, Chantal and Christian Bac, Octobre},
+  title  = {Introduction au langage de mod{\'e}lisation UML},
+  year   = {2015},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
