@@ -169,9 +169,17 @@ n'est nécessaire au préalable. Lorsqu'un visiteur accède au site, il peut don
     Huit grandes classes sont donc implémentées afin d'enregistrées les informations à enregistrer 
     au sein de l'application:
     \begin{itemize}
-        \item Utilisateur
-        \item Institution
-        \item Essai 
+        \item \textbf{User:} On y trouve les informations relatives 
+        aux différents utilisateurs internes du système: administrateur 
+        et superadmin.
+        \item \textbf{Institution:} Ici sont listées les institutions liées au projet.
+        \item \textbf{Test:} Chaque essai ayant des informations importantes, cette classe pourra 
+        les enregistrer.
+        \item \textbf{Coordonate} pour enregistrer les coordonnées des zones sur lesquelles ont été effectués les essais
+        \item \textbf{TestType} pour les différents types de tests existants
+        \item \textbf{File} afin de sauvegarder les fichiers 
+        \item \textbf{User\_role} pour limiter les droits d'accès d'un utilisateur 
+        \item \textbf{Role} pour associer un rôle à chaque type d'utilisateur
     \end{itemize}
     \par 
 
