@@ -11,7 +11,7 @@ et une maintenance efficace. Le choix du modèle a donc une influence capitale
 sur les solutions obtenues.
 \paragraph{UML}
 \paragraph{}
-Une image vaux mieux que milles mots.
+Une image vaut mieux que mille mots.
 Considérez que ce proverbe comme le résumé de l'origine
 de la schématisation en langage de modélisation unifié.
 Le langage UML (Unified Modeling Language) résume et visualise les 
@@ -27,6 +27,10 @@ par les professionnels et ceux qui veulent interpréter un système.
 Le Unified Modeling Language spécifie 14 types de 
 diagrammes qui représentent la structure, le comportement et les interactions d’un système.
 \subsection{Diagrammes des cas d'utilisation}
+Commençons avec les diagrammes des cas d'utilisation. Ils représentent 
+la structure des grandes fonctionnalités nécessaires 
+aux utilisateurs du système. C'est le premier diagramme du modèle UML, celui où s'assure la 
+relation entre l'utilisateur et les objets que le système met en œuvre\cite{audibert2009uml}.
     \subsubsection{Cas général}
     \paragraph{}
     \begin{figure}
@@ -37,10 +41,8 @@ diagrammes qui représentent la structure, le comportement et les interactions d
     \par 
     Trois niveaux d'acteurs sont à considérer au sein du système: un visiteur, 
     un administrateur et un super administrateur. La hiérarchisation permet que 
-    chaque niveau ait accès aux droits du niveau immédiatement inférieur. 
-    De ce fait, un super administrateur est également un administrateur et 
-    un visiteur en plus de son niveau direct. \par 
-Pour commencer, le visiteur a des droits d'accès très restreints: \par 
+    chaque niveau ait accès à des droits spécifiques. \par 
+Pour commencer, le \textbf{visiteur} a des droits d'accès très restreints: \par 
 \begin{itemize}
     \item Parcourir le webmap: Le visiteur peut voir l'ensemble des informations 
     géotechniques disponibles sur la carte.
@@ -58,7 +60,7 @@ Pour commencer, le visiteur a des droits d'accès très restreints: \par
 
 \paragraph{}
 De son côté, l'\textbf{administrateur} s'occupe de la gestion des informations au sein de la base 
-de données. En plus des droits de visiteur, ce type d'utilisateur peut:
+de données. Il peut donc:
 \begin{itemize}
     \item Ajouter des informations géotechniques: L'admin peut ajouter des informations 
     dans la bdd, qui sont reflétées sur la carte. 
@@ -74,8 +76,7 @@ de données. En plus des droits de visiteur, ce type d'utilisateur peut:
 Évidemment, aucune de ces actions ne saura avoir lieu tant que l'administrateur ne s'est pas authentifié.
 
 En dernier lieu, le super administrateur joue surtout un rôle de gestionnaire en ressources 
-humaines. Une fois authentifié, en plus des droits d'accès d'un simple administrateur, 
-cet utiliateur peut:
+humaines. Une fois authentifié, il est en mesure de:
 \begin{itemize}
     \item Ajouter des utilisateurs
     \item Modifier les utilisateurs
@@ -155,18 +156,32 @@ n'est nécessaire au préalable. Lorsqu'un visiteur accède au site, il peut don
     \subsection{Diagramme de classes}
     \paragraph{}
     Il s'agit du diagramme le plus important dans le cadre 
-    d'une modélisation orientée objet. Grâce à lui, le concepteur peut 
-    représenter la structure interne du travail à réaliser, lui 
-    permettant de trouver un meilleur terrain d'entente avec le client.
+    d'une modélisation orientée objet. Grâce à lui, nous pouvons
+    représenter la structure interne du travail à réaliser, nous 
+    permettant de trouver un meilleur terrain d'entente avec nos collaborateurs.
     \par 
-    Trois grandes classes sont donc implémentées:
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=1\textwidth]{images/Analyse_des_besoins/ClassDiagram.png}
+        \caption{Diagramme de classe}
+        \label{fig:ClassDiagram}
+    \end{figure}
+    Huit grandes classes sont donc implémentées afin d'enregistrées les informations à enregistrer 
+    au sein de l'application:
     \begin{itemize}
-        \item Utilisateur
-        \item Institution
-        \item Essai 
+        \item \textbf{User:} On y trouve les informations relatives 
+        aux différents utilisateurs internes du système: administrateur 
+        et superadmin.
+        \item \textbf{Institution:} Ici sont listées les institutions liées au projet.
+        \item \textbf{Test:} Chaque essai ayant des informations importantes, cette classe pourra 
+        les enregistrer.
+        \item \textbf{Coordonate} pour enregistrer les coordonnées des zones sur lesquelles ont été effectués les essais
+        \item \textbf{TestType} pour les différents types de tests existants
+        \item \textbf{File} afin de sauvegarder les fichiers 
+        \item \textbf{User\_role} pour limiter les droits d'accès d'un utilisateur 
+        \item \textbf{Role} pour associer un rôle à chaque type d'utilisateur
     \end{itemize}
     \par 
-    [TO BE CONTINUED - Take a look ds le fichier mdj]
 
     \subsection{Diagramme d'objets}
     \paragraph{}
@@ -182,10 +197,11 @@ n'est nécessaire au préalable. Lorsqu'un visiteur accède au site, il peut don
     pour donner une vue figée de l'état d'un système à un 
     instant donné. Un diagramme d'objets peut être utilisé pour :
     \begin{itemize}
-        \item illustrer le modèle de classes en montrant un exemple qui explique le modèle ;
-        \item  préciser certains aspects du système en mettant en évidence des détails imperceptibles dans le diagramme de classes ;
-        \item exprimer une exception en modélisant des cas particuliers ou des connaissances non généralisables qui ne sont pas modélisés dans un diagramme de classe ;
-        \item prendre une image (snapshot) d'un système à un moment donné.
+        \item Illustrer le modèle de classes en montrant un exemple qui explique le modèle ;
+        \item Préciser certains aspects du système en mettant en évidence des détails imperceptibles dans le diagramme de classes ;
+        \item Exprimer une exception en modélisant des cas particuliers ou des connaissances non généralisables 
+        qui ne sont pas modélisés dans un diagramme de classe ;
+        \item Prendre une image (snapshot) d'un système à un moment donné.
     \end{itemize}
     Le diagramme de classes modélise les règles et le diagramme d'objets 
     modélise des faits \cite{audibert2009uml}.
