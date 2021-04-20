@@ -424,4 +424,10 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   volume  = {5},
 }
 
+@Article{Vardhan2020,
+  author = {Harsha Vardhan},
+  title  = {What’s new in react v17?},
+  year   = {2020},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
