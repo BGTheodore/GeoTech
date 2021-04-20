@@ -383,4 +383,19 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://sernageomin.maps.arcgis.com/home/webmap/viewer.html?webmap=2235c5a7264548558adac19b04936903},
 }
 
+@Article{Bulatovych,
+  author = {Daria Bulatovych},
+  title  = {Choosing a tech stack for the full-cycle web application development in 2021},
+  url    = {https://yalantis.com/blog/tech-stack-for-web-app-development/},
+}
+
+@InCollection{yang2003html,
+  author    = {Yang, Yudong and Chen, Yu and Zhang, HongJiang},
+  booktitle = {Web Document Analysis: Challenges and Opportunities},
+  publisher = {World Scientific},
+  title     = {HTML page analysis based on visual cues},
+  year      = {2003},
+  pages     = {113--131},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
