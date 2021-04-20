@@ -438,4 +438,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   volume    = {1},
 }
 
+@Article{linkstatmobile,
+  title = {https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/},
+  url   = {https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

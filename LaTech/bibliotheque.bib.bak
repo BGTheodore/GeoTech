@@ -430,4 +430,12 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   year   = {2020},
 }
 
+@Book{wang2013definitive,
+  author    = {Wang, Vanessa and Salim, Frank and Moskovits, Peter},
+  publisher = {Springer},
+  title     = {The definitive guide to HTML5 WebSocket},
+  year      = {2013},
+  volume    = {1},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
