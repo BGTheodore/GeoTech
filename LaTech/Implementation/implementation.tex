@@ -22,7 +22,7 @@
         \subsection{Frontend}
         L'interface utilisateur est également appelée côté client, car les utilisateurs voient et interagissent 
         avec cette partie d'une application. Pour une application web, cette interaction s'effectue 
-        dans un navigateur web et est possible grâce à de nombreux outils de programmation. 
+        dans un navigateur web et est possible grâce à de nombreux outils de programmation (Tableau \ref{tab:techoFrontend}). 
         Les applications Web destinées aux clients sont généralement créées à l'aide d'une combinaison 
         de JavaScript, HTML et CSS.
         \paragraph{Outils que nous utilisons pour le développement frontend:}
@@ -40,12 +40,74 @@
          (Cascading Style Sheets) est un langage de feuille de style qui décrit 
         l'apparence et la mise en forme d'un document écrit en HTML. CSS est utilisé 
         pour annoter du texte et incorporer des balises dans des documents électroniques stylisés.
+        Le CSS est encore plus important car il doit être pris en compte pour rendre l'applicatgion responsive.
+        L'interface utilisateur doit pouvoir s'adapter à n'importe quelle dimention d'écran 
+        d'autant plus que nous constatons la montée du trafic web via les téléphones mobiles (Figure \ref{fig:statMobile}).
+        \begin{figure}[t]
+                \centering
+                \includegraphics[scale=0.5]{images/Implementation/statMobile.png}
+                \caption{
+                        Pourcentage du trafic du site Web sur les appareils 
+                        mobiles dans le monde du 1er trimestre 2015 au 3ème trimestre 2020 \cite{linkstatmobile}}
+                \label{fig:statMobile}
+        \end{figure}
         \paragraph{JavaScript (ou JS): }
          C'est la troisième technologie principale pour créer 
         l'interface d'une application Web. JavaScript est couramment utilisé pour créer des 
         pages Web dynamiques et interactives. En d'autres termes, il permet des animations 
         Web simples et complexes, qui contribuent grandement à une expérience utilisateur 
         positive.
+        \par
+        \textit{JavaScript est devenu le langage de facto pour la programmation Web côté client \cite{gardner2012towards}.}
+        \paragraph{React: }
+        C'est une bibliothèque JavaScript pour créer des interfaces utilisateur.
+        ReactJS offre des solutions élégantes à certains des problèmes les plus 
+        persistants de la programmation frontend, vous permettant de créer facilement 
+        des applications Web dynamiques et interactives. Il est rapide, évolutif, flexible, 
+        puissant et dispose d’une solide communauté de développeurs qui se développe 
+        rapidement. \textit{Il s'agit actuellement de la bibliothèque JS frontale la plus populaire \cite{aggarwal2018modern}.}  
+        \par    
+        \begin{table}
+                \centering
+                \begin{tabular}{|p{0.30\linewidth}|p{0.10\linewidth}|p{0.60\linewidth}|}
+                \hline
+                        \textbf{Technologie}&\textbf{Version}&\textbf{Détails}\\
+                        \hline
+                        HTML&
+                        5&
+                        HTML5 est conçu pour rendre le développement de ces applications Web 
+                        riches plus facile, plus naturel et plus logique, où les développeurs 
+                        peuvent concevoir et créer une seule fois, et les déployer n'importe où. 
+                        HTML5 rend également les applications Web plus utilisables, car il supprime 
+                        le besoin de plugins \cite{wang2013definitive}.
+                        \\
+                        \hline
+                        CSS&
+                        3&
+                        bla
+                        \\
+                        \hline
+                        JS&
+                        ES6&
+                        « ES » est l’abréviation d’ECMAScript, le standard sur lequel repose JavaScript.
+                        Tous les navigateurs modernes supportent l’ES6 depuis un moment, et les 
+                        frameworks majeurs (Angular, React, Vue…) utilisent tous cette nouvelle version de JavaScript
+                        \\
+                        \hline
+                        React&
+                        17&
+                        \textit{Bien que React v17 ne propose aucune nouvelle fonctionnalité, 
+                        il établit une base solide pour les versions à venir en abordant directement 
+                        l'expérience de mise à niveau et en alignant plus étroitement le comportement 
+                        de React sur les navigateurs modernes \cite{Vardhan2020}.}
+                        \\
+                        \hline
+                      
+                \end{tabular}
+                \caption{Les technologies utilisées pour le développement du frontend de GeoTechMap} 
+                \label{tab:techoFrontend}
+        \end{table}
+        \par
         \subsection{Backend}
         \subsubsection{Application backend}
         \subsubsection{Base de données}

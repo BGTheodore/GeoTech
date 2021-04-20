@@ -398,4 +398,44 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   pages     = {113--131},
 }
 
+@InProceedings{brooks2010world,
+  author    = {Brooks, Terrence A},
+  booktitle = {Encyclopedia of library and information sciences},
+  title     = {World wide web consortium (W3C)},
+  year      = {2010},
+  pages     = {5695--5699},
+}
+
+@InProceedings{gardner2012towards,
+  author    = {Gardner, Philippa Anne and Maffeis, Sergio and Smith, Gareth David},
+  booktitle = {Proceedings of the 39th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages},
+  title     = {Towards a program logic for JavaScript},
+  year      = {2012},
+  pages     = {31--44},
+}
+
+@Article{aggarwal2018modern,
+  author  = {Aggarwal, Sanchit},
+  journal = {International Journal of Recent Research Aspects},
+  title   = {Modern web-development using reactjs},
+  year    = {2018},
+  number  = {1},
+  pages   = {2349--7688},
+  volume  = {5},
+}
+
+@Article{Vardhan2020,
+  author = {Harsha Vardhan},
+  title  = {What’s new in react v17?},
+  year   = {2020},
+}
+
+@Book{wang2013definitive,
+  author    = {Wang, Vanessa and Salim, Frank and Moskovits, Peter},
+  publisher = {Springer},
+  title     = {The definitive guide to HTML5 WebSocket},
+  year      = {2013},
+  volume    = {1},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
