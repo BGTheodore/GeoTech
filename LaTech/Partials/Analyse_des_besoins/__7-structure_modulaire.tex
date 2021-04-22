@@ -2,9 +2,9 @@ Le dictionnaire Larousse définit une stucture modulaire comme suit :
 \textit{Se dit d'un système, matériel ou logiciel, conçu en séparant les 
 fonctions élémentaires pour qu'elles puissent être étudiées et réalisées séparément}\cite{Larousse}. 
 Cette décision est prise pour faciliter la conception et l'évolution du système GéotechMap.
-On réalisant des modules indépendant, il devient plus facile de les tester, les modifier 
+En réalisant des modules indépendants, il devient plus facile de les tester, les modifier 
 ainsi que les intégrer dans d'autres applications. Par conséquent, la communication entre les modules 
-est plus fluide et n'importe quel ingénieur que travailler sur le sytème.
+est plus fluide et n'importe quel ingénieur peut travailler sur le système.
 \paragraph{Les pricipaux modules sont :}
 \begin{itemize}
         \item La base de données
@@ -16,7 +16,7 @@ est plus fluide et n'importe quel ingénieur que travailler sur le sytème.
 \paragraph{La base de données}
 \paragraph{}
 Une base de données est un ensemble d'informations organisées de manière 
-à être facilement accessibles, gérées et mises à jour. Il existe les types de bases de données:
+à être facilement accessibles, gérées et mises à jour. Il existe différents types de bases de données:
 \begin{itemize}
         \item Base de données centralisée
         \item Base de données distribuée
@@ -38,7 +38,7 @@ Le langage SQL (Structured Query Language) est le langage standard pour interagi
   traiter les transactions de commerce électronique, gérer d'énormes quantités d'informations
    client critiques, et bien plus encore. Une base de données relationnelle peut être envisagée 
    pour tout besoin d'information dans lequel les points de données sont liés les uns 
-   aux autres et doivent être gérés de manière sécurisée, basée sur des règles et cohérente.
+   aux autres et doivent être gérés de manière sécurisée, basée sur des règles, et cohérente.
 
 \paragraph{Les API}
 \paragraph{}
@@ -46,11 +46,11 @@ Le langage SQL (Structured Query Language) est le langage standard pour interagi
 l'intégration de logiciels d'applications}\cite{RedHat}. API est un acronyme anglais qui signifie 
 « Application Programming Interface », que l'on traduit par interface de programmation d'application.
 \paragraph{Utilité :}
-Les API permettent à votre produit ou service de communiquer avec d'autres produits et services 
+Les API permettent au produit ou service de communiquer avec d'autres produits et services 
 sans connaître les détails de leur mise en œuvre. Elles simplifient le développement d'applications 
-et vous font ainsi gagner du temps et de l'argent. Lorsque vous concevez de nouveaux outils et produits, 
-ou que vous assurez la gestion de ceux qui existent déjà, les API vous offrent plus de flexibilité, 
-simplifient la conception, l'administration et l'utilisation, et vous donnent les moyens d'innover.
+et font ainsi gagner du temps et de l'argent. Lorsque l'on conçoit de nouveaux outils et produits, 
+ou que l'on assure la gestion de ceux qui existent déjà, les API offrent plus de flexibilité, 
+simplifient la conception, l'administration et l'utilisation, et donnent les moyens d'innover.
 \textit{Les API sont parfois considérées comme des contrats, avec une documentation qui constitue 
 un accord entre les parties : si la partie 1 envoie une requête à distance selon une structure 
 particulière, le logiciel de la partie 2 devra répondre selon les conditions définies. 
@@ -68,6 +68,6 @@ pour les utilisateurs. Ce module est hébergé sur une instance à part et déli
 \paragraph{L'administration (Dashboard admin)}
 \paragraph{}
 La partie administration est une application à part entière qui communique avec la base de données.
-Différents modules sont implémentés: Essais, Institutions, etc. Cette partie est constitué du controlleur
-en backend et d'un interface utiliateur.
+Différents modules sont implémentés: Essais, Institutions, etc. Cette partie est constituée du controlleur
+en backend et d'une interface utilisateur.
 \paragraph{Le côté client}
