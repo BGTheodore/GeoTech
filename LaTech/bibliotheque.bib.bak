@@ -443,4 +443,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/},
 }
 
+@Article{agile,
+  title = {https://hackernoon.com/a-case-study-type-insight-into-agile-methodologies-for-software-development-cd5932c6},
+  url   = {https://hackernoon.com/a-case-study-type-insight-into-agile-methodologies-for-software-development-cd5932c6},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
