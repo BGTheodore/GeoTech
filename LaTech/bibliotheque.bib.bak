@@ -468,4 +468,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   publisher = {Taylor \& Francis},
 }
 
+@Article{advlinux,
+  title = {https://www.javatpoint.com/advantages-of-linux#:~:text=Linux%20facilitates%20with%20powerful%20support,are%20much%20faster%20than%20others.},
+  url   = {https://www.javatpoint.com/advantages-of-linux#:~:text=Linux facilitates with powerful support,are much faster than others.},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
