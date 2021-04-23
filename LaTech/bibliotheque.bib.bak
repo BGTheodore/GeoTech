@@ -443,4 +443,29 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/},
 }
 
+@Article{agile,
+  title = {https://hackernoon.com/a-case-study-type-insight-into-agile-methodologies-for-software-development-cd5932c6},
+  url   = {https://hackernoon.com/a-case-study-type-insight-into-agile-methodologies-for-software-development-cd5932c6},
+}
+
+@InProceedings{abdullah2014frontend,
+  author       = {Abdullah, Hanin M and Zeki, Ahmed M},
+  booktitle    = {2014 3rd international conference on advanced computer science applications and technologies},
+  title        = {Frontend and backend web technologies in social networking sites: Facebook as an example},
+  year         = {2014},
+  organization = {IEEE},
+  pages        = {85--89},
+}
+
+@Article{ovadia2014linux,
+  author    = {Ovadia, Steven},
+  journal   = {Behavioral \& Social Sciences Librarian},
+  title     = {Linux for Academics, Part II: The Advantages of Free and Open-Source Software},
+  year      = {2014},
+  number    = {1},
+  pages     = {47--51},
+  volume    = {33},
+  publisher = {Taylor \& Francis},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
