@@ -451,4 +451,18 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.javatpoint.com/advantages-of-linux#:~:text=Linux facilitates with powerful support,are much faster than others.},
 }
 
+@InProceedings{juve2009scientific,
+  author       = {Juve, Gideon and Deelman, Ewa and Vahi, Karan and Mehta, Gaurang and Berriman, Bruce and Berman, Benjamin P and Maechling, Phil},
+  booktitle    = {2009 5th IEEE international conference on e-science workshops},
+  title        = {Scientific workflow applications on Amazon EC2},
+  year         = {2009},
+  organization = {IEEE},
+  pages        = {59--66},
+}
+
+@Article{typedb,
+  title = {https://www.javatpoint.com/types-of-databases},
+  url   = {https://www.javatpoint.com/types-of-databases},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
