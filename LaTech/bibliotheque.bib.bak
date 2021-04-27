@@ -506,6 +506,12 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.keycloak.org/about},
 }
 
+@Misc{cao20155,
+  author = {Cao, J},
+  title  = {The 5 pillars of visual hierarchy in Web design},
+  year   = {2015},
+}
+
 @Article{,
 }
 
