@@ -342,6 +342,40 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
                 \item Facilite la gestion des dépendances.
                 \item Il comprend un Embedded Servlet Container(conteneur de servlet intégré).
         \end{itemize}
+        \subsubsection{Gestion des utilisateurs}
+        L'authentification et la sécurité des services sont des fonctionalés incontournables pour un système comme GeoTechMap.
+        Pour gerer tout cela, nous utilisons Keycloak.
+        \par 
+        \textit{
+                Keycloak est une solution open source de gestion des identités et des accès destinée aux applications 
+                et services modernes \cite{keycloak}.} 
+        \par 
+        Il permet également l'activation de la connexion avec Google, OpenId et les réseaux sociaux (Figure \ref{fig:keycloak}).
+        Il s'agit simplement de sélectionner le réseau social que vous souhaitez utiliser. 
+        Keycloak a une prise en charge intégrée pour se connecter aux serveurs LDAP ou Active Directory existants.
+        \begin{figure}[t]
+                \centering
+                \includegraphics[scale=0.3]{images/Implementation/keycloak.png}
+                \caption{Modèle du cycle de vie en cascade \cite{keycloak}}
+                \label{fig:keycloak}
+        \end{figure}
+        
+        \par 
+        Grâce à la console d'administration, les administrateurs peuvent gérer de manière centralisée tous les aspects du serveur Keycloak.
+
+        Ils peuvent activer et désactiver diverses fonctionnalités. Ils peuvent configurer le courtage d'identité et la fédération d'utilisateurs.
+
+        Ils peuvent créer et gérer des applications et des services, et définir des politiques d'autorisation précises.
+
+        Ils peuvent également gérer les utilisateurs, y compris les autorisations et les sessions.   
+        \par 
+        Grâce à la console de gestion de compte, les utilisateurs peuvent gérer leurs propres comptes. Ils peuvent mettre à jour le profil, modifier les mots de passe et configurer l'authentification à deux facteurs.
+
+        Les utilisateurs peuvent également gérer les sessions et afficher l'historique du compte.   
+        \paragraph{}
+        Le type d'application que nous développons influence la technologie que nous selectionons.
+        Plusieurs facteurs ont joué dans le choix des technologies choisies. L'objectif des combinaisons
+        réalisées n'est que l'optimisation de l'implementation du système GeoTechMap.
         \section{La hiérarchie dans l'application}
         \lipsum[1]
         \section{Ergonomie}

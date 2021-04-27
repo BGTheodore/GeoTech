@@ -501,4 +501,12 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.javatpoint.com/java-annotation},
 }
 
+@Article{keycloak,
+  title = {https://www.keycloak.org/about},
+  url   = {https://www.keycloak.org/about},
+}
+
+@Article{,
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
