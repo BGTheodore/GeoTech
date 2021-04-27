@@ -496,4 +496,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   title  = {Why choose java: 7 compelling reasons to learn the programming language},
 }
 
+@Article{annotation,
+  title = {https://www.javatpoint.com/java-annotation},
+  url   = {https://www.javatpoint.com/java-annotation},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
