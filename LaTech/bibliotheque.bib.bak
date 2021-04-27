@@ -486,4 +486,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   publisher = {Citeseer},
 }
 
+@Article{java,
+  title = {https://www.geeksforgeeks.org/java-platform-independent/},
+  url   = {https://www.geeksforgeeks.org/java-platform-independent/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

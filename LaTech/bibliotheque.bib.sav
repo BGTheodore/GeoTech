@@ -491,4 +491,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.geeksforgeeks.org/java-platform-independent/},
 }
 
+@Article{whyjava,
+  author = {Jagdish Bhatt},
+  title  = {Why choose java: 7 compelling reasons to learn the programming language},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
