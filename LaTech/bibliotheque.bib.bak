@@ -451,4 +451,32 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.javatpoint.com/advantages-of-linux#:~:text=Linux facilitates with powerful support,are much faster than others.},
 }
 
+@InProceedings{juve2009scientific,
+  author       = {Juve, Gideon and Deelman, Ewa and Vahi, Karan and Mehta, Gaurang and Berriman, Bruce and Berman, Benjamin P and Maechling, Phil},
+  booktitle    = {2009 5th IEEE international conference on e-science workshops},
+  title        = {Scientific workflow applications on Amazon EC2},
+  year         = {2009},
+  organization = {IEEE},
+  pages        = {59--66},
+}
+
+@Article{typedb,
+  title = {https://www.javatpoint.com/types-of-databases},
+  url   = {https://www.javatpoint.com/types-of-databases},
+}
+
+@InCollection{codd1989relational,
+  author    = {Codd, Edgar F},
+  booktitle = {Readings in Artificial Intelligence and Databases},
+  publisher = {Elsevier},
+  title     = {Relational database: A practical foundation for productivity},
+  year      = {1989},
+  pages     = {60--68},
+}
+
+@Article{psql,
+  title = {https://www.postgresql.org/about/},
+  url   = {https://www.postgresql.org/about/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

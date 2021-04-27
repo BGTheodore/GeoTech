@@ -188,7 +188,68 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
          \subsubsection{Base de données}
          Une base de données est une collection organisée d'informations. Les bases de données
          comprennent généralement des agrégations d'enregistrements de données ou de fichiers. 
-     
+         \par 
+         Il existe différents types de bases de données utilisées pour stocker différentes 
+         variétés de données: centralisée, distribuée, relationnelle, NoSQL, 
+         orientée object, ... \cite{typedb}
+         \par 
+         Pour la réalisation de GeoTechMap, nous faisons le choix d'une base de données relationnelle.
+         En effet, cette base de données est basée sur le modèle de données relationnel, qui stocke les 
+         données sous forme de lignes (tuple) et de colonnes (attributs), et forme ensemble une table 
+         (relation). Une base de données relationnelle utilise SQL pour stocker, manipuler et conserver 
+         les données. Chaque table de la base de données 
+         contient une clé qui rend les données uniques des autres. MySQL, Microsoft SQL Server, Oracle, ... 
+         sont des exemples de bases de données relationnelles.
+         \par 
+         \textit{La technologie des bases de données relationnelles offre des améliorations considérables 
+         de la productivité tant pour les utilisateurs finaux que pour les programmeurs d'applications \cite{codd1989relational}.}
+         \paragraph{Propriétés d'une base de données relationnelle}
+         Il existe quatre propriétés communément connues d'un modèle relationnel appelées propriétés ACID \cite{typedb}, où:
+         \begin{itemize}
+                 \item \textbf{A signifie Atomicité: }
+                  Cela garantit que l'opération de données se terminera 
+                 avec succès ou échec. Il suit la stratégie du «tout ou rien». Par exemple, 
+                 une transaction sera soit validée, soit abandonnée.
+                 \item \textbf{C signifie Cohérence: }
+                  Si nous effectuons une opération sur une donnée, 
+                 sa valeur avant et après l'opération doit être préservée. Par exemple, 
+                 le solde du compte avant et après la transaction doit être correct.
+                 \item \textbf{I signifie Isolation: }
+                 Il peut y avoir des utilisateurs  
+                 qui accèdent simultanément aux données dans de la base de données. 
+                 Ainsi, l'isolement entre les données doit rester effectué. Par exemple, 
+                 lorsque plusieurs transactions se produisent en même temps, les effets 
+                 d'une transaction ne doivent pas être visibles pour les autres 
+                 transactions de la base de données.
+                 \item \textbf{D signifie Durabilité: }
+                 Il garantit qu'une fois l'opération terminée et validé les données, 
+                 les modifications de données doivent rester permanentes.
+
+         \end{itemize}
+         \paragraph{Pourquoi PostgreSQL comme SGBD ?}
+         \paragraph{}
+         Selon le site officiel de PostgreSQL \cite{psql},
+         PostgreSQL est un puissant système de base de données relationnelle objet et open 
+         source qui utilise et étend le langage SQL combiné à de nombreuses fonctionnalités
+          qui stockent et mettent à l'échelle en toute sécurité les charges de travail de 
+          données les plus complexes.
+          \par 
+          PostgreSQL est livré avec de nombreuses fonctionnalités destinées à aider les 
+          développeurs à créer des applications, les administrateurs à protéger 
+          l'intégrité des données et à créer des environnements tolérants aux pannes, 
+          et vous aider à gérer vos données, quelle que soit la taille de l'ensemble de 
+          données. En plus d'être gratuit et open source, PostgreSQL est hautement extensible.
+          \par 
+          PostgreSQL est populaire auprès des développeurs en raison de nombreuses fonctionnalités
+           telles que: le partitionnement natif, les requêtes parallèles, la prise en charge 
+           de wrappers de données étrangers, de puissantes fonctionnalités JSON, le streaming et 
+           la réplication logique et la disponibilité de nombreux outils open source,
+            les sauvegardes et la surveillance.
+            \paragraph{}
+            De plus, plusieurs bases de données géotechnique ont été 
+            déjà réalisées avec PostgreSQL et ce fut un succès. Tel est le cas du
+            "développement de la base de données getechnical du sous-sol de Bangkok 
+            en utilisant GRASS-GIS" \cite{panoot2001development}.
         \subsubsection{Application backend}
         \subsubsection{Base de données}
         \section{La hiérarchie dans l'application}
