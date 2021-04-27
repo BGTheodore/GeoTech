@@ -479,4 +479,16 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://www.postgresql.org/about/},
 }
 
+@Article{panoot2001development,
+  author    = {Panoot, Suwanwiwattana and Korchoke, Korchoke Chantawarangul and Mairaing, Warakorn and Apaphant, Pakorn},
+  title     = {The Development of Geotechnical Database of Bangkok Subsoil Using GRASS-GIS},
+  year      = {2001},
+  publisher = {Citeseer},
+}
+
+@Article{java,
+  title = {https://www.geeksforgeeks.org/java-platform-independent/},
+  url   = {https://www.geeksforgeeks.org/java-platform-independent/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

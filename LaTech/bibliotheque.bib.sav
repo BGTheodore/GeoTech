@@ -486,4 +486,14 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   publisher = {Citeseer},
 }
 
+@Article{java,
+  title = {https://www.geeksforgeeks.org/java-platform-independent/},
+  url   = {https://www.geeksforgeeks.org/java-platform-independent/},
+}
+
+@Article{whyjava,
+  author = {Jagdish Bhatt},
+  title  = {Why choose java: 7 compelling reasons to learn the programming language},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
