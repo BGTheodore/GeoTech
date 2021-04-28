@@ -9,13 +9,13 @@
     \par 
     Les attaques contre les applications Web vont de la manipulation 
     ciblée de bases de données à une perturbation du réseau à grande 
-    échelle. Analysons ensemble quelques d’attaque les plus courantes
+    échelle. Analysons ensemble quelques vecteurs d’attaque les plus courantes
     et comment nous les contournons. N.B: Nous nous basons sur les publications
-    de l'OWASP.
+    de l'OWASP \footnote{
     OWASP signifie Open Web Application Security Project, une communauté 
     en ligne qui produit des articles, des méthodologies, de la documentation, 
     des outils et des technologies dans le domaine de la sécurité des applications 
-    Web.
+    Web.}.
     
     
     \subsubsection{Injection}
@@ -127,6 +127,16 @@
     Cette attaque se produit lorsque l'entrée XML contenant une référence à une entité externe est 
     traitée par un analyseur XML configurée sans sécurité. 
     Nous contournons ce problème en utilisant le plus souveant des formats de données moins complexes, tels que JSON, 
-    et évitons la sérialisation des données sensibles.
+    et évitons la sérialisation des données sensibles. De plus nous mettons à jour les processeurs et bibliothèques 
+    XML utilisés par l'application.
+
+    \subsubsection{}
+    \paragraph{}
+    D'autre types d'attaque sont pris en compte (Cross-Site Scripting (XSS), 
+    désérialisation non sécurisée, utilisations de composants contenant des vulnérabilités,
+    Cross-site request forgery (CSRF), déni de service distribué (DDoS), etc) 
+    et l'objectif reste le même: protéger l'application et les données des utilisateurs.
+    
+
 
 
