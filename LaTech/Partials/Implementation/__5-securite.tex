@@ -63,3 +63,8 @@
         params.put("userId", userId);
         template.update(sql,params);
     \end{lstlisting}
+    \paragraph{}
+    De plus, pour éviter tout risque d'injection de code, nous utilisont un ORM (Object 
+    Relational Mapping), qui encapsule tout interaction entre l'application et la
+    base de données.
+    
