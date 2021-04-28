@@ -96,4 +96,31 @@
         \end{itemize}
     
     \subsubsection{Exposition des données sensibles}
-    
+        L'exposition de données sensibles est l'une des vulnérabilités les plus répandues sur la liste OWASP. 
+        Il s'agit du fait de compromettre des données qui auraient dû être protégées.
+        Nous comprennons l’importance de la protection des informations et de 
+        la vie privée des utilisateurs car même si les données géotechniques sont accessibles au grand public,
+        cependant les administrateurs peuvent utiliser des leurs nom d'utilisateur et mot de passe habituels pour se
+        conecter sur GeoTechMap. Par conséquent, nous devons protéger leur données personnelles. 
+        \par 
+        Nous protégeons les données au repos et ceux en mouvement. Pour la sécurité des données en mouvement
+        nous faisons usage de certificats SSL/TLS.
+        SSL est l'acronyme de Secure Sockets Layer. Il s'agit de la technologie de sécurité standard pour 
+        établir un lien crypté entre un serveur Web et un navigateur. Les certificats SSL aident à 
+        protéger l'intégrité des données en transit entre l'hôte (serveur Web ou pare-feu) et le client 
+        (navigateur Web).
+        \paragraph{}
+        Quelques mesures que nous prenons pour éviter l'exposition des données:
+        \begin{itemize}
+            \item Nous identifions les données sensibles conformément aux lois sur la confidentialité.
+            \item Nous ne stockons pas de données sensibles inutilement.
+            \item Nous nous assurons de crypter toutes les données sensibles qui sont au repos.
+            \item Nous nous assurons que les algorithmes, les protocoles que nous utilisons sont à 
+            jour.
+            \item Nous cryptons toutes les données en transit avec des protocoles sécurisés tels que 
+            TLS avec des chiffrements PFS (Perfect Forward Secrecy).
+            \item Nous stocker les mots de passe à l'aide de puissantes fonctions de hachage (PBKDF2 \cite{keycloakdoc}) adaptatives et 
+            contenant un 'salt'.
+        \end{itemize}
+
+
