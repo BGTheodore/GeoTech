@@ -541,7 +541,7 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
 }
 
 @Article{limitpass,
-  title = {https://github.com/keycloak/keycloak-documentation/blob/master/server_admin/topics/threat/brute-force.adoc},
+  title = {https://github.com/keycloak/keycloak-documentation/},
   url   = {https://github.com/keycloak/keycloak-documentation/blob/master/server_admin/topics/threat/brute-force.adoc},
 }
 
