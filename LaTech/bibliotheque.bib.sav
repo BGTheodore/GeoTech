@@ -545,4 +545,9 @@ CE DOCUMENT EST VRAIMENT IMPORTANT!!!},
   url   = {https://github.com/keycloak/keycloak-documentation/blob/master/server_admin/topics/threat/brute-force.adoc},
 }
 
+@Article{keycloakdoc,
+  title = {https://www.keycloak.org/docs/},
+  url   = {https://www.keycloak.org/docs/latest/server_admin/},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

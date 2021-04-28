@@ -109,5 +109,18 @@
         établir un lien crypté entre un serveur Web et un navigateur. Les certificats SSL aident à 
         protéger l'intégrité des données en transit entre l'hôte (serveur Web ou pare-feu) et le client 
         (navigateur Web).
-        \par 
+        \paragraph{}
+        Quelques mesures que nous prenons pour éviter l'exposition des données:
+        \begin{itemize}
+            \item Nous identifions les données sensibles conformément aux lois sur la confidentialité.
+            \item Nous ne stockons pas de données sensibles inutilement.
+            \item Nous nous assurons de crypter toutes les données sensibles qui sont au repos.
+            \item Nous nous assurons que les algorithmes, les protocoles que nous utilisons sont à 
+            jour.
+            \item Nous cryptons toutes les données en transit avec des protocoles sécurisés tels que 
+            TLS avec des chiffrements PFS (Perfect Forward Secrecy).
+            \item Nous stocker les mots de passe à l'aide de puissantes fonctions de hachage (PBKDF2 \cite{keycloakdoc}) adaptatives et 
+            contenant un 'salt'.
+        \end{itemize}
+
 
