@@ -70,7 +70,7 @@
 
     \subsubsection{Broken Authentication}
         "Broken Authentication" est vulnérabilité peut permettre à un attaquant d'utiliser 
-        des méthodes manuelles et / ou automatiques pour essayer de prendre le contrôle de 
+        des méthodes manuelles et/ou automatiques pour essayer de prendre le contrôle de 
         n'importe quel compte qu'il souhaite dans un système - ou pire encore - pour obtenir 
         un contrôle complet sur le système.
         \par 
@@ -82,7 +82,7 @@
         \par 
         Pour minimiser les risques de Broken Authentication, nous ne laissons pas la page de connexion 
         des administrateurs accessible publiquement à tous les visiteurs du site Web. De plus nous prenons 
-        un ensemble de mesures de précaution:
+        un ensemble de mesures de précaution. Voici quelques exemples:
         \begin{itemize}
             \item Nous implémentons l'authentification multifacteur (en utilisant Keycloak) pour empêcher 
             les attaques automatisées, les attaques par force brute et 
@@ -90,4 +90,10 @@
             \item Nous ne déployons pas l'application avec des informations d'identification par défaut.
             \item Nous implémentons la vérifications de mots de passe faibles, en les testant les 
              par rapport à une liste (10 million password list top 1000000.txt) \cite{weakpass}.
+            \item Nous utilisons les politiques de longueur, de complexité et de rotation des mots de passe 
+            avec les directives NIST 800-63 B de la section 5.1.1 \cite{grassi2016draft} \cite{nist}.
+            \item Nou limitons ou retardons de plus en plus les tentatives de connexion infructueuses \cite{limitpass}.
         \end{itemize}
+    
+    \subsubsection{Exposition des données sensibles}
+    
