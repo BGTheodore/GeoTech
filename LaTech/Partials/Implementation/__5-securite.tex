@@ -19,52 +19,63 @@
     
     
     \subsubsection{Injection}
-    Une injection de code se produit lorsqu'un individu envoie des données 
-    invalides à l'application Web avec l'intention de lui faire faire quelque 
-    chose pour lequel l'application n'a pas été conçue. Plus précisement,
-    l'injection SQL est un moyen courant par lequel les pirates et les 
-    utilisateurs malveillants tentent de pirater des applications. Dans une 
-    injection SQL (SQi), ils «injectent» des valeurs dans une requête de base de 
-    données afin d’obtenir une visibilité sur la structure de la base de 
-    données et éventuellement d’accéder aux données personnelles stockées 
-    dans la base de données.
-    \par 
-    La cause principale d'une vulnérabilité d'injection de code est le manque 
-    de validation et de désinfection des données utilisées par l'application Web.
-    Pour faire face à cet type d'attage, nous utilisons une méthode un peu similaire
-    à la solution native de Java "prepared statements" (Code \ref{lst:sqijava}). Il s'agit d'exécuter les 
-    requête SQL dans Spring Boot en utilisant la classe NamedParameterJdbcTemplate (Code \ref{lst:sqisb}). 
-    Cette méthode présente un avantage supplémentaire en fournissant plus de clarté en 
-    remplaçant les points d'interrogation dans la requête par des noms significatifs.
-    \begin{lstlisting}[caption={Éviter SQi en Java: Prepared statements},label={lst:sqijava},language=Java]
-        public List<User> getUserByUserId(String userId)
-        throws SQLException {    
-          String sql = "select"
-            + "first_name,last_name,username "
-            + "from users where"
-            + "userId = ?";
-          
-          Connection c = dataSource.getConnection();
-          PreparedStatement p = c.prepareStatement(sql);
-          p.setString(20, userId);
-          ResultSet rs = p.executeQuery(sql)); 
-      }
-    \end{lstlisting}
+        Une injection de code se produit lorsqu'un individu envoie des données 
+        invalides à l'application Web avec l'intention de lui faire faire quelque 
+        chose pour lequel l'application n'a pas été conçue. Plus précisement,
+        l'injection SQL est un moyen courant par lequel les pirates et les 
+        utilisateurs malveillants tentent de pirater des applications. Dans une 
+        injection SQL (SQi), ils «injectent» des valeurs dans une requête de base de 
+        données afin d’obtenir une visibilité sur la structure de la base de 
+        données et éventuellement d’accéder aux données personnelles stockées 
+        dans la base de données.
+        \par 
+        La cause principale d'une vulnérabilité d'injection de code est le manque 
+        de validation et de désinfection des données utilisées par l'application Web.
+        Pour faire face à cet type d'attage, nous utilisons une méthode un peu similaire
+        à la solution native de Java "prepared statements" (Code \ref{lst:sqijava}). Il s'agit d'exécuter les 
+        requête SQL dans Spring Boot en utilisant la classe NamedParameterJdbcTemplate (Code \ref{lst:sqisb}). 
+        Cette méthode présente un avantage supplémentaire en fournissant plus de clarté en 
+        remplaçant les points d'interrogation dans la requête par des noms significatifs.
+        \begin{lstlisting}[caption={Éviter SQi en Java: Prepared statements},label={lst:sqijava},language=Java]
+            public List<User> getUserByUserId(String userId)
+            throws SQLException {    
+            String sql = "select"
+                + "first_name,last_name,username "
+                + "from users where"
+                + "userId = ?";
+            
+            Connection c = dataSource.getConnection();
+            PreparedStatement p = c.prepareStatement(sql);
+            p.setString(20, userId);
+            ResultSet rs = p.executeQuery(sql)); 
+        }
+        \end{lstlisting}
 
-    \begin{lstlisting}[caption={Éviter SQi avec Spring Boot: NamedParameterJdbcTemplate},label={lst:sqisb},language=Java]
-        Map<String, Object> params = new HashMap<>();
-        integer userId = 20;
-        
-            String sql = "select "
-              + "first_name,last_name,username "
-              + "from users where"
-              + "userId = :userId";
-        
-        params.put("userId", userId);
-        template.update(sql,params);
-    \end{lstlisting}
-    \paragraph{}
-    De plus, pour éviter tout risque d'injection de code, nous utilisont un ORM (Object 
-    Relational Mapping), qui encapsule tout interaction entre l'application et la
-    base de données.
-    
+        \begin{lstlisting}[caption={Éviter SQi avec Spring Boot: NamedParameterJdbcTemplate},label={lst:sqisb},language=Java]
+            Map<String, Object> params = new HashMap<>();
+            integer userId = 20;
+            
+                String sql = "select "
+                + "first_name,last_name,username "
+                + "from users where"
+                + "userId = :userId";
+            
+            params.put("userId", userId);
+            template.update(sql,params);
+        \end{lstlisting}
+        \paragraph{}
+        De plus, pour éviter tout risque d'injection de code, nous utilisont un ORM (Object 
+        Relational Mapping), qui encapsule tout interaction entre l'application et la
+        base de données.
+
+    \subsubsection{Broken Authentication}
+        "Broken Authentication" est vulnérabilité peut permettre à un attaquant d'utiliser 
+        des méthodes manuelles et / ou automatiques pour essayer de prendre le contrôle de 
+        n'importe quel compte qu'il souhaite dans un système - ou pire encore - pour obtenir 
+        un contrôle complet sur le système.
+        \par 
+        Broken Authentication fait généralement référence à des problèmes de logique 
+        qui surviennent au niveau du mécanisme d’authentification de l’application - par exemple une 
+        mauvaise gestion de session - lorsqu'un 
+        acteur malveillant utilise des techniques de force brute pour deviner ou confirmer des 
+        utilisateurs valides dans un système.
