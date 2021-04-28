@@ -123,4 +123,10 @@
             contenant un 'salt'.
         \end{itemize}
 
+    \subsubsection{XML External Entities (XXE)}   
+    Cette attaque se produit lorsque l'entrée XML contenant une référence à une entité externe est 
+    traitée par un analyseur XML configurée sans sécurité. 
+    Nous contournons ce problème en utilisant le plus souveant des formats de données moins complexes, tels que JSON, 
+    et évitons la sérialisation des données sensibles.
+
 
