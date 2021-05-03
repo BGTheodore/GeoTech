@@ -1,0 +1,145 @@
+\subsection{Sécurité de l'application web}
+    La sécurité des applications Web est un élément central de 
+    toute entreprise basée sur le Web. La nature globale d'Internet 
+    expose les propriétés Web à des attaques à partir de différents 
+    endroits et à différents niveaux d'échelle et de complexité. 
+    La sécurité des applications Web traite spécifiquement de la 
+    sécurité des sites Web, des applications Web et des services 
+    Web tels que les API.
+    \par 
+    Les attaques contre les applications Web vont de la manipulation 
+    ciblée de bases de données à une perturbation du réseau à grande 
+    échelle. Analysons ensemble quelques vecteurs d’attaque les plus courantes
+    et comment nous les contournons. N.B: Nous nous basons sur les publications
+    de l'OWASP \footnote{
+    OWASP signifie Open Web Application Security Project, une communauté 
+    en ligne qui produit des articles, des méthodologies, de la documentation, 
+    des outils et des technologies dans le domaine de la sécurité des applications 
+    Web.}.
+    
+    
+    \subsubsection{Injection}
+        Une injection de code se produit lorsqu'un individu envoie des données 
+        invalides à l'application Web avec l'intention de lui faire faire quelque 
+        chose pour lequel l'application n'a pas été conçue. Plus précisement,
+        l'injection SQL est un moyen courant par lequel les pirates et les 
+        utilisateurs malveillants tentent de pirater des applications. Dans une 
+        injection SQL (SQi), ils «injectent» des valeurs dans une requête de base de 
+        données afin d’obtenir une visibilité sur la structure de la base de 
+        données et éventuellement d’accéder aux données personnelles stockées 
+        dans la base de données.
+        \par 
+        La cause principale d'une vulnérabilité d'injection de code est le manque 
+        de validation et de désinfection des données utilisées par l'application Web.
+        Pour faire face à cet type d'attage, nous utilisons une méthode un peu similaire
+        à la solution native de Java "prepared statements" (Code \ref{lst:sqijava}). Il s'agit d'exécuter les 
+        requête SQL dans Spring Boot en utilisant la classe NamedParameterJdbcTemplate (Code \ref{lst:sqisb}). 
+        Cette méthode présente un avantage supplémentaire en fournissant plus de clarté en 
+        remplaçant les points d'interrogation dans la requête par des noms significatifs.
+        \begin{lstlisting}[caption={Éviter SQi en Java: Prepared statements},label={lst:sqijava},language=Java]
+            public List<User> getUserByUserId(String userId)
+            throws SQLException {    
+            String sql = "select"
+                + "first_name,last_name,username "
+                + "from users where"
+                + "userId = ?";
+            
+            Connection c = dataSource.getConnection();
+            PreparedStatement p = c.prepareStatement(sql);
+            p.setString(20, userId);
+            ResultSet rs = p.executeQuery(sql)); 
+        }
+        \end{lstlisting}
+
+        \begin{lstlisting}[caption={Éviter SQi avec Spring Boot: NamedParameterJdbcTemplate},label={lst:sqisb},language=Java]
+            Map<String, Object> params = new HashMap<>();
+            integer userId = 20;
+            
+                String sql = "select "
+                + "first_name,last_name,username "
+                + "from users where"
+                + "userId = :userId";
+            
+            params.put("userId", userId);
+            template.update(sql,params);
+        \end{lstlisting}
+        \paragraph{}
+        De plus, pour éviter tout risque d'injection de code, nous utilisont un ORM (Object 
+        Relational Mapping), qui encapsule tout interaction entre l'application et la
+        base de données.
+
+    \subsubsection{Broken Authentication}
+        "Broken Authentication" est vulnérabilité peut permettre à un attaquant d'utiliser 
+        des méthodes manuelles et/ou automatiques pour essayer de prendre le contrôle de 
+        n'importe quel compte qu'il souhaite dans un système - ou pire encore - pour obtenir 
+        un contrôle complet sur le système.
+        \par 
+        Broken Authentication fait généralement référence à des problèmes de logique 
+        qui surviennent au niveau du mécanisme d’authentification de l’application - par exemple une 
+        mauvaise gestion de session - lorsqu'un 
+        acteur malveillant utilise des techniques de force brute pour deviner ou confirmer des 
+        utilisateurs valides dans un système.
+        \par 
+        Pour minimiser les risques de Broken Authentication, nous ne laissons pas la page de connexion 
+        des administrateurs accessible publiquement à tous les visiteurs du site Web. De plus nous prenons 
+        un ensemble de mesures de précaution. Voici quelques exemples:
+        \begin{itemize}
+            \item Nous implémentons l'authentification multifacteur (en utilisant Keycloak) pour empêcher 
+            les attaques automatisées, les attaques par force brute et 
+            la réutilisation d'informations d'identification volées.
+            \item Nous ne déployons pas l'application avec des informations d'identification par défaut.
+            \item Nous implémentons la vérifications de mots de passe faibles, en les testant les 
+             par rapport à une liste (10 million password list top 1000000.txt) \cite{weakpass}.
+            \item Nous utilisons les politiques de longueur, de complexité et de rotation des mots de passe 
+            avec les directives NIST 800-63 B de la section 5.1.1 \cite{grassi2016draft} \cite{nist}.
+            \item Nou limitons ou retardons de plus en plus les tentatives de connexion infructueuses \cite{limitpass}.
+        \end{itemize}
+    
+    \subsubsection{Exposition des données sensibles}
+        L'exposition de données sensibles est l'une des vulnérabilités les plus répandues sur la liste OWASP. 
+        Il s'agit du fait de compromettre des données qui auraient dû être protégées.
+        Nous comprennons l’importance de la protection des informations et de 
+        la vie privée des utilisateurs car même si les données géotechniques sont accessibles au grand public,
+        cependant les administrateurs peuvent utiliser des leurs nom d'utilisateur et mot de passe habituels pour se
+        conecter sur GeoTechMap. Par conséquent, nous devons protéger leur données personnelles. 
+        \par 
+        Nous protégeons les données au repos et ceux en mouvement. Pour la sécurité des données en mouvement
+        nous faisons usage de certificats SSL/TLS.
+        SSL est l'acronyme de Secure Sockets Layer. Il s'agit de la technologie de sécurité standard pour 
+        établir un lien crypté entre un serveur Web et un navigateur. Les certificats SSL aident à 
+        protéger l'intégrité des données en transit entre l'hôte (serveur Web ou pare-feu) et le client 
+        (navigateur Web).
+        \paragraph{}
+        Quelques mesures que nous prenons pour éviter l'exposition des données:
+        \begin{itemize}
+            \item Nous identifions les données sensibles conformément aux lois sur la confidentialité.
+            \item Nous ne stockons pas de données sensibles inutilement.
+            \item Nous nous assurons de crypter toutes les données sensibles qui sont au repos.
+            \item Nous nous assurons que les algorithmes, les protocoles que nous utilisons sont à 
+            jour.
+            \item Nous cryptons toutes les données en transit avec des protocoles sécurisés tels que 
+            TLS avec des chiffrements PFS (Perfect Forward Secrecy).
+            \item Nous stocker les mots de passe à l'aide de puissantes fonctions de hachage (PBKDF2 \cite{keycloakdoc}) adaptatives et 
+            contenant un 'salt'.
+        \end{itemize}
+
+    \subsubsection{XML External Entities (XXE)}   
+    Cette attaque se produit lorsque l'entrée XML contenant une référence à une entité externe est 
+    traitée par un analyseur XML configurée sans sécurité. 
+    Nous contournons ce problème en utilisant le plus souveant des formats de données moins complexes, tels que JSON, 
+    et évitons la sérialisation des données sensibles. De plus nous mettons à jour les processeurs et bibliothèques 
+    XML utilisés par l'application.
+
+    \subsubsection{}
+    \paragraph{}
+    D'autre types d'attaque sont pris en compte (Cross-Site Scripting (XSS), 
+    désérialisation non sécurisée, utilisations de composants contenant des vulnérabilités,
+    Cross-site request forgery (CSRF), déni de service distribué (DDoS), etc) 
+    et l'objectif reste le même: protéger l'application et les données des utilisateurs.
+
+\subsection{Sécurité du server web}
+
+\subsection{Sécurité de la base de données}
+
+
+
