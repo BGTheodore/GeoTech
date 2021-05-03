@@ -28572,8 +28572,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 480,
-											"top": 368,
+											"left": 640,
+											"top": 320,
 											"height": 13
 										},
 										{
@@ -28583,8 +28583,8 @@
 												"$ref": "AAAAAAF4hMKAGSXbvEk="
 											},
 											"font": "Arial;13;1",
-											"left": 1941,
-											"top": 1095,
+											"left": 2021,
+											"top": 1071,
 											"width": 135.75732421875,
 											"height": 13,
 											"underline": true,
@@ -28598,8 +28598,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 2237,
-											"top": 1294,
+											"left": 2397,
+											"top": 1246,
 											"width": 114.81640625,
 											"height": 13,
 											"text": "(from Model)"
@@ -28612,15 +28612,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 480,
-											"top": 368,
+											"left": 640,
+											"top": 320,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1936,
-									"top": 1088,
+									"left": 2016,
+									"top": 1064,
 									"width": 145.75732421875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -28656,8 +28656,8 @@
 												"$ref": "AAAAAAF4hMjEzCbmxqY="
 											},
 											"font": "Arial;13;0",
-											"left": 1941,
-											"top": 1118,
+											"left": 2021,
+											"top": 1094,
 											"width": 135.75732421875,
 											"height": 13,
 											"text": "-id = 1",
@@ -28673,8 +28673,8 @@
 												"$ref": "AAAAAAF4hMe/fCbddIQ="
 											},
 											"font": "Arial;13;0",
-											"left": 1941,
-											"top": 1133,
+											"left": 2021,
+											"top": 1109,
 											"width": 135.75732421875,
 											"height": 13,
 											"text": "-name = 'URGéo'",
@@ -28690,8 +28690,8 @@
 												"$ref": "AAAAAAF4hMjuoSbtiR8="
 											},
 											"font": "Arial;13;0",
-											"left": 1941,
-											"top": 1148,
+											"left": 2021,
+											"top": 1124,
 											"width": 135.75732421875,
 											"height": 13,
 											"text": "-address = 'Delmas 33'",
@@ -28699,16 +28699,16 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1936,
-									"top": 1113,
+									"left": 2016,
+									"top": 1089,
 									"width": 145.75732421875,
 									"height": 53
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1936,
-							"top": 1088,
+							"left": 2016,
+							"top": 1064,
 							"width": 145.75732421875,
 							"height": 78,
 							"nameCompartment": {
@@ -29724,7 +29724,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2055,
-									"top": 1056,
+									"top": 1032,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -29744,7 +29744,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2068,
-									"top": 1053,
+									"top": 1029,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -29764,7 +29764,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2027,
-									"top": 1060,
+									"top": 1036,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -29780,7 +29780,7 @@
 							"tail": {
 								"$ref": "AAAAAAF4hNP/iD781ds="
 							},
-							"points": "1972:816;2040:816;2040:1088",
+							"points": "1972:816;2040:816;2040:1064",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF4hNVZMj/xbP4="
@@ -29838,7 +29838,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -1008,
+											"left": -1072,
 											"top": 592,
 											"height": 13
 										},
@@ -29849,9 +29849,9 @@
 												"$ref": "AAAAAAF4hNX/oUFS0eY="
 											},
 											"font": "Arial;13;1",
-											"left": 1301,
+											"left": 1269,
 											"top": 903,
-											"width": 141.5400390625,
+											"width": 205.86083984375,
 											"height": 13,
 											"underline": true,
 											"text": "typeTest1: TestType"
@@ -29864,7 +29864,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -1008,
+											"left": -1072,
 											"top": 592,
 											"width": 73.67724609375,
 											"height": 13,
@@ -29878,16 +29878,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -1008,
+											"left": -1072,
 											"top": 592,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1296,
+									"left": 1264,
 									"top": 896,
-									"width": 151.5400390625,
+									"width": 215.86083984375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4hNX/oUFTza8="
@@ -29922,9 +29922,9 @@
 												"$ref": "AAAAAAF4hNb71kacdOM="
 											},
 											"font": "Arial;13;0",
-											"left": 1301,
+											"left": 1269,
 											"top": 926,
-											"width": 141.5400390625,
+											"width": 205.86083984375,
 											"height": 13,
 											"text": "-id = 1",
 											"horizontalAlignment": 0
@@ -29939,27 +29939,44 @@
 												"$ref": "AAAAAAF4hNcej0bNpdU="
 											},
 											"font": "Arial;13;0",
-											"left": 1301,
+											"left": 1269,
 											"top": 941,
-											"width": 141.5400390625,
+											"width": 205.86083984375,
 											"height": 13,
 											"text": "-name = 'Pénétrométrie'",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAF5M2U4D4YPssg=",
+											"_parent": {
+												"$ref": "AAAAAAF4hNX/oUFX4E8="
+											},
+											"model": {
+												"$ref": "AAAAAAF5M2U3+YYGZQc="
+											},
+											"font": "Arial;13;0",
+											"left": 1269,
+											"top": 956,
+											"width": 205.86083984375,
+											"height": 13,
+											"text": "+description = 'Mesure de la dureté'",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 1296,
+									"left": 1264,
 									"top": 921,
-									"width": 151.5400390625,
-									"height": 38
+									"width": 215.86083984375,
+									"height": 53
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 1296,
+							"left": 1264,
 							"top": 896,
-							"width": 151.5400390625,
-							"height": 63,
+							"width": 215.86083984375,
+							"height": 78,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4hNX/oUFS0eY="
 							},
@@ -30229,8 +30246,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": 272,
+											"left": -128,
+											"top": 288,
 											"height": 13
 										},
 										{
@@ -30240,9 +30257,9 @@
 												"$ref": "AAAAAAF4hNgsPEszoBE="
 											},
 											"font": "Arial;13;1",
-											"left": 2133,
-											"top": 895,
-											"width": 143.0126953125,
+											"left": 2093,
+											"top": 903,
+											"width": 472.46875,
 											"height": 13,
 											"underline": true,
 											"text": "typeTest2: TestType"
@@ -30255,8 +30272,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": 272,
+											"left": -128,
+											"top": 288,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -30269,16 +30286,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": 272,
+											"left": -128,
+											"top": 288,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 2128,
-									"top": 888,
-									"width": 153.0126953125,
+									"left": 2088,
+									"top": 896,
+									"width": 482.46875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4hNgsPEs0ajA="
@@ -30313,9 +30330,9 @@
 												"$ref": "AAAAAAF4hNiMAkvNh3c="
 											},
 											"font": "Arial;13;0",
-											"left": 2133,
-											"top": 918,
-											"width": 143.0126953125,
+											"left": 2093,
+											"top": 926,
+											"width": 472.46875,
 											"height": 13,
 											"text": "-id = 2",
 											"horizontalAlignment": 0
@@ -30330,26 +30347,43 @@
 												"$ref": "AAAAAAF4hNiltUwTgIU="
 											},
 											"font": "Arial;13;0",
-											"left": 2133,
-											"top": 933,
-											"width": 143.0126953125,
+											"left": 2093,
+											"top": 941,
+											"width": 472.46875,
 											"height": 13,
 											"text": "-name = 'Teneur en eau'",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLSlotView",
+											"_id": "AAAAAAF5M2pZFpEY7gA=",
+											"_parent": {
+												"$ref": "AAAAAAF4hNgsPEs49yk="
+											},
+											"model": {
+												"$ref": "AAAAAAF5M2pZCZEM6tQ="
+											},
+											"font": "Arial;13;0",
+											"left": 2093,
+											"top": 956,
+											"width": 472.46875,
+											"height": 13,
+											"text": "+description = 'Rapport du poids d'eau au poids des grains d'un échantillon de sol'",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 2128,
-									"top": 913,
-									"width": 153.0126953125,
-									"height": 38
+									"left": 2088,
+									"top": 921,
+									"width": 482.46875,
+									"height": 53
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 2128,
-							"top": 888,
-							"width": 153.0126953125,
+							"left": 2088,
+							"top": 896,
+							"width": 482.46875,
 							"height": 78,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4hNgsPEszoBE="
@@ -30506,7 +30540,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2207,
-									"top": 856,
+									"top": 864,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -30526,7 +30560,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2220,
-									"top": 853,
+									"top": 861,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -30546,7 +30580,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 2179,
-									"top": 860,
+									"top": 868,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -30562,7 +30596,7 @@
 							"tail": {
 								"$ref": "AAAAAAF4hNP/iD781ds="
 							},
-							"points": "1972:784;2192:784;2192:888",
+							"points": "1972:784;2192:784;2192:896",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF4hNklxk8BKhE="
@@ -35110,6 +35144,15 @@
 							"visibility": "private",
 							"type": "",
 							"value": "'Pénétrométrie'"
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "AAAAAAF5M2U3+YYGZQc=",
+							"_parent": {
+								"$ref": "AAAAAAF4hNX/oUFPmno="
+							},
+							"name": "description",
+							"value": "'Mesure de la dureté'"
 						}
 					]
 				},
@@ -35145,6 +35188,15 @@
 							"visibility": "private",
 							"type": "",
 							"value": "'Teneur en eau'"
+						},
+						{
+							"_type": "UMLSlot",
+							"_id": "AAAAAAF5M2pZCZEM6tQ=",
+							"_parent": {
+								"$ref": "AAAAAAF4hNgsPEswTxY="
+							},
+							"name": "description",
+							"value": "'Rapport du poids d'eau au poids des grains d'un échantillon de sol'"
 						}
 					]
 				},
