@@ -38,8 +38,8 @@ Au cours de la réalisation d'un logiciel numérique,
          (Cascading Style Sheets) est un langage de feuille de style qui décrit 
         l'apparence et la mise en forme d'un document écrit en HTML. CSS est utilisé 
         pour annoter du texte et incorporer des balises dans des documents électroniques stylisés.
-        Le CSS est encore plus important car il doit être pris en compte pour rendre l'applicatgion responsive.
-        L'interface utilisateur doit pouvoir s'adapter à n'importe quelle dimention d'écran 
+        Le CSS est encore plus important car il doit être pris en compte pour rendre l'application responsive.
+        L'interface utilisateur doit pouvoir s'adapter à n'importe quelle dimension d'écran 
         d'autant plus que nous constatons la montée du trafic web via les téléphones mobiles (Figure \ref{fig:statMobile}).
         \begin{figure}[t]
                 \centering
@@ -128,7 +128,7 @@ Au cours de la réalisation d'un logiciel numérique,
         dans de nombreux projets Linux \cite{ovadia2014linux}.}
         \par
         En effet, la liste des avantages de Linux 
-        est longue. Citons entre autre \cite{advlinux} :
+        est longue. Citons entres autres \cite{advlinux} :
         \begin{itemize}
                 \item \textbf{Open source: }
                 Comme il est open source, son code source est facilement disponible. 
@@ -136,13 +136,14 @@ Au cours de la réalisation d'un logiciel numérique,
                 le système d'exploitation. On peut contribuer, modifier, distribuer et 
                 améliorer le code dans n'importe quel but.
                 \item \textbf{Sécurité: }
-                La fonction de sécurité Linux est la principale raison pour laquelle c'est 
-                l'option la plus favorable pour les développeurs. Ce n'est pas complètement 
-                sûr, mais il est moins vulnérable que d'autres. Chaque application doit 
+                La fonction de sécurité Linux est la principale raison pour laquelle il s'agit de  
+                l'option la plus favorable pour les développeurs. Bien que cette fonction ne peut atteindre 
+                le maximun, ce système d'exploitation est moins vulnérable par rapport à
+                 d'autres. Chaque application doit 
                 être autorisée par l'utilisateur administrateur. Le virus n'est pas exécuté 
                 tant que l'administrateur n'a pas fourni le mot de passe d'accès. Les systèmes 
                 Linux ne nécessitent aucun programme antivirus.
-                De plus, linux est aussi mieux protégé contre les virus car il a un grand 
+                De plus, Linux est aussi mieux protégé contre les virus car il a un grand 
                 nombre de développeurs open source qui gardent un œil sur les choses liées aux 
                 virus. Si un code source doit être mis à jour, cela se fait en un rien de temps.
                 \item \textbf{Léger: }
@@ -167,7 +168,7 @@ Au cours de la réalisation d'un logiciel numérique,
                 
         \end{itemize}
         La liste est longue (grande communauté, réseau, compatibilité, installation, etc). Par conséquent
-        notre choix s'est porté sur le système d'explotation le mieux adapté à ce projet, en l'occurence linux.
+        notre choix s'est porté sur le système d'explotation le mieux adapté à ce projet, en l'occurrence Linux.
 
         \subsubsection{Server web}
         Un composant qui synchronise la communication entre les navigateurs, les applications mobiles et 
@@ -177,7 +178,7 @@ Au cours de la réalisation d'un logiciel numérique,
         Une instance EC2 est un serveur virtuel dans Elastic Compute Cloud (EC2) d'Amazon pour exécuter 
         des applications sur l'infrastructure Amazon Web Services (AWS).
         \par 
-Le cloud offre de nombreux avantages techniques et économiques par rapport à  
+        Le \textit{cloud} offre de nombreux avantages techniques et économiques par rapport à  
        d'autres plateformes qui commencent tout juste à être identifiées. Ils combinent la 
         personnalisation des machines virtuelles, l'évolutivité et le partage des ressources,
          ainsi que la stabilité et l'économie du logiciel en tant que service 
@@ -192,8 +193,8 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
          orientée object, ... \cite{typedb}
          \par 
          Pour la réalisation de GeoTechMap, nous faisons le choix d'une base de données relationnelle.
-         En effet, cette base de données est basée sur le modèle de données relationnel, qui stocke les 
-         données sous forme de lignes (tuple) et de colonnes (attributs), et forme ensemble une table 
+         En effet, cette base de données est basée sur le modèle relationnel, qui stocke les 
+         données sous forme de lignes (tuples) et de colonnes (attributs), et forme ensemble une table 
          (relation). Une base de données relationnelle utilise SQL pour stocker, manipuler et conserver 
          les données. Chaque table de la base de données 
          contient une clé qui rend les données uniques des autres. MySQL, Microsoft SQL Server, Oracle, ... 
@@ -207,18 +208,18 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
                  \item \textbf{A signifie Atomicité: }
                   Cela garantit que l'opération de données se terminera 
                  avec succès ou échec. Il suit la stratégie du «tout ou rien». Par exemple, 
-                 une transaction sera soit validée, soit abandonnée.
+                 l'enregistrement d'un test sera soit validé, soit abandonné.
                  \item \textbf{C signifie Cohérence: }
                   Si nous effectuons une opération sur une donnée, 
                  sa valeur avant et après l'opération doit être préservée. Par exemple, 
-                 le solde du compte avant et après la transaction doit être correct.
+                 le nombre d'essais enregistrés avant et après une modification doit être correct.
                  \item \textbf{I signifie Isolation: }
                  Il peut y avoir des utilisateurs  
-                 qui accèdent simultanément aux données dans de la base de données. 
-                 Ainsi, l'isolement entre les données doit rester effectué. Par exemple, 
-                 lorsque plusieurs transactions se produisent en même temps, les effets 
-                 d'une transaction ne doivent pas être visibles pour les autres 
-                 transactions de la base de données.
+                 qui accèdent simultanément aux données dans la base. 
+                 Ainsi, l'isolement entre les données doit être en compte. Par exemple, 
+                 lorsque plusieurs modifications sont effectuées en même temps, les effets 
+                 d'une action ne doivent pas être visibles pour les autres
+                 au sein de la base de données.
                  \item \textbf{D signifie Durabilité: }
                  Il garantit qu'une fois l'opération terminée et validé les données, 
                  les modifications de données doivent rester permanentes.
@@ -227,7 +228,7 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
          \paragraph{Pourquoi PostgreSQL comme SGBD ?}
          \paragraph{}
          Selon le site officiel de PostgreSQL \cite{psql},
-         PostgreSQL est un puissant système de base de données relationnelle objet et open 
+         il s'agit d'un puissant système de base de données relationnelle objet et open 
          source qui utilise et étend le langage SQL combiné à de nombreuses fonctionnalités
           qui stockent et mettent à l'échelle en toute sécurité les charges de travail de 
           données les plus complexes.
@@ -244,15 +245,15 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
            la réplication logique et la disponibilité de nombreux outils open source,
             les sauvegardes et la surveillance.
             \paragraph{}
-            De plus, plusieurs bases de données géotechnique ont été 
+            De plus, plusieurs bases de données géotechniques ont été 
             déjà réalisées avec PostgreSQL et ce fut un succès. Tel est le cas du
-            "développement de la base de données getechnical du sous-sol de Bangkok 
+            "développement de la base de données geotechniques du sous-sol de Bangkok 
             en utilisant GRASS-GIS" \cite{panoot2001development}.
         \subsubsection{Application backend}
         \paragraph{Langage de programmation: }
         Différents langages de programmation peuvent être utilisés pour développer l'application 
         backend. Les plus populaires sont Java, Python, JavaScript, PHP.
-        \paragraph{Pourquoi choisur JAva ?: }
+        \paragraph{Pourquoi choisir JAva ?: }
         \begin{itemize}
                 \item \textbf{Orienté objet: } En Java, tout est un objet. Java est extensible 
                 car il basé sur le modèle des objects.
@@ -280,7 +281,7 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
                 du langage. Cela nous permet d'écrire du code sécurisé et de bénéficier de nombreuses fonctionnalités 
                 de sécurité implicites:
                         \begin{itemize}
-                                \item \textbf{Type de donnée static: } Java est un langage à typage statique, ce qui réduit les 
+                                \item \textbf{Type de donnée statique: } Java est un langage à typage statique, ce qui réduit les 
                                 possibilités de détection d'erreurs liées au type lors de l'excution.
                                 \item \textbf{ Modificateurs d'accès: } Java nous permet d'utiliser 
                                 différents modificateurs d'accès tels que public et privé pour contrôler l'accès aux champs, 
@@ -375,6 +376,6 @@ Le cloud offre de nombreux avantages techniques et économiques par rapport à
 
         Les utilisateurs peuvent également gérer les sessions et afficher l'historique du compte.   
         \paragraph{}
-        Le type d'application que nous développons influence la technologie que nous selectionons.
+        Le type d'application que nous développons influence la technologie que nous sélectionnons.
         Plusieurs facteurs ont joué dans le choix des technologies choisies. L'objectif des combinaisons
-        réalisées n'est que l'optimisation de l'implementation du système GeoTechMap.
+        réalisées n'est que l'optimisation de l'implémentation du système GeoTechMap.
