@@ -212,14 +212,14 @@ Au cours de la réalisation d'un logiciel numérique,
                  \item \textbf{C signifie Cohérence: }
                   Si nous effectuons une opération sur une donnée, 
                  sa valeur avant et après l'opération doit être préservée. Par exemple, 
-                 le solde du compte avant et après la transaction doit être correct.
+                 le nombre d'essais enregistrés avant et après une modification doit être correct.
                  \item \textbf{I signifie Isolation: }
                  Il peut y avoir des utilisateurs  
-                 qui accèdent simultanément aux données dans de la base de données. 
-                 Ainsi, l'isolement entre les données doit rester effectué. Par exemple, 
-                 lorsque plusieurs transactions se produisent en même temps, les effets 
-                 d'une transaction ne doivent pas être visibles pour les autres 
-                 transactions de la base de données.
+                 qui accèdent simultanément aux données dans la base. 
+                 Ainsi, l'isolement entre les données doit être en compte. Par exemple, 
+                 lorsque plusieurs modifications sont effectuées en même temps, les effets 
+                 d'une action ne doivent pas être visibles pour les autres
+                 au sein de la base de données.
                  \item \textbf{D signifie Durabilité: }
                  Il garantit qu'une fois l'opération terminée et validé les données, 
                  les modifications de données doivent rester permanentes.
