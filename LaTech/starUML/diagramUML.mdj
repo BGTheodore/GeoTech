@@ -40650,7 +40650,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M5DGHHj2fAk="
 									},
-									"name": "CRUDRessourcesSequenceDiagram1",
+									"name": "CRUDPatternRessourcesSequenceDiagram1",
 									"ownedViews": [
 										{
 											"_type": "UMLFrameView",
@@ -40671,9 +40671,9 @@
 													"font": "Arial;13;0",
 													"left": 168.72998046875,
 													"top": 37,
-													"width": 222.09521484375,
+													"width": 264.0087890625,
 													"height": 13,
-													"text": "CRUDRessourcesSequenceDiagram1"
+													"text": "CRUDPatternRessourcesSequenceDiagram1"
 												},
 												{
 													"_type": "LabelView",
@@ -47981,7 +47981,7 @@
 															"top": 47,
 															"width": 62.736328125,
 															"height": 13,
-															"text": "system"
+															"text": "système"
 														},
 														{
 															"_type": "LabelView",
@@ -48073,9 +48073,9 @@
 														"$ref": "AAAAAAF5M83taoBNqKo="
 													},
 													"font": "Arial;13;0",
-													"left": 1544,
+													"left": 1540,
 													"top": 121,
-													"width": 229.78515625,
+													"width": 236.28515625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -48083,7 +48083,7 @@
 														"$ref": "AAAAAAF5M83taoBOwK8="
 													},
 													"edgePosition": 1,
-													"text": "1 : Authentication(username, password)"
+													"text": "1 : Authentification(username, password)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -48194,7 +48194,7 @@
 														"$ref": "AAAAAAF5M872JYBm/tc="
 													},
 													"edgePosition": 1,
-													"text": "2 [ERROR] : Authenticated"
+													"text": "2 [ERROR] : Authentifié"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -48306,7 +48306,7 @@
 														"$ref": "AAAAAAF5M9AKwIB/e+s="
 													},
 													"edgePosition": 1,
-													"text": "3 [SUCCESS] : Authenticated(Token)"
+													"text": "3 [SUCCESS] : Authentifié(Token)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -48408,9 +48408,9 @@
 														"$ref": "AAAAAAF5M9HEy4CYLP0="
 													},
 													"font": "Arial;13;0",
-													"left": 1560,
+													"left": 1551,
 													"top": 308,
-													"width": 196.52978515625,
+													"width": 214.5888671875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -48418,7 +48418,7 @@
 														"$ref": "AAAAAAF5M9HEy4CZDLE="
 													},
 													"edgePosition": 1,
-													"text": "4 : addRessource(ressource args)"
+													"text": "4 : ajouterRessource(ressource args)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -48868,7 +48868,7 @@
 														"$ref": "AAAAAAF5M9Q2m4EBuZE="
 													},
 													"edgePosition": 1,
-													"text": "7 : createRessource(ressource args)"
+													"text": "7 : créerRessource(ressource args)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -48981,7 +48981,7 @@
 														"$ref": "AAAAAAF5M9V6ZIE4jok="
 													},
 													"edgePosition": 1,
-													"text": "8 [SUCCESS] : ressource created"
+													"text": "8 [SUCCESS] : ressource créée"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -49083,9 +49083,9 @@
 														"$ref": "AAAAAAF5M9Z7toFPatQ="
 													},
 													"font": "Arial;13;0",
-													"left": 1600,
+													"left": 1581,
 													"top": 508,
-													"width": 117.05078125,
+													"width": 154.6162109375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -49093,7 +49093,7 @@
 														"$ref": "AAAAAAF5M9Z7toFQjh0="
 													},
 													"edgePosition": 1,
-													"text": "9 : getRessource(id)"
+													"text": "9 : récupérerRessource(id)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -49194,9 +49194,9 @@
 														"$ref": "AAAAAAF5M9cLWIFnDbo="
 													},
 													"font": "Arial;13;0",
-													"left": 2011,
+													"left": 2006,
 													"top": 532,
-													"width": 182.0634765625,
+													"width": 192.17529296875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -49204,7 +49204,7 @@
 														"$ref": "AAAAAAF5M9cLWIFoelI="
 													},
 													"edgePosition": 1,
-													"text": "10 : checkIfRessourceExists(id)"
+													"text": "10 : vérifierSiRessourceExiste(id)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -49305,9 +49305,9 @@
 														"$ref": "AAAAAAF5M9hpt4GCoxI="
 													},
 													"font": "Arial;13;0",
-													"left": 1786,
+													"left": 1779,
 													"top": 603,
-													"width": 197.0185546875,
+													"width": 211.4658203125,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -49315,7 +49315,7 @@
 														"$ref": "AAAAAAF5M9hpt4GDuZU="
 													},
 													"edgePosition": 1,
-													"text": "11 [ERROR] : ressource not found"
+													"text": "11 [ERROR] : ressource non trouvée"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -49529,9 +49529,9 @@
 														"$ref": "AAAAAAF5M9rc3IG4HBY="
 													},
 													"font": "Arial;13;0",
-													"left": 1548,
+													"left": 1544,
 													"top": 736,
-													"width": 221.83154296875,
+													"width": 228.30615234375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -49539,7 +49539,7 @@
 														"$ref": "AAAAAAF5M9rc3YG5y8M="
 													},
 													"edgePosition": 1,
-													"text": "13 : updateRessource(ressource args)"
+													"text": "13 : modifierRessource(ressource args)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -49863,9 +49863,9 @@
 														"$ref": "AAAAAAF5M96L34ICok0="
 													},
 													"font": "Arial;13;0",
-													"left": 2011,
+													"left": 2006,
 													"top": 833,
-													"width": 182.0634765625,
+													"width": 192.17529296875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -49873,7 +49873,7 @@
 														"$ref": "AAAAAAF5M96L34IDeDY="
 													},
 													"edgePosition": 1,
-													"text": "16 : checkIfRessourceExists(id)"
+													"text": "16 : vérifeirSiRessourceExiste(id)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -49974,9 +49974,9 @@
 														"$ref": "AAAAAAF5M98OEYIaNUU="
 													},
 													"font": "Arial;13;0",
-													"left": 1786,
+													"left": 1778,
 													"top": 892,
-													"width": 197.9833984375,
+													"width": 212.4306640625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -49984,7 +49984,7 @@
 														"$ref": "AAAAAAF5M98OEYIb5P0="
 													},
 													"edgePosition": 1,
-													"text": "17 [ERROR] : ressource not found"
+													"text": "17 [ERROR] : ressource non trouvée"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50086,9 +50086,9 @@
 														"$ref": "AAAAAAF5M9/Z54I0pPA="
 													},
 													"font": "Arial;13;0",
-													"left": 2039,
+													"left": 2036,
 													"top": 921,
-													"width": 127.1943359375,
+													"width": 133.6689453125,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -50096,7 +50096,7 @@
 														"$ref": "AAAAAAF5M9/Z54I135M="
 													},
 													"edgePosition": 1,
-													"text": "18 : updateRessource"
+													"text": "18 : modifierRessource"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50197,9 +50197,9 @@
 														"$ref": "AAAAAAF5M+BM+YJM33U="
 													},
 													"font": "Arial;13;0",
-													"left": 1781,
+													"left": 1780,
 													"top": 989,
-													"width": 206.66064453125,
+													"width": 208.80615234375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -50207,7 +50207,7 @@
 														"$ref": "AAAAAAF5M+BM+YJNW6I="
 													},
 													"edgePosition": 1,
-													"text": "19 [SUCCESS] : updated ressource"
+													"text": "19 [SUCCESS] : ressource modifiée"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50309,9 +50309,9 @@
 														"$ref": "AAAAAAF5M+HmcIJlRuE="
 													},
 													"font": "Arial;13;0",
-													"left": 1588,
+													"left": 1571,
 													"top": 1086,
-													"width": 141.62890625,
+													"width": 174.83349609375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -50319,7 +50319,7 @@
 														"$ref": "AAAAAAF5M+HmcIJmK7U="
 													},
 													"edgePosition": 1,
-													"text": "20 : deleteRessource(id)"
+													"text": "20 : supprimmerRessource(id)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50420,9 +50420,9 @@
 														"$ref": "AAAAAAF5M+JHMIJ9cWA="
 													},
 													"font": "Arial;13;0",
-													"left": 2011,
+													"left": 2006,
 													"top": 1104,
-													"width": 182.0634765625,
+													"width": 192.17529296875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -50430,7 +50430,7 @@
 														"$ref": "AAAAAAF5M+JHMIJ+jNg="
 													},
 													"edgePosition": 1,
-													"text": "21 : checkIfRessourceExists(id)"
+													"text": "21 : vérifierSiRessourceExiste(id)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50531,9 +50531,9 @@
 														"$ref": "AAAAAAF5M+LcUYK0cYc="
 													},
 													"font": "Arial;13;0",
-													"left": 1786,
+													"left": 1778,
 													"top": 1168,
-													"width": 197.9833984375,
+													"width": 212.4306640625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -50541,7 +50541,7 @@
 														"$ref": "AAAAAAF5M+LcUYK1PEw="
 													},
 													"edgePosition": 1,
-													"text": "22 [ERROR] : ressource not found"
+													"text": "22 [ERROR] : ressource non trouvée"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50643,9 +50643,9 @@
 														"$ref": "AAAAAAF5M+OJBILL9fw="
 													},
 													"font": "Arial;13;0",
-													"left": 2032,
+													"left": 2015,
 													"top": 1199,
-													"width": 141.62890625,
+													"width": 174.83349609375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -50653,7 +50653,7 @@
 														"$ref": "AAAAAAF5M+OJBILMu6k="
 													},
 													"edgePosition": 1,
-													"text": "23 : deleteRessource(id)"
+													"text": "23 : supprimmerRessource(id)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -50857,7 +50857,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "Authentication",
+									"name": "Authentification",
 									"source": {
 										"$ref": "AAAAAAF5M8veS4ALvWM="
 									},
@@ -50872,7 +50872,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "Authenticated",
+									"name": "Authentifié",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -50888,7 +50888,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "Authenticated",
+									"name": "Authentifié",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -50905,7 +50905,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "addRessource",
+									"name": "ajouterRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8veS4ALvWM="
 									},
@@ -50951,7 +50951,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "createRessource",
+									"name": "créerRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -50967,7 +50967,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "ressource created",
+									"name": "ressource créée",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -50983,7 +50983,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "getRessource",
+									"name": "récupérerRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8veS4ALvWM="
 									},
@@ -50998,7 +50998,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "checkIfRessourceExists",
+									"name": "vérifierSiRessourceExiste",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -51013,7 +51013,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "ressource not found",
+									"name": "ressource non trouvée",
 									"source": {
 										"$ref": "AAAAAAF5M9MuqIDJ6SQ="
 									},
@@ -51046,7 +51046,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "updateRessource",
+									"name": "modifierRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8veS4ALvWM="
 									},
@@ -51092,7 +51092,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "checkIfRessourceExists",
+									"name": "vérifeirSiRessourceExiste",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -51107,7 +51107,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "ressource not found",
+									"name": "ressource non trouvée",
 									"source": {
 										"$ref": "AAAAAAF5M9MuqIDJ6SQ="
 									},
@@ -51123,7 +51123,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "updateRessource",
+									"name": "modifierRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -51137,7 +51137,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "updated ressource",
+									"name": "ressource modifiée",
 									"source": {
 										"$ref": "AAAAAAF5M9MuqIDJ6SQ="
 									},
@@ -51153,7 +51153,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "deleteRessource",
+									"name": "supprimmerRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8veS4ALvWM="
 									},
@@ -51168,7 +51168,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "checkIfRessourceExists",
+									"name": "vérifierSiRessourceExiste",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -51183,7 +51183,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "ressource not found",
+									"name": "ressource non trouvée",
 									"source": {
 										"$ref": "AAAAAAF5M9MuqIDJ6SQ="
 									},
@@ -51199,7 +51199,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "deleteRessource",
+									"name": "supprimmerRessource",
 									"source": {
 										"$ref": "AAAAAAF5M8xv0IAsbuY="
 									},
@@ -51245,7 +51245,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M8r/nH+JMu4="
 									},
-									"name": "system",
+									"name": "système",
 									"represent": {
 										"$ref": "AAAAAAF5M8xv0IArGnM="
 									},
