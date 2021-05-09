@@ -51413,7 +51413,7 @@
 															"top": 47,
 															"width": 62.736328125,
 															"height": 13,
-															"text": "visitor"
+															"text": "visiteur"
 														},
 														{
 															"_type": "LabelView",
@@ -51528,7 +51528,7 @@
 															"top": 47,
 															"width": 62.736328125,
 															"height": 13,
-															"text": "system"
+															"text": "système"
 														},
 														{
 															"_type": "LabelView",
@@ -51642,7 +51642,7 @@
 															"top": 47,
 															"width": 62.736328125,
 															"height": 13,
-															"text": "test"
+															"text": "essai"
 														},
 														{
 															"_type": "LabelView",
@@ -51756,9 +51756,9 @@
 															"font": "Arial;13;1",
 															"left": 1821,
 															"top": 47,
-															"width": 62.736328125,
+															"width": 91.62451171875,
 															"height": 13,
-															"text": "tile"
+															"text": "fond de carte"
 														},
 														{
 															"_type": "LabelView",
@@ -51789,7 +51789,7 @@
 													"font": "Arial;13;0",
 													"left": 1816,
 													"top": 40,
-													"width": 72.736328125,
+													"width": 101.62451171875,
 													"height": 40,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAF5M+lU7IPl/bc="
@@ -51814,7 +51814,7 @@
 														"$ref": "AAAAAAF5M+lU7IPiNYw="
 													},
 													"font": "Arial;13;0",
-													"left": 1852,
+													"left": 1867,
 													"top": 80,
 													"width": 1,
 													"height": 665
@@ -51823,7 +51823,7 @@
 											"font": "Arial;13;0",
 											"left": 1816,
 											"top": 40,
-											"width": 72.736328125,
+											"width": 101.62451171875,
 											"height": 705,
 											"nameCompartment": {
 												"$ref": "AAAAAAF5M+lU7IPk+wA="
@@ -51872,9 +51872,9 @@
 															"font": "Arial;13;1",
 															"left": 2021,
 															"top": 47,
-															"width": 104.6181640625,
+															"width": 141.498046875,
 															"height": 13,
-															"text": "PDF Document"
+															"text": "résultat essai en PDF"
 														},
 														{
 															"_type": "LabelView",
@@ -51905,7 +51905,7 @@
 													"font": "Arial;13;0",
 													"left": 2016,
 													"top": 40,
-													"width": 114.6181640625,
+													"width": 151.498046875,
 													"height": 40,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAF5M+mJvYQGd+8="
@@ -51930,7 +51930,7 @@
 														"$ref": "AAAAAAF5M+mJvYQDYyM="
 													},
 													"font": "Arial;13;0",
-													"left": 2073,
+													"left": 2092,
 													"top": 80,
 													"width": 1,
 													"height": 657
@@ -51939,7 +51939,7 @@
 											"font": "Arial;13;0",
 											"left": 2016,
 											"top": 40,
-											"width": 114.6181640625,
+											"width": 151.498046875,
 											"height": 697,
 											"nameCompartment": {
 												"$ref": "AAAAAAF5M+mJvYQF+ek="
@@ -51968,9 +51968,9 @@
 														"$ref": "AAAAAAF5M+qg54Qphg0="
 													},
 													"font": "Arial;13;0",
-													"left": 1100,
+													"left": 1085,
 													"top": 124,
-													"width": 224.7197265625,
+													"width": 255.78515625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -51978,7 +51978,7 @@
 														"$ref": "AAAAAAF5M+qg54Qqetc="
 													},
 													"edgePosition": 1,
-													"text": "1 : searchTest(name, location, date, ...)"
+													"text": "1 : rechercherEssai(name, location, date, ...)"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52079,9 +52079,9 @@
 														"$ref": "AAAAAAF5M+tScoRCi10="
 													},
 													"font": "Arial;13;0",
-													"left": 1439,
+													"left": 1430,
 													"top": 160,
-													"width": 117.76171875,
+													"width": 135.82080078125,
 													"height": 13,
 													"alpha": 1.5167938337022486,
 													"distance": 74.10802925459562,
@@ -52089,7 +52089,7 @@
 														"$ref": "AAAAAAF5M+tScoRD0zg="
 													},
 													"edgePosition": 1,
-													"text": "2 : checkIfTestExists"
+													"text": "2 : vérifierSiEssaiExixte"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52190,9 +52190,9 @@
 														"$ref": "AAAAAAF5M+u7FoRZJZ4="
 													},
 													"font": "Arial;13;0",
-													"left": 1138,
+													"left": 1130,
 													"top": 188,
-													"width": 154.62890625,
+													"width": 171.24072265625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52200,7 +52200,7 @@
 														"$ref": "AAAAAAF5M+u7FoRazjA="
 													},
 													"edgePosition": 1,
-													"text": "3 [ERROR] : test not found"
+													"text": "3 [ERROR] : essai non trouvé"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52302,9 +52302,9 @@
 														"$ref": "AAAAAAF5M+xFAoRwm4Q="
 													},
 													"font": "Arial;13;0",
-													"left": 1480,
+													"left": 1479,
 													"top": 211,
-													"width": 78.04443359375,
+													"width": 80.20263671875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52312,7 +52312,7 @@
 														"$ref": "AAAAAAF5M+xFAoRxtYo="
 													},
 													"edgePosition": 1,
-													"text": "4 : search"
+													"text": "4 : rechercher"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52423,7 +52423,7 @@
 														"$ref": "AAAAAAF5M+yddoSI4B0="
 													},
 													"edgePosition": 1,
-													"text": "5 [SUCCESS] : retreived tests"
+													"text": "5 [SUCCESS] : essais trouvé"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52525,9 +52525,9 @@
 														"$ref": "AAAAAAF5M+7A7ISgpBI="
 													},
 													"font": "Arial;13;0",
-													"left": 1172,
+													"left": 1145,
 													"top": 345,
-													"width": 81.18017578125,
+													"width": 135.8525390625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52535,7 +52535,7 @@
 														"$ref": "AAAAAAF5M+7A7IShNsg="
 													},
 													"edgePosition": 1,
-													"text": "6 : changeTile"
+													"text": "6 : changerFonDeCarte"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52636,9 +52636,9 @@
 														"$ref": "AAAAAAF5M+9BWYS3AZ4="
 													},
 													"font": "Arial;13;0",
-													"left": 1580,
+													"left": 1555,
 													"top": 369,
-													"width": 78.04443359375,
+													"width": 144.54248046875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52646,7 +52646,7 @@
 														"$ref": "AAAAAAF5M+9BWYS4JKA="
 													},
 													"edgePosition": 1,
-													"text": "7 : switch tile"
+													"text": "7 : changer fond de carte"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52659,7 +52659,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1619,
+													"left": 1627,
 													"top": 354,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -52680,7 +52680,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1619,
+													"left": 1627,
 													"top": 389,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -52700,7 +52700,7 @@
 														"$ref": "AAAAAAF5M+9BWYS3AZ4="
 													},
 													"font": "Arial;13;0",
-													"left": 1845,
+													"left": 1860,
 													"top": 385,
 													"width": 14,
 													"height": 64
@@ -52713,7 +52713,7 @@
 											"tail": {
 												"$ref": "AAAAAAF5M+jUSoOoLwI="
 											},
-											"points": "1394:385;1845:385",
+											"points": "1394:385;1860:385",
 											"nameLabel": {
 												"$ref": "AAAAAAF5M+9BWYS50Fo="
 											},
@@ -52747,9 +52747,9 @@
 														"$ref": "AAAAAAF5M+//tITPc/o="
 													},
 													"font": "Arial;13;0",
-													"left": 1375,
+													"left": 1338,
 													"top": 438,
-													"width": 136.59521484375,
+													"width": 226.205078125,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52757,7 +52757,7 @@
 														"$ref": "AAAAAAF5M+//tYTQaX4="
 													},
 													"edgePosition": 1,
-													"text": "8 : update displayed tile"
+													"text": "8 : un nouveau fond de carte est visible"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52770,7 +52770,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1443,
+													"left": 1451,
 													"top": 453,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -52791,7 +52791,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1444,
+													"left": 1452,
 													"top": 418,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -52825,7 +52825,7 @@
 											"tail": {
 												"$ref": "AAAAAAF5M+lU7IPpUF4="
 											},
-											"points": "1845:434;1044:434",
+											"points": "1860:434;1044:434",
 											"nameLabel": {
 												"$ref": "AAAAAAF5M+//tYTRDk0="
 											},
@@ -52859,9 +52859,9 @@
 														"$ref": "AAAAAAF5M/DqfYTliFQ="
 													},
 													"font": "Arial;13;0",
-													"left": 1138,
+													"left": 1127,
 													"top": 512,
-													"width": 148.12890625,
+													"width": 171.22802734375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52869,7 +52869,7 @@
 														"$ref": "AAAAAAF5M/DqfYTm3/Y="
 													},
 													"edgePosition": 1,
-													"text": "9 : display-download PDF"
+													"text": "9 : visualiser-télécharger PDF"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -52970,9 +52970,9 @@
 														"$ref": "AAAAAAF5M/G3ZoT8AxU="
 													},
 													"font": "Arial;13;0",
-													"left": 1384,
+													"left": 1365,
 													"top": 555,
-													"width": 99.708984375,
+													"width": 137.26171875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -52980,7 +52980,7 @@
 														"$ref": "AAAAAAF5M/G3ZoT9jiE="
 													},
 													"edgePosition": 1,
-													"text": "10 : check if exist"
+													"text": "10 : vérifierSiPDFExiste"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -53081,9 +53081,9 @@
 														"$ref": "AAAAAAF5M/IQ/YUSoW8="
 													},
 													"font": "Arial;13;0",
-													"left": 1133,
+													"left": 1129,
 													"top": 598,
-													"width": 165.9404296875,
+													"width": 173.15771484375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -53091,7 +53091,7 @@
 														"$ref": "AAAAAAF5M/IQ/YUTidM="
 													},
 													"edgePosition": 1,
-													"text": "11 [ERROR] : PDF not found"
+													"text": "11 [ERROR] : PDF non trouvé"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -53193,9 +53193,9 @@
 														"$ref": "AAAAAAF5M/L0tIUtbSk="
 													},
 													"font": "Arial;13;0",
-													"left": 1688,
+													"left": 1686,
 													"top": 601,
-													"width": 85.2744140625,
+													"width": 106.9326171875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -53203,7 +53203,7 @@
 														"$ref": "AAAAAAF5M/L0tIUuuhM="
 													},
 													"edgePosition": 1,
-													"text": "12 : getPDF"
+													"text": "12 : récupérerPDF"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -53216,7 +53216,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1730,
+													"left": 1739,
 													"top": 586,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -53237,7 +53237,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1730,
+													"left": 1739,
 													"top": 621,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -53257,7 +53257,7 @@
 														"$ref": "AAAAAAF5M/L0tIUtbSk="
 													},
 													"font": "Arial;13;0",
-													"left": 2066,
+													"left": 2085,
 													"top": 617,
 													"width": 14,
 													"height": 56
@@ -53270,7 +53270,7 @@
 											"tail": {
 												"$ref": "AAAAAAF5M+jUSoOoLwI="
 											},
-											"points": "1394:617;2066:617",
+											"points": "1394:617;2085:617",
 											"nameLabel": {
 												"$ref": "AAAAAAF5M/L0tIUvodY="
 											},
@@ -53304,7 +53304,7 @@
 														"$ref": "AAAAAAF5M/Oeh4VFuu4="
 													},
 													"font": "Arial;13;0",
-													"left": 1440,
+													"left": 1449,
 													"top": 675,
 													"width": 229.04248046875,
 													"height": 13,
@@ -53314,7 +53314,7 @@
 														"$ref": "AAAAAAF5M/Oeh4VG5eI="
 													},
 													"edgePosition": 1,
-													"text": "13 [SUCCESS] : display-download PDF"
+													"text": "13 [SUCCESS] : PDF"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -53327,7 +53327,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1554,
+													"left": 1563,
 													"top": 690,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -53348,7 +53348,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 1555,
+													"left": 1564,
 													"top": 655,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -53382,7 +53382,7 @@
 											"tail": {
 												"$ref": "AAAAAAF5M+mJvYQKpw4="
 											},
-											"points": "2066:671;1044:671",
+											"points": "2085:671;1044:671",
 											"nameLabel": {
 												"$ref": "AAAAAAF5M/Oeh4VHMtA="
 											},
@@ -53406,7 +53406,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "searchTest",
+									"name": "rechercherEssai",
 									"source": {
 										"$ref": "AAAAAAF5M+irG4OB5MA="
 									},
@@ -53421,7 +53421,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "checkIfTestExists",
+									"name": "vérifierSiEssaiExixte",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53435,7 +53435,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "test not found",
+									"name": "essai non trouvé",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53451,7 +53451,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "search",
+									"name": "rechercher",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53465,7 +53465,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "retreived tests",
+									"name": "essais trouvé",
 									"source": {
 										"$ref": "AAAAAAF5M+je84PAA2U="
 									},
@@ -53481,7 +53481,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "changeTile",
+									"name": "changerFonDeCarte",
 									"source": {
 										"$ref": "AAAAAAF5M+irG4OB5MA="
 									},
@@ -53495,7 +53495,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "switch tile",
+									"name": "changer fond de carte",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53509,7 +53509,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "update displayed tile",
+									"name": "un nouveau fond de carte est visible",
 									"source": {
 										"$ref": "AAAAAAF5M+lU7IPiNYw="
 									},
@@ -53524,7 +53524,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "display-download PDF",
+									"name": "visualiser-télécharger PDF",
 									"source": {
 										"$ref": "AAAAAAF5M+irG4OB5MA="
 									},
@@ -53538,7 +53538,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "check if exist",
+									"name": "vérifierSiPDFExiste",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53552,7 +53552,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "PDF not found",
+									"name": "PDF non trouvé",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53568,7 +53568,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "getPDF",
+									"name": "récupérerPDF",
 									"source": {
 										"$ref": "AAAAAAF5M+jUSoOhgGU="
 									},
@@ -53582,7 +53582,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "display-download PDF",
+									"name": "PDF",
 									"source": {
 										"$ref": "AAAAAAF5M+mJvYQDYyM="
 									},
@@ -53600,7 +53600,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "visitor",
+									"name": "visiteur",
 									"represent": {
 										"$ref": "AAAAAAF5M+irG4OAnhc="
 									},
@@ -53612,7 +53612,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "system",
+									"name": "système",
 									"represent": {
 										"$ref": "AAAAAAF5M+jUSoOgQQc="
 									},
@@ -53624,7 +53624,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "test",
+									"name": "essai",
 									"represent": {
 										"$ref": "AAAAAAF5M+je84O/2Es="
 									},
@@ -53636,7 +53636,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "tile",
+									"name": "fond de carte",
 									"represent": {
 										"$ref": "AAAAAAF5M+lU7IPhNPw="
 									},
@@ -53648,7 +53648,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF5M+g6soL/cw8="
 									},
-									"name": "PDF Document",
+									"name": "résultat essai en PDF",
 									"represent": {
 										"$ref": "AAAAAAF5M+mJvYQCcv4="
 									},
